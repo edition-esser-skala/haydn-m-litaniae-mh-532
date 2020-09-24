@@ -661,6 +661,8 @@ tocLabel = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Largo"
 
+vlcfag = \markup \remark "vlc, fag"
+
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
