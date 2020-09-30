@@ -72,6 +72,233 @@ KyrieBassoLyrics = \lyricmode {
 	bis. %29 finis
 }
 
+PanisVivusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \autoBeamOff \tempoPanisVivus
+		R2.*35 %35
+		r4 r \mvTr b'\fE^\tuttiE
+		f4. f8 f f
+		d4 d d8 d
+		a4. a8 a4
+		b8. b16 b4 r %40
+		es2 d4
+		c2 d4
+		es8 es es4 e
+		f f r
+		R2.*11 %55
+		r4 r \mvTr f\fE^\tuttiE
+		b4. b8 b4
+		a f f8 f
+		b2 b4
+		a f r %60
+		R2.*32 %92
+		\mvTr b,2.\p^\tuttiE
+		a
+		e'4 c e %95
+		f8. f16 f4 r
+		b,2\f b4
+		c c c8 c
+		d b c2
+		f4 r r %100
+		R2.*8 %108
+		\mvTr f4\pE^\solo f g8 e
+		f([ a)] c2 %110
+		f,8([ e f a)] g e
+		f4 c r
+		d( g8[ a)] b([ g)]
+		f!4( e f8[ a)]
+		d([ c)] c4( b) %115
+		a r r
+		\mvTr b,2\fE^\tutti b4
+		b b b'
+		b2 f4
+		b, b r %120
+		h2 h4
+		c( d) es
+		f8. f16 f4 fis
+		g g r
+		\mvTr g2\pE^\solo c4 %125
+		es,2 g4
+		c,( c') as
+		as g r
+		h2 d4
+		f,2 as4 %130
+		g2( f4)
+		es c' es,
+		d8([ as' g es)] f([ d)]
+		es8.([ d16)] c4 r
+		r es g8 b %135
+		\appoggiatura b as4 as r
+		as4. f8 b as
+		as([ g)] g4 r
+		as2 g4
+		fis( d') fis, %140
+		g( c) b
+		b a! r
+		g2 fis4
+		g2 fis4
+		c'2( b4) %145
+		a r r
+		g2 g4
+		as( c) es
+		g,2( \grace b8 a4)
+		g r8 b([ a)] g %150
+		f!2( es4)
+		d r8 f([ es)] d
+		c4( c') b
+		\appoggiatura b16 a8([ g16 f)] f4 r
+		\mvTr b\fE^\tutti b b8 b %155
+		a8. f16 f4 f8 f
+		b2 b4
+		f f r
+		R2.*11 %169
+		r4 r \mvTr b8\fE^\tuttiE b %170
+		f4. f8 f4
+		d8. d16 d4 r
+		a4. a8 a a
+		b8. b16 b4 r
+		es2 d4 %175
+		c2 d4
+		es8 es es4 e
+		f f r
+		R2.*32 %210
+		\mvTr es2.(\p^\tuttiE
+		d)
+		a4 a' a
+		b8. b,16 b4 r
+		as' as as %215
+		g2 g4
+		d2 d4
+		es es r
+		es2\f es4
+		f f f8 f %220
+		g es f2
+		b,4 r r
+		R2.*3 %225
+		r4 b' b
+		b2.
+		b4 d, d
+		es d2
+		es4. es8 es es %230
+		f2.~
+		f
+		b,4 r r
+		R2.*2 %235
+		R2.\fermataMarkup \bar "|." %236 finis
+	}
+}
+
+PanisVivusBassoLyrics = \lyricmode {
+	\xE Fru -- %36
+	men -- tum e -- le --
+	cto -- rum, vi -- num
+	ger -- mi -- nans
+	vir -- gi -- nes, %40
+	mi -- se --
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	Ob -- %56
+	la -- ti -- o
+	mun -- da, mi -- se --
+	re -- re
+	no -- bis. %60
+
+	Man -- %93
+	na,
+	man -- na ab -- %95
+	scon -- di -- tum,
+	mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %100
+
+	\x Me -- mo -- ri -- a %109
+	mi -- ra -- %110
+	bi -- li -- um
+	De -- i,
+	mi -- se --
+	re --
+	re no -- %115
+	bis.
+	\xE Pa -- nis
+	su -- per -- sub --
+	stan -- ti --
+	a -- lis, %120
+	mi -- se --
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+	\x Ver -- bum %125
+	ca -- ro,
+	ca -- ro
+	fa -- ctum,
+	ha -- bi --
+	tans in %130
+	no --
+	bis, mi -- se --
+	re -- re
+	no -- bis.
+	Ho -- sti -- a %135
+	san -- cta,
+	mi -- se -- re -- re
+	no -- bis.
+	Ca -- lix
+	be -- ne -- %140
+	di -- cti --
+	o -- nis,
+	mi -- se --
+	re -- re
+	no -- %145
+	bis,
+	mi -- se --
+	re -- re
+	no --
+	bis, mi -- se -- %150
+	re --
+	re, mi -- se --
+	re -- re
+	no -- bis.
+	My -- ste -- ri -- um %155
+	\xE fi -- de -- i, mi -- se --
+	re -- re
+	no -- bis.
+
+	Sa -- cri -- %170
+	fi -- ci -- um
+	o -- mni -- um,
+	o -- mni -- um san --
+	ctis -- si -- mum,
+	mi -- se -- %175
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	Coe -- %211
+
+	le -- ste an --
+	ti -- do -- tum,
+	quo a pec -- %215
+	ca -- tis
+	prae -- ser --
+	va -- mur,
+	mi -- se --
+	re -- re, mi -- se -- %220
+	re -- re no --
+	bis,
+
+	mi -- se -- %226
+	re --
+	re, mi -- se --
+	re -- re,
+	mi -- se -- re -- re %230
+	no --
+	
+	bis. %233 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

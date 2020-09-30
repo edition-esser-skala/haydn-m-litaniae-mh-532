@@ -83,6 +83,161 @@ KyrieTenoreLyrics = \lyricmode {
 	bis. %29 finis
 }
 
+PanisVivusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/4 \autoBeamOff \tempoPanisVivus
+		R2.*35 %35
+		r4 r \mvTr d\fE^\tuttiE
+		a4. c8 c c
+		f4 d b8 b
+		c4. c8 c4
+		c8. b16 b4 r %40
+		c2 h4
+		d( c) f
+		es8 c es4 d
+		d c r
+		R2.*11 %55
+		r4 r \mvTr f\fE^\tuttiE
+		c4. c8 c4
+		c a f'8 f
+		c2 c4
+		c a r %60
+		R2.*32 %92
+		\mvTr g2.\p^\tuttiE
+		a
+		b4 e, c' %95
+		c8. c16 c4 r
+		b2\f d4
+		g,4. e'8 e e
+		f d c4.( b8)
+		a4 r r %100
+		R2.*16 %116
+		\mvTr d2\fE^\tuttiE es8([ c)]
+		d4 d d
+		d2 a8([ c)]
+		b4 b r %120
+		d2 d4
+		es( d) c
+		f8. d16 d4 c
+		c h r
+		R2.*29 %153
+		r4 r \mvTr f'\fE^\tuttiE
+		c4. c8 c4 %155
+		c8. a16 a4 f'8 f
+		c2 c4
+		c c r
+		R2.*11 %169
+		r4 r \mvTr d8\fE^\tuttiE d %170
+		a4. c8 c4
+		f8. d16 d4 r
+		c4. c8 c c
+		c8. b16 b4 r
+		c2 h4 %175
+		d( c) f
+		es8 c es4 d
+		d c r
+		R2.*32 %210
+		\mvTr a2.(\p^\tuttiE
+		b)
+		c4.( es8) d c
+		c b b4 r
+		d d d %215
+		es2 es4
+		f2 b,4
+		b b r
+		es2\f c8([ es)]
+		es4. es8 d c %220
+		b c b4( a)
+		b r r
+		R2.*3 %225
+		r4 b b
+		b2.
+		b4 b h
+		c f2
+		es8 es c([ es)] es([ c)] %230
+		b2.
+		a
+		b4 r r
+		R2.*2 %235
+		R2.\fermataMarkup \bar "|." %236 finis
+	}
+}
+
+PanisVivusTenoreLyrics = \lyricmode {
+	Fru -- %36
+	men -- tum e -- le --
+	cto -- rum, vi -- num
+	ger -- mi -- nans
+	vir -- gi -- nes, %40
+	mi -- se --
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	Ob -- %56
+	la -- ti -- o
+	mun -- da, mi -- se --
+	re -- re
+	no -- bis. %60
+
+	Man -- %93
+	na,
+	man -- na ab -- %95
+	scon -- di -- tum,
+	mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %100
+
+	Pa -- nis %117
+	su -- per -- sub --
+	stan -- ti --
+	a -- lis, %120
+	mi -- se --
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	My -- %154
+	ste -- ri -- um %155
+	fi -- de -- i, mi -- se --
+	re -- re
+	no -- bis.
+
+	Sa -- cri -- %170
+	fi -- ci -- um
+	o -- mni -- um,
+	o -- mni -- um san --
+	ctis -- si -- mum,
+	mi -- se -- %175
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	Coe -- %211
+
+	le -- ste an --
+	ti -- do -- tum,
+	quo a pec -- %215
+	ca -- tis
+	prae -- ser --
+	va -- mur,
+	mi -- se --
+	re -- re, mi -- se -- %220
+	re -- re no --
+	bis,
+
+	mi -- se -- %226
+	re --
+	re, mi -- se --
+	re -- re,
+	mi -- se -- re -- re %230
+	no --
+	_
+	bis. %233 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
