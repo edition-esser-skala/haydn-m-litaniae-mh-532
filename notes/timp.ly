@@ -173,3 +173,27 @@ PanisVivusTimpani = {
 		c c r\fermata \bar "|." %236 finis
 	}
 }
+
+StupendumTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoStupendum
+		\partial 16 r16 R1*23 %23
+		c8\p r g r c r c-\critnote r
+		c r r4 r2 %25
+		c8\f r r g c c g r
+		R1*8 %34
+		r2 r4 r8 g\ffE %35
+		c r r g c r c r
+		r4 r8 g c c c r
+		R1*26 %63
+		r2 r8 c\f c r
+		R1*2 %66
+		r2 r8 c\p c r
+		R1*10 %77
+		r2 r4 c\ffE
+		r c r2
+		R1*5 %84
+		R1\fermataMarkup \bar "||" %85 finis
+	}
+}

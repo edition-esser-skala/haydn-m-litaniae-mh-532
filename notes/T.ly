@@ -238,6 +238,159 @@ PanisVivusTenoreLyrics = \lyricmode {
 	bis. %233 finis
 }
 
+StupendumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 4/4 \autoBeamOff \tempoStupendum
+		\partial 16 r16 R1*8 %8
+		r2 r4 r8. \mvTr b16\pE^\solo
+		b4 g8 r16. es'32 es4 c8 r %10
+		as'4 as, g16([ b)] as([ c)] b([ c)] d([ es)]
+		es,4( f8.) es16 es4 r
+		b'~ b16[ g] b([ es)] b4~ b16[ g] b([ es)]
+		b8. d16 f8 as, \appoggiatura as16 g8 f r4
+		b2 c %15
+		d8. d16 d8 d d4 d8 d
+		d4 d d d
+		es2 d4. d8
+		c4 c c2(
+		d4) r es~ es16[ d] es([ c)] %20
+		\appoggiatura b a8([ g16 f)] f8 r f'4~ f16[ e] f[( es)]
+		\appoggiatura es d8([ c16 b)] b8 r g'4~ g16[ fis] g([ f)]
+		es[ c h d] c[ d es e] f4~ f16[ e f es]
+		d[ b f d'] es[ c f es] d[ b f d'] es[ f g a]
+		b[ f] g([ b,)] b8[( \grace d16 c8)] b4 r %25
+		R1
+		b8 b~ b16[ a] b[( a)] b8.([ c32 d)] c8 f,
+		es'4~ es16[ d] es([ d)] es8.([ f32 g] f16[ es)] d([ c)]
+		d([ b)] f'([ d)] g8. b,16 b a a8 r4
+		es'2 es %30
+		es4( es,) d!8 f([ b)] d
+		d( g,4) es'16([ c)] b4( c)\trill
+		d8 b([ d)] f f g,4 g'16 es
+		d[ b d f] d[ b d f] d[ b'8 f d] b16
+		c2\trill b4 r %35
+		R1
+		r2 r4 r8 f
+		f([ d' c)] b b4 a8 a
+		b8. c16 d8 d es8. f16 g8 a,
+		b a16 g f8([ es)] d r r d' %40
+		es d16 c b8([ as)] g r g b
+		des4( c8) es c4( b8) es
+		es \appoggiatura d16 c8 \appoggiatura b16 as8 g g f r8. b16
+		b4 g8 r16. es'32 es4 c8 r
+		as'4 as, g16([ b)] as c b([ c)] d([ es)] %45
+		es,4( f) es r
+		b'~ b16[ g] b[( es)] b4~ b16[ g] b([ es)]
+		b8. d16 f8 as, \appoggiatura as16 g8 f f g
+		as2 g16([ b as c)] b([ des)] c([ es)]
+		des4. c8 c b r4 %50
+		as2 b
+		c4 c8 c c4 c
+		des4. des8 c4 c
+		c4. b8 b2(
+		c4) r c4. e8 %55
+		f([ g)] as([ c,)] b4. d8
+		es!16([ f g f] es[ d)] c([ b)] as4.( g8)
+		f4 r as~ as16[ g] as([ f)]
+		\appoggiatura es d8([ c'16 b)] b8 r b4~ b16[ a] b([ as])
+		\appoggiatura as g8([ f16 es)] es8 r c'4 c %60
+		c8([ e] f16[ e)] f([ c)] b8( as'4) f8
+		g16[ es b g] as[ f b as] g[ b es g] es[ d es b]
+		c[ d es e] f[ g] as([ f)] es4( \grace g8 f4)
+		es r r2
+		as,8. as16 as4 as8.([ b32 c] b16_[ as)] g([ f)] %65
+		g8 es'4 a,8 b f'4 as,8
+		g16[ g' f es] d[ c] b([ a)] b8 b r4
+		as'!2 as
+		as4( as,) g!8 g([ b)] es
+		es( c4) as16([ f)] es4( f)\trill %70
+		es r g' g
+		g2( as4) f
+		es( d es f)
+		f2( es4) r
+		c4. as8 g16[ b es b] a[ b as f] %75
+		g[ b es b] a[ b des b] c[ d es c] f[ g as f]
+		es[ b es g] es[ b es g] es[ g8 b g] es16
+		f,2\trill es4 r
+		R1*6 %84
+		R1\fermataMarkup \bar "||" %85 finis
+	}
+}
+
+StupendumTenoreLyrics = \lyricmode {
+	Stu -- %9
+	pen -- dum, stu -- pen -- dum %10
+	su -- pra o -- mni -- a mi --
+	ra -- cu -- \xE lum, \x
+	mi -- se -- re -- re,
+	mi -- se -- re -- re no -- bis.
+	Sa -- cra -- %15
+	tis -- si -- ma Do -- mi -- ni -- cae
+	pas -- si -- o -- nis
+	com -- me -- mo --
+	ra -- ti -- o, __
+	mi -- se -- %20
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- _ _
+	_ _ _ _
+	_ re no -- bis. %25
+
+	Do -- num __ trans -- cen -- dens, trans --
+	cen -- dens o -- mnem,
+	o -- mnem ple -- ni -- tu -- di -- nem,
+	mi -- se -- %30
+	re -- re, mi -- se --
+	re -- re no --
+	bis, mi -- se -- re -- re, mi -- se --
+	re -- _ _ re
+	no -- bis. %35
+
+	Me --
+	mo -- ri -- a -- le prae --
+	ci -- pu -- um, prae -- ci -- pu -- um di --
+	vi -- ni a -- mo -- ris, di -- %40
+	vi -- ni a -- mo -- ris, mi -- se --
+	re -- re no -- bis,
+	mi -- se -- re -- re no -- bis. Di --
+	vi -- nae, di -- vi -- nae
+	af -- flu -- en -- ti -- a lar -- gi -- %45
+	ta -- tis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re no -- bis, mi -- se --
+	re -- re, __ mi -- se --
+	re -- re no -- bis. %50
+	Sa -- cro --
+	san -- ctum et au -- gu --
+	stis -- si -- mum my --
+	ste -- ri -- um, __
+	mi -- se -- %55
+	re -- re, mi -- se --
+	re -- re no --
+	bis, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %60
+	re -- re, mi -- se --
+	re -- _ _ _
+	_ _ re no --
+	bis.
+	Phar -- ma -- cum im -- mor -- %65
+	ta -- _ _ _ _ _
+	_ _ li -- ta -- tis,
+	mi -- se --
+	re -- re, mi -- se --
+	re -- re no -- %70
+	bis, mi -- se --
+	re -- re
+	no --
+	bis, __
+	mi -- se -- re -- _ %75
+	_ _ _ _
+	_ _ _ re
+	no -- bis. %78 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

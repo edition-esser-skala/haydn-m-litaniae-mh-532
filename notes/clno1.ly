@@ -197,3 +197,39 @@ PanisVivusClarinoI = {
 		c4 \pao c, r\fermata \bar "|." %236 finis
 	}
 }
+
+StupendumClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoStupendum
+		\partial 16 r16 R1*23 %23
+		c'8\p r d r c r c r
+		c r r4 r2 %25
+		g8\f c r \pao g c4 g8 r
+		R1*8 %34
+		r2 r8 e'\ffE c g %35
+		e e' c g c r c r
+		r e f d c g g r
+		R1*8 %45
+		r2 r4 c8\p c
+		c2 c
+		c4 r r2
+		R1*6 %54
+		d2 d4 r %55
+		R1*6 %61
+		c2 c4 r
+		R1
+		r2 c8\f c c r
+		R1*2 %66
+		r2 r8 c\pE c r
+		R1*10 %77
+		r2 r4 r8 c\ffE
+		c r r c c r r4
+		R1 %80
+		r2 r4 c8 c
+		c4 r r e,8\p e
+		e2 r4 e8 e
+		e2 r4 e8 e
+		e2 r\fermata \bar "||" %85 finis
+	}
+}

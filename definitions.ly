@@ -661,6 +661,7 @@ tocLabel = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Largo"
 tempoPanisVivus = \tempoMarkup "Allegro"
+tempoStupendum = \tempoMarkup "Andante"
 
 vlcfag = \markup \remark "vlc, fag"
 

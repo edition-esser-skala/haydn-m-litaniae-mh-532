@@ -199,3 +199,64 @@ PanisVivusCornoII = {
 		g, r r\fermata \bar "|." %236 finis
 	}
 }
+
+StupendumCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoStupendum
+		\partial 16 r16 R1
+		g'4.\fE g8 c, g r4
+		g'2\p g
+		g8\f g4 g8 c, g r4
+		c8 c r g' c,4 g8 r %5
+		g g r g' g4 g,8 r
+		r2 r8 e'' c g
+		e e' c g c, r c r
+		r c' d g, e g e r
+		R1*3 %12
+		g2\p g
+		g4 r r8 g, g r
+		R1*9 %23
+		d''2 g,
+		r r8 g\f g g %25
+		g r r4 d'8 d d r
+		R1*7 %33
+		r2 r4 r8 d\fz
+		d d d d g, r r d'\ffE %35
+		g, r r d' g, r c, r
+		g' e' c d g,4 r
+		R1*3 %40
+		r2 c,\p
+		c1
+		R
+		c2 c8 r r c
+		g'2 c,8 r r4 %45
+		R1*2
+		r2 r4 g8 g
+		g4 r r c8 c
+		c4 r r c8 c %50
+		c2 c
+		c4 r r2
+		R1*9 %61
+		c8 r g' r c, r c r
+		c r r4 r r8 g'\f
+		c, c r g' c,4 g8 r
+		g\p g r g' g4 g,8 r %65
+		R1
+		g2~ g8 r r4
+		R1*3 %70
+		e'2 e
+		e4 r r2
+		g,1
+		g4 r r2
+		R1*2 %76
+		g'8 r g r g2
+		g8\fz g g g c, e'\ff c g
+		e e' c g c, r c r
+		r c' d g, c,2~\fp %80
+		c2. e8\f e
+		e4 r r2
+		R1*2
+		R1\fermataMarkup \bar "||" %85 finis
+	}
+}

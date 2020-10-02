@@ -283,6 +283,98 @@ PanisVivusViolinoI = {
 	}
 }
 
+StupendumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoStupendum
+		\partial 16 b'16\p b4 g8[ r16. es'32] es4 c8 r
+		as'8.\f( f32 d) b8-! as \appoggiatura as16 \scriptOut g8-! f-! r16 b\p c( b)
+		d,( f b, d) es-! b' c( b) d,( as' b, as') g-! b es( g)
+		\appoggiatura b,16 as'8.\f( f32 d) b8-! as \appoggiatura as16 \scriptOut g8-! f-! r b
+		\appoggiatura f'16 es8 es~ es16( d) \appoggiatura f32 es16( d) es8.( f32 g) f8-! b,16 b %5
+		\appoggiatura b' as8 as~ as16( g) \appoggiatura b32 as16( g) as8.( b32 c) b16( as) g( f)
+		es( b) g(\p b) es,8( \grace g16 f8) es16 es'8\f b g as32[ f]
+		b16 es8 b g as32[ f] b16([ b')] \appoggiatura as32 g16 f32 es \appoggiatura d c16[ es32 c] \appoggiatura b as16 g32 f
+		es16 b'( as) g f4\trill es8 b es[ r16. b'32]\p
+		b4 g8[ r16. es'32] es4 c8 r %10
+		as'8.( f32 d) b8-! as g16( b as c) b( c d es)
+		es,( g b g) f( as) d,( f) es8-! b-! r16 b' c( b)
+		d,( f b, d) es-! b' c( b) d,( as' b, as') g-! b es( g)
+		\appoggiatura b as8.( f32 d) b8-! as \appoggiatura as16 \scriptOut g8-! f-! r8. f'16
+		f4 d8[ r16. f32] f4 c8[ r16. f32] %15
+		f4 d8[ r16. d32] b'4 d,8[ r16. b'32]
+		a4 c,8[ r16. fis32] g4 d8[ r16 d]
+		es( d es g) c,( f,) c'( a') b( a b a) b( b,) f'( d)
+		g,( b es, b') g( b) es( g) a,( f' b, g') f,( c') f( es)
+		d( b f d) b''( f d b) es4~ es16 d es( c) %20
+		\appoggiatura b a8 g16 f e( f g f) f'4~ f16 e f( es)
+		\appoggiatura es d8 c16 b d( es f fis) g4~ g16 fis g( f)
+		es( c h d) c( d es e) f4~ f16 e f( es)
+		d8 r es r d r g r
+		f es d( c) b b, r f''\f %25
+		\appoggiatura c'16 b8 b~ b16( a) \appoggiatura c32 b16( a) b8.( c32 d) c16( a,) es'( c)
+		\appoggiatura c b8\p b~ b16( a) \appoggiatura c32 b16( a) b8.( c32 d) c16 f,( a c)
+		\appoggiatura f es8 es~ es16( d) \appoggiatura f32 es16( d) es8.( f32 g) f16( es) d( c)
+		d8( f) b, d d c r16 es( c a)
+		ges4.( f8) ges4.( f8) %30
+		ges4.( f8) f f( b) d!
+		d16( h c h) c( g') es( c) f( b) d, d c( es) c c
+		d8 b( d) f f16( d es c) es( c) g'( es)
+		d8 d4 d f8-! b-! d-!
+		c,16(\fz es) es es es,( a) a a b b'8\ff f d es32[ c] %35
+		f16 b8 f d es32[ c] f16( d') \appoggiatura c32 b16 a32 b \appoggiatura a g16[ b32 g] \appoggiatura f32 es16 d32 c
+		b16 f'( es) d c4\trill b8 b, r f'\p
+		f( d') c( b) b8.( c32 b \scriptOut a8-!) a
+		b16( a b c) d( b) f( d) es'( d es f) g( es) c( a)
+		\appoggiatura c b8 a16-! g-! f8( es) d16( f b d) f,( b d f) %40
+		\appoggiatura f es8 d16-! c-! b8( as) g16( b g b) es-! b-! g-! es-!
+		des'( c des b) c-! as-! es-! c-! es'( d es c) b-! g-! es-! b-!
+		c8 c' \appoggiatura b16 as8 g g f b8-!\f d,16.-! b'32\p
+		b4 g8[ r16. es'32] es4 c8 r
+		as'8.( f32 d) b8-! as g16( b as c) b( c d es) %45
+		es,( g b g) f( as) d,( f) es8-! b-! r16 b' c( b)
+		d,( f b, d) es-! b' c( b) d,( as' b, as') g-! b es( g)
+		\appoggiatura b, as'8.( f32 d) b8-! as \appoggiatura as16 g8-! f-! f16( as g b)
+		\appoggiatura b as8.( f32 d) b8-! as' g16( b as c) b( des) c( es)
+		\appoggiatura es des8.( b'32 g) des8-! c \appoggiatura des16 c8-! b-! r8. es16 %50
+		es4 c8[ r16. es32] es4 b8[ r16. es32]
+		es4 c8[ r16. c32] as'4 c,8[ r16. as'32]
+		b4 des,8[ r16. b'32] as4 c,8[ r16. c32]
+		f16( e f e) f( g as g) f( g as g) f( e f b,)
+		c( e, g c) as( f as c) g8 b'( g) e %55
+		f c'4 c,8 b f'4 d!8
+		es!16( f g f) es( d) c( b) as8 as4 g8
+		f r d'16( es f g) as4~ as16 g as( f)
+		\appoggiatura es d8 c16 b a( b c b) b'4~ b16 a b( as)
+		\appoggiatura as g8 es16( f g as b h) c4~ c16 h c( b) %60
+		as( f e g) f( g as a) b4~ b16 a b( as)
+		g8 r as, r g r es' r
+		es-! c'-! r4 r r8 b,\f
+		\appoggiatura f'16 es8 es~ es16( d) \appoggiatura f32 es16( d) es8.( f32 g) f8-! b,16\p b
+		\appoggiatura b'16 as8 as~ as16( g) \appoggiatura b32 as16( g) as8.( b32 c) b16( as) g( f) %65
+		es8 g, g a b16( d, f d) as'( d, f d)
+		g4 c f,8 f r16 as'!( f d)
+		ces4.( b8) ces4.( b8)
+		ces4.( b8) b b,( es) g!
+		g16( e f e) f( c') as( f) b( es) g, g f( as) f f %70
+		es8 g' g g g, g' g g
+		g, g' g g as( f) as( c)
+		g,( es') f,( d') g,( es') as,( f')
+		f( as) f( d) es es(\fz d c)
+		c16(\p as) c4 as8 g g g as %75
+		g b b des c r as' r
+		g8 g4 g es8-! g-! b-!
+		f,16(\fz as) as as b,( d) d d es es'8\ff b g as32[ f]
+		b16 es8 b g as32[ f] b16( b') \appoggiatura as32 g16[ f32 es] \appoggiatura d32 c16 es32 c \appoggiatura b as16[ g32 f]
+		es16 b'( as) g f4\trill es8 r b'\p b %80
+		b( es) es( d) d( cis) b'\f b
+		b( cis,) cis cis d( a) a4~\p
+		a8( c) b( g) fis( a) a4~
+		a8( c!) b( g) fis( a) a a
+		a2 r\fermata \bar "||" %85 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

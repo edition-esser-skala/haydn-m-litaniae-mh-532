@@ -282,3 +282,95 @@ PanisVivusViola = {
 		b4 b, r\fermata \bar "|." %236 finis
 	}
 }
+
+StupendumViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 4/4 \tempoStupendum
+		\partial 16 r16 r8 es\p b es r c c f
+		r d\f f f16( d) b8 b r4
+		f'\p es b es,16( g b es)
+		b8\f d r b b b' b, r
+		b c b as b b b r %5
+		f g f es d-! d-! r b'
+		g es\p b' b16 as g8 b\f b b
+		r b b b g4 as
+		g8 c c b es b es, r
+		r es'\p b es r c c f %10
+		r f f f16( d) b4 r
+		r8 g as b b r b r
+		as4 g f es
+		d4. b'8 b b b r
+		r f' f d a c r c %15
+		b f'4 f8 g g,4 d'8
+		d,4 r8 a'' g d b g
+		r c a f! r b g' d
+		r es es g f e f f,
+		f4 r g8 fis g es! %20
+		f r a b a c b c
+		b r d d d d( c) g'
+		g4 r r8 c,( b) f'
+		f r f r f r es r
+		d es16 g f8 es d g(\f f) es %25
+		d g f es f f f r
+		d\pE es d f f4 f,8 r
+		a b a g c c r f
+		f4 es8 g f f f, r
+		b4( a) b( a) %30
+		b( a) b8 b( d!) f
+		es es16 d es8 c d g g f
+		f d( f) b g g g c,
+		f f4 f b,8-! d-! b-!
+		f\fz f f f f f'\ffE f f %35
+		r f f f d4 es
+		d8 b g' f f b b, r
+		r b\p es g f4 f,8 c'
+		b2 es,4. c'8
+		b4 r8 f f4 b16( d f b) %40
+		es,4 r8 b b4 r
+		es,4. es8 es4 r8 es
+		es4. c'8 b b\f b b
+		r es\p b es r c c f
+		r f f f16( d) b4 r %45
+		r8 g as b b r b r
+		as4 g f es
+		d4. b'8 b b r4
+		r8 d f f, es4 r
+		r8 g es' es es4 es,8 r %50
+		r es' es c g b r es,
+		as es'4 es8 f f,4 c'8
+		g4 r8 g' c,4 r8 f
+		des des des des des des f, f
+		g r c r c e( g) g %55
+		c,( e) f f f( b,) r f'
+		es4 r8 b b d,( es) c'
+		f, d' b' r es,, d es c'
+		f, r f ges f d es b'
+		b r g f e e( f) g %60
+		as b c r r d,( es) b'
+		b r b r b r es, r
+		as as r f' b, es c b
+		b c\f b as b b b r
+		d,\p es f es d d' r d, %65
+		es4 r8 f f4 r
+		b a8 f b b b r
+		es4( d) es( d)
+		es( d) es8 es,( g!) b
+		as as16 g as8 b b c c as %70
+		g c c c r h h h
+		r c c c r as as as
+		r b r b r b r b
+		r d( f b) es,4 r
+		r8 f, f b b b b b %75
+		b es es g, as r c r
+		b b'4 b g8-! b,-! es-!
+		b\fz b b b g b\ffE b b
+		r b b b g4 as
+		g8 c c as g4 r %80
+		r es'\p b' g8\f g
+		g( b,) g g a4 r
+		r8 fis\p d'( b) a4 r
+		r8 fis d'( b) a4 d,8 d
+		d2 r\fermata \bar "|." %85 finis
+	}
+}

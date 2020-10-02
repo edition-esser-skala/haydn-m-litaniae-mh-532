@@ -236,3 +236,80 @@ PanisVivusOboeI = {
 		b4 b' r\fermata \bar "|." %236 finis
 	}
 }
+
+StupendumOboeI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoStupendum
+		\partial 16 r16 R1
+		as''4\fE as, \appoggiatura as16 g8 f r4
+		f'\p g as g8 r
+		as4\f f8 as, \appoggiatura as16 g8 f r4
+		r2 es'8([ g)] f r %5
+		r2 as8([ c)] as d,
+		es g\p g,([ f)] es r g16\f g8 f16
+		b8 r g16 g8 f16 es'4 es
+		es16 b' as g f4\trill es8 r r4
+		R1*3 %12
+		f4\p g as g8 r
+		r2 r8 f f r
+		R1*2 %16
+		r2 r4 g
+		es2 d
+		c4 g' c,4. es8
+		d4 r r2 %20
+		R1*3
+		d8 r es r d r g r
+		f r r4 r8 g(\f f) es %25
+		d r r4 b8([ d)] c r
+		r2 b8([\p d)] c r
+		r2 es8([ g)] es r
+		R1
+		es2 es %30
+		es4 es, d!8 r r4
+		R1*2
+		r2 r4 r8 d'\fz
+		c c c c b r d16\ffE d8 c16 %35
+		f8 r d16 d8 c16 f4 g
+		b,16 f'( es) d c4\trill b r
+		R1*3 %40
+		r2 r4 b8\p b
+		b([ des)] c r c([ es)] b r
+		R1
+		b2 c
+		as g8 r r4 %45
+		R1
+		f'4 g as g8 r
+		r2 r4 f,8 g
+		as4 r r b8 c
+		des4 r r b8 des %50
+		c2 des
+		c4 r r2
+		R1*2
+		g'4( as) g r %55
+		R1*6 %61
+		g,8 r as r g r es' r
+		c r r f b g( c) d,\f
+		es r r4 es8([ g)] f r
+		r2 as8([\p c)] as r %65
+		R1
+		r2 r8 f f r
+		as2 as
+		as4 as, g8 r r4
+		R1 %70
+		c2 d
+		c4 r r2
+		r4 d es f
+		f2( es4) r
+		R1*2 %76
+		g8 r g r g2
+		f8\fz f f f es r g,16\ffE g8 f16
+		b8 r g16 g8 f16 es'4 es
+		es16 b'( as) g f4\trill es8 r r4 %80
+		r2 r4 b'8\fE b
+		b4 cis,8 cis d4 r
+		r r8 cis(\p d4) r
+		r r8 cis( d4) r
+		R1\fermataMarkup \bar "||" %85 finis
+	}
+}
