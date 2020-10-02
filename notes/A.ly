@@ -390,6 +390,58 @@ PanisVivusAltoLyrics = \lyricmode {
 	bis. %233 finis
 }
 
+TremendumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoTremendum
+		R1
+		r4 r8. \mvTr d16\fE^\tutti c8 es r8. fis16
+		fis8 g r4 a g
+		g16. fis32 fis8 r fis
+		a a16 a g8 g g fis r4 f\p g %5
+		f e d( cis)
+		d8 r r4 r2
+		R1
+		d'8\f a r fis g b cis, cis'16 cis
+		d8 a r fis([ g)] b cis, cis' %10
+		d d, r4 r2
+		r4 r8 d16.\p d32 c8( es4) fis8
+		fis g r g16. g32 es4. as8
+		as as r as16.\f as32 g8 g g8. g16
+		g8 g r4 g\p g %15
+		g g g( fis8[ d)]
+		d r r4 r2
+		R1
+		r8 g4\f g8 g( b4) g8
+		g( a4) g8 fis([ a)] g4 %20
+		fis( g8[ cis,)] d4 r
+		R1\fermataMarkup \bar "||" %22 finis
+	}
+}
+
+TremendumAltoLyrics = \lyricmode {
+	\xE Tre -- men -- dum, tre -- %2
+	men -- dum ac vi --
+	vi -- fi -- cum, vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, mi -- se -- %5
+	re -- re no --
+	bis.
+
+	Pa -- nis o -- mni -- po -- ten -- ti -- a
+	ver -- bi ca -- ro, ca -- ro %10
+	fa -- ctus,
+	mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re, mi -- se --
+	re -- re, mi -- se -- %15
+	re -- re no --
+	bis,
+
+	mi -- se -- re -- re,
+	mi -- se -- re -- re %20
+	no -- bis. %21 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

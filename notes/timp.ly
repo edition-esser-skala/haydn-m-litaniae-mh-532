@@ -197,3 +197,24 @@ StupendumTimpani = {
 		R1\fermataMarkup \bar "||" %85 finis
 	}
 }
+
+TremendumTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoTremendum
+		R1
+		r4 c8\fE c r2
+		r8 \tuplet 3/2 8 { c16 c c } c8 r r4 \tuplet 3/2 8 { r16 c[ c] } c8
+		r2 r4 \tuplet 3/2 8 { r16 c[ c] } c8
+		R1*5 %9
+		r2 c8\fE r c r %10
+		r4 c8 r r2
+		r4 c8\p c r2
+		\tuplet 3/2 8 { r16 c c c[ c c] } c8 r r2
+		\tuplet 3/2 8 { r16 g g g[ g g] } g8\f r r2
+		R1*3 %17
+		r8 \tuplet 3/2 8 { c16\p c c } c8 r r2
+		R1*3 %21
+		R1\fermataMarkup \bar "||" %22 finis
+	}
+}

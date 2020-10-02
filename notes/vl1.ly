@@ -375,6 +375,35 @@ StupendumViolinoI = {
 	}
 }
 
+TremendumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoTremendum
+		es'16.\f c32 es8 r16. a,32 c8 r16. fis,32 a16. c,32 es16. a,32 fis'16. d32
+		\tuplet 3/2 8 { g,16 g' g g[ g g] b a g b[ a g] a, a' a a[ a a] c b a c[ b a] }
+		\tuplet 3/2 8 { b, b' b b[ b b] b a g b[ a g] fis fis fis fis[ e d] g b, b b[ a g] }
+		\tuplet 3/2 8 { d' d' d d[ d d] cis( d) d d[ d d] fis, fis fis fis[ e d] g b, b b[ a g] }
+		d'8 r \tuplet 3/2 8 { d16\p a' a a[ a a] } a4 a %5
+		a b f8( a) cis,( e)
+		\tuplet 3/2 8 { d16( a d) d[ d d] f( e d) f([ e d)] d( cis) cis cis[ cis cis] e([ d cis)] g'( f e) }
+		\tuplet 3/2 8 { e( d) d d[ d d] f([ e d)] a'( g f) f( e) d' b([ g e)] f( d) a' g([ e cis)] }
+		\tuplet 3/2 8 { d\f d' d d[ d d] a' c,! c c[ c c] b b, b d'[ g, g] b' g g g[ g g] }
+		\tuplet 3/2 8 { fis d d d[ d d] d d, d c'![ d, d] b' d, d g[ d d] b' d, d g[ d d] } %10
+		\tuplet 3/2 8 { fis d d c'![ d, d] b' d, d g[ d d] fis d d es![ c c] d b b c[ a a] }
+		\tuplet 3/2 8 { g\p g' g g[ g g] b a g b[ a g] a, a' a a[ a a] c b a c[ b a] }
+		\tuplet 3/2 8 { b, b' b b[ b b] b a g b[ a g] c c, c c[ c c] c( h) c c[ h c] }
+		\tuplet 3/2 8 { d d d d[ d d] h'\f as' as as[ as as] c, g' g g[ g g] g, f' f f[ f f] }
+		f8-! es-! \tuplet 3/2 8 { fis16(\p g) g d([ es) es] } a,!4 a %15
+		a a b8( d) fis,( a)
+		\tuplet 3/2 8 { g16([ d g)] g g g b([ a g)] b( a g) g( fis) fis fis[ fis fis] a([ g fis)] c'( b a) }
+		\tuplet 3/2 8 { a( g) g g[ g g] b([ a g]) d'( c b) b( a g' es[ c a)] c( h as' f[ d h]) }
+		\tuplet 3/2 8 { d( c) g'\f g[ g g] g c, c c[ c c] c( b) g' g[ g g] g b, b b[ b b] }
+		\tuplet 3/2 8 { b( a) g' g[ g g] g a, a a[ a a] a( fis) d fis'[ fis fis] g g g cis,[ cis cis] } %20
+		\tuplet 3/2 8 { d d d c[ c c] b b b g[ g g] } fis8-! fis-! \tuplet 3/2 8 { r16 d\p d d[ d d] }
+		\tuplet 3/2 8 { es( d) d d[ d d] es( d) d d[ d d] cis( d) d } d8 r4\fermata \bar "||" %22 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

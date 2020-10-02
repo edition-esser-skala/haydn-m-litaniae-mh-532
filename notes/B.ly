@@ -295,8 +295,60 @@ PanisVivusBassoLyrics = \lyricmode {
 	re -- re,
 	mi -- se -- re -- re %230
 	no --
-	
+
 	bis. %233 finis
+}
+
+TremendumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoTremendum
+		R1
+		r4 r8. \mvTr g'16\fE^\tutti a8 a r8. c16
+		b8 b r4 fis g
+		d16. d32 d8 r d' fis, fis16 fis g8 g
+		d d r4 d\p cis %5
+		d g, a2
+		d8 r r4 r2
+		R1
+		d'8\f a r fis g b cis, cis'16 cis
+		d8 a r fis([ g)] b cis, cis' %10
+		d d, r4 r2
+		r4 r8 g16.\p g32 a4. c8
+		b b r b16. g32 c,4 c
+		d8 d r f16.\f d32 es8 es h8. h16
+		c8 c r4 c\p d %15
+		es c d2
+		g,8 r r4 r2
+		R1
+		r8 es'4\f es8 d4 d
+		cis cis d d %20
+		d2 d4 r
+		R1\fermataMarkup \bar "||" %22 finis
+	}
+}
+
+TremendumBassoLyrics = \lyricmode {
+	\xE Tre -- men -- dum, tre -- %2
+	men -- dum ac vi --
+	vi -- fi -- cum, vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, mi -- se -- %5
+	re -- re no --
+	bis.
+
+	Pa -- nis o -- mni -- po -- ten -- ti -- a
+	ver -- bi ca -- ro, ca -- ro %10
+	fa -- ctus,
+	mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re, mi -- se --
+	re -- re, mi -- se -- %15
+	re -- re no --
+	bis,
+
+	mi -- se -- re -- re,
+	mi -- se -- re -- re %20
+	no -- bis. %21 finis
 }
 
 % BassoNotes = {

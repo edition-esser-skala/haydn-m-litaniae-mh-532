@@ -233,3 +233,30 @@ StupendumClarinoII = {
 		e2 r\fermata \bar "||" %85 finis
 	}
 }
+
+TremendumClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoTremendum
+		d'8\f r d r d4 d8 e,
+		\tuplet 3/2 8 { e16 e e e[ e e] } e8 r r \tuplet 3/2 8 { d'16 d d } d8 r
+		r \tuplet 3/2 8 { e,16 e e } e8 r e4 e
+		e r e e
+		e8 r e\p e e4 r %5
+		R1*3
+		e8\f r \tuplet 3/2 8 { e16 e e e[ e e] } e8 r r4
+		e8 r \tuplet 3/2 8 { e16 e e e[ e e] } e8 r r4 %10
+		r8 e \tuplet 3/2 8 { e16 e e e[ e e] } e8 r r4
+		\tuplet 3/2 8 { e16\p e e e[ e e] } e8 r r \tuplet 3/2 8 { d'16 d d } d8 r
+		r \tuplet 3/2 8 { e,16 e e } e8 r r \tuplet 3/2 8 { d'16 d d } d8 r
+		r \tuplet 3/2 8 { g,16 g g } g8\fE r r4 r8 e'
+		e d r4 r2 %15
+		r e,4\p \tuplet 3/2 8 { e16 e e e[ e e] }
+		e8 r r4 r2
+		R1
+		r4 d'\f r c
+		r2 r8 e, e e %20
+		\tuplet 3/2 8 { e16 e e e[ e e] e e e e[ e e] } e8 e r4
+		R1\fermataMarkup \bar "||" %22 finis
+	}
+}

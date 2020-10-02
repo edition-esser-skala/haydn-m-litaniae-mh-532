@@ -308,3 +308,32 @@ StupendumOboeII = {
 		R1\fermataMarkup \bar "||" %85 finis
 	}
 }
+
+TremendumOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoTremendum
+		fis8\f r a r fis4 fis8 a
+		\tuplet 3/2 8 { b16 g g g[ g g] } g8 r r \tuplet 3/2 8 { fis16 fis fis } fis8 r
+		r \tuplet 3/2 8 { g16 g g } g8 r a4 g
+		g8 fis r fis' a4 g8 g,
+		d r f'\p f f4 r %5
+		f e d cis
+		d8 r r4 r2
+		R1
+		fis,4\f a g8 d r cis'
+		d fis a a, g r g b %10
+		a a g b a r r4
+		\tuplet 3/2 8 { g16\p g g g[ g g] } g8 r r \tuplet 3/2 8 { fis16 fis fis } fis8 r
+		r \tuplet 3/2 8 { g16 g g } g8 r r \tuplet 3/2 8 { as16 as as } as8 r
+		r \tuplet 3/2 8 { h16 h h } h8 r c4\f d
+		d8 c r4 g4\p a %15
+		g es' g, fis
+		g8 r r4 r2
+		R1
+		r4 g\f r b
+		r a8 g fis c' b g %20
+		fis fis g g fis fis r4
+		R1\fermataMarkup \bar "||" %22 finis
+	}
+}

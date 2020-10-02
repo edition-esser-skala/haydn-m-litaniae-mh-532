@@ -260,3 +260,28 @@ StupendumCornoII = {
 		R1\fermataMarkup \bar "||" %85 finis
 	}
 }
+
+TremendumCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoTremendum
+		c'8\f r c r c4 c8 r
+		\tuplet 3/2 8 { g16 g g g[ g g] } g8 r r \tuplet 3/2 8 { c16 c c } c8 r
+		r \tuplet 3/2 8 { e,16 e e } e8 r r2
+		R1*5 %8
+		r2 \tuplet 3/2 8 { e16\fE e e e[ e e] } e8 r
+		r2 \tuplet 3/2 8 { e16 e e e[ e e] } e8 r %10
+		R1
+		\tuplet 3/2 8 { g16\p g g g[ g g] } g8 r r \tuplet 3/2 8 { c16 c c } c8 r
+		r \tuplet 3/2 8 { e,16 e e } e8 r r \tuplet 3/2 8 { c16 c c } c8 r
+		r \tuplet 3/2 8 { f'16 f f } f8 r \tuplet 3/2 8 { r16 e,\f e e[ e e] e e e e[ e e] }
+		e8 e r4 c'\p e, %15
+		c c' e8 r r4
+		e,8 e r4 r2
+		R1
+		r4 c\f r e
+		r8 \tuplet 3/2 8 { e16 e e } e4 r2 %20
+		R1
+		R\fermataMarkup \bar "||" %22 finis
+	}
+}

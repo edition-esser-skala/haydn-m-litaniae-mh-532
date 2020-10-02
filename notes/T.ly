@@ -391,6 +391,58 @@ StupendumTenoreLyrics = \lyricmode {
 	no -- bis. %78 finis
 }
 
+TremendumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoTremendum
+		R1
+		r4 r8. \mvTr b16\fE^\tutti es8 c r8. es16
+		d8 d r4 d d
+		d16. d32 d8 r d d d16 d d8 d
+		d d r4 d\p e %5
+		d d f,( g)
+		f8 r r4 r2
+		R1
+		d'8\f a r fis g b cis, cis'16 cis
+		d8 a r fis([ g)] b cis, cis' %10
+		d d, r4 r2
+		r4 r8 b'16.\p b32 es8( c4) es8
+		d d r d16. d32 c4. es8
+		f f r d16.\f f32 es8 c d8. d16
+		d8 c r4 es\p d %15
+		c es d8([ b] a4)
+		g8 r r4 r2
+		R1
+		r8 c4\f c8 d4 d
+		e e d8([ c]) b4 %20
+		a8([ es' d b)] a4 r
+		R1\fermataMarkup \bar "||" %22 finis
+	}
+}
+
+TremendumTenoreLyrics = \lyricmode {
+	Tre -- men -- dum, tre -- %2
+	men -- dum ac vi --
+	vi -- fi -- cum, vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, mi -- se -- %5
+	re -- re no --
+	bis.
+
+	Pa -- nis o -- mni -- po -- ten -- ti -- a
+	ver -- bi ca -- ro, ca -- ro %10
+	fa -- ctus,
+	mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re, mi -- se --
+	re -- re, mi -- se -- %15
+	re -- re no --
+	bis,
+
+	mi -- se -- re -- re,
+	mi -- se -- re -- re %20
+	no -- bis. %21 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

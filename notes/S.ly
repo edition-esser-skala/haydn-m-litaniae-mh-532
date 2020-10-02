@@ -392,6 +392,58 @@ PanisVivusSopranoLyrics = \lyricmode {
 	bis. %233 finis
 }
 
+TremendumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoTremendum
+		R1
+		r4 r8. \mvTr g'16\fE^\tutti g8 fis r8. a16
+		a8 g r4 c b
+		b16. a32 a8 r a c c16 c b8 b
+		b a r4 a\p a %5
+		a b d,( e)
+		d8 r r4 r2
+		R1
+		d'8\f a r fis g b cis, cis'16 cis
+		d8 a r fis([ g)] b cis, cis' %10
+		d d, r4 r2
+		r4 r8 g16.\p g32 g8( fis4) a8
+		a g r g16. b32 b8( as4) c8
+		c h r h16.\f h32 c8 g f'8. f16
+		f8 es r4 a,!\p a %15
+		a a b8( d4 fis,8)
+		g r r4 r2
+		R1
+		r8 g'4\f c,8 b( g'4) b,8
+		a( g'4) a,8 a[( fis' g)] cis, %20
+		d([ c b g)] fis4 r
+		R1\fermataMarkup \bar "||" %22 finis
+	}
+}
+
+TremendumSopranoLyrics = \lyricmode {
+	Tre -- men -- dum, tre -- %2
+	men -- dum ac vi --
+	vi -- fi -- cum, vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, mi -- se -- %5
+	re -- re no --
+	bis.
+
+	Pa -- nis o -- mni -- po -- ten -- ti -- a
+	ver -- bi ca -- ro, ca -- ro %10
+	fa -- ctus,
+	mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re, mi -- se --
+	re -- re, mi -- se -- %15
+	re -- re no --
+	bis,
+
+	mi -- se -- re -- re,
+	mi -- se -- re -- re %20
+	no -- bis. %21 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

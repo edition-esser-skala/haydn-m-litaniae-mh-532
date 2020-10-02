@@ -260,3 +260,28 @@ StupendumCornoI = {
 		R1\fermataMarkup \bar "||" %85 finis
 	}
 }
+
+TremendumCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoTremendum
+		c'8\f r c r c4 c8 r
+		\tuplet 3/2 8 { g16 g g g[ g g] } g8 r r \tuplet 3/2 8 { c16 c c } c8 r
+		r \tuplet 3/2 8 { e16 e e } e8 r r2
+		R1*5 %8
+		r2 \tuplet 3/2 8 { g,16\fE g g g[ g g] } g8 r
+		r2 \tuplet 3/2 8 { g16 g g g[ g g] } g8 r %10
+		R1
+		\tuplet 3/2 8 { g16\p g g g[ g g] } g8 r r \tuplet 3/2 8 { c16 c c } c8 r
+		r \tuplet 3/2 8 { e16 e e } e8 r r \tuplet 3/2 8 { c16 c c } c8 r
+		r \tuplet 3/2 8 { \pa f16 f f } f8 \pd r \tuplet 3/2 8 { r16 e\f e e[ e e] e e e e[ e e] }
+		e8 e r4 e\p e %15
+		\partcombineChordsOnce e e g8 r r4
+		g,8 g r4 r2
+		R1
+		r4 \partcombineChordsOnce e'\f r e
+		r8 \tuplet 3/2 8 { e16 e e } e4 r2 %20
+		R1
+		R\fermataMarkup \bar "||" %22 finis
+	}
+}
