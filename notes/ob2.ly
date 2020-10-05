@@ -337,3 +337,260 @@ TremendumOboeII = {
 		R1\fermataMarkup \bar "||" %22 finis
 	}
 }
+
+IncruentumOboeII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoIncruentum
+		R1*10 %10
+		f1\f
+		b
+		g2 es~
+		es c
+		f2. es4 %15
+		d2 r
+		r4 c f a
+		b a g fis
+		g f e d
+		c d e d8 e %20
+		f4 c f es
+		d2 d4 f
+		es2. g4
+		c,2. es4
+		d2 c %25
+		f f~
+		f es
+		r g
+		fis g4 fis
+		g b a g %30
+		c b a g
+		a2 r
+		d1
+		g
+		es2 c~ %35
+		c a
+		d2. c4
+		b2 r
+		R1
+		f %40
+		c'
+		a2 f~
+		f d
+		g2. f4
+		e f g2~ %45
+		g f~
+		f e
+		R1*2
+		b'1 %50
+		g
+		f2 r
+		f2. g4
+		e g f2~
+		f e %55
+		f r
+		R1*16 %72
+		e1\p
+		f
+		b\f %75
+		a2 r
+		r b~
+		b b
+		g4 e f e
+		f a g a %80
+		b c d b
+		g a b g
+		e f g e
+		a b c a
+		fis g a fis %85
+		g a b2
+		r es,
+		g c
+		r d
+		g1 %90
+		es2 c~
+		c a
+		d2. c4
+		b2 r
+		r g %95
+		g1
+		g
+		fis2 a
+		d1
+		b2 g~ %100
+		g e
+		a2. g4
+		fis2 r
+		r b~
+		b a~ %105
+		a g
+		fis r
+		r d'~
+		d c~
+		c c~ %110
+		c b~
+		b b~
+		b a~
+		a a~
+		a g~ %115
+		g g~
+		g g~
+		g fis
+		g r
+		R1 %120
+		r2 d'\p
+		d d
+		d1
+		R1*4 %127
+		g,2 es
+		as r
+		c as %130
+		g r
+		g4( b) as( g)
+		b2 r
+		R1*2 %135
+		r4 d, d es
+		f2 r
+		R1*2
+		r4 g g as %140
+		b2 r
+		R1*3
+		es1 %145
+		f
+		es2 r
+		R1*3 %150
+		es,1
+		d
+		es
+		as\f
+		g2 es' %155
+		f d
+		b1
+		es
+		c2 as~
+		as f %160
+		b2. as4
+		g f es2~
+		es d
+		es r
+		c' es %165
+		as,1~
+		as2 f
+		f1
+		es2 r
+		c'1 %170
+		f
+		d2 r
+		g,1
+		c
+		as2 f~ %175
+		f d
+		g2. f4
+		es es' d c
+		c b c as
+		f g as f %180
+		d es f d
+		es f g es
+		c d es c
+		f2 b~
+		b f~ %185
+		f g
+		b g
+		f a~
+		a c\p
+		b r %190
+		R1
+		b
+		as
+		ges2 r
+		R1 %195
+		ges
+		f
+		es2 r
+		R1*6 %204
+		r2 g!( %205
+		f) r
+		r g(
+		f) r
+		r g(
+		f) a %210
+		a r
+		r d!\f
+		c a
+		b d
+		es4 d c b %215
+		c2 g
+		a c~
+		c b~
+		b a
+		b r %220
+		R1*2
+		r2 a4 g
+		f1
+		es %225
+		d4 es d es
+		f1
+		f~
+		f2 d
+		es r %230
+		g4 a!8 b c4 b
+		a2 b
+		g1
+		f2 r
+		b1 %235
+		a2 r
+		f'1~
+		f
+		es~
+		es %240
+		d
+		c
+		des
+		c
+		b %245
+		b
+		a2 es
+		d4 es f2
+		f1
+		f2 f~ %250
+		f es
+		g1~
+		g2 f
+		a1~
+		a2 g %255
+		g1
+		c2 c~
+		c b
+		b1~
+		b2 b %260
+		b a
+		b r
+		R1*18 %280
+		a1\fE
+		f
+		d'2 b~
+		b g
+		c2. b4 %285
+		a2 r
+		d1
+		es
+		es,2 c'~
+		c b %290
+		r g
+		f e
+		f a
+		b r
+		r c4 c %295
+		b2 g
+		f a
+		b r
+		r c4 c
+		b b b b %300
+		b b a a
+		b2 r
+		es r
+		d r
+		b a %305
+		b b
+		b r\fermata \bar "|." %307 finis
+	}
+}

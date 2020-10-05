@@ -282,12 +282,105 @@
 	% 		\midi { \tempo 4 = 65 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "4"
+	% 		title = "T R E M E N D U M"
+	% 	}
+	% 	\tocLabel "tremendum" "4" "Tremendum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "ob"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\TremendumOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\TremendumOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
+	% 					% \transpose c es
+	% 					\partcombine \TremendumCornoI \TremendumCornoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 					% \transpose c b
+	% 					\partcombine \TremendumClarinoI \TremendumClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				% \transpose c b
+	% 				\TremendumTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\TremendumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\TremendumViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\TremendumViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \TremendumSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \TremendumSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \TremendumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \TremendumAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \TremendumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \TremendumTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \TremendumBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \TremendumBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\TremendumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \TremendumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 50 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "4"
-			title = "T R E M E N D U M"
+			number = "5"
+			title = "I N C R U E N T U M"
 		}
-		\tocLabel "tremendum" "4" "Tremendum"
+		\tocLabel "incruentum" "5" "Incruentum"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -295,11 +388,11 @@
 						\set GrandStaff.instrumentName = "ob"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\TremendumOboeI
+							\IncruentumOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\TremendumOboeII
+							\IncruentumOboeII
 						}
 					>>
 				>>
@@ -307,72 +400,72 @@
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
 						% \transpose c es
-						\partcombine \TremendumCornoI \TremendumCornoII
+						\partcombine \IncruentumCornoI \IncruentumCornoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
 						% \transpose c b
-						\partcombine \TremendumClarinoI \TremendumClarinoII
+						\partcombine \IncruentumClarinoI \IncruentumClarinoII
 					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = "timp"
 					% \transpose c b
-					\TremendumTimpani
+					\IncruentumTimpani
 				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\TremendumViolinoI
+							\IncruentumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\TremendumViolinoII
+							\IncruentumViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\TremendumViola
+						\IncruentumViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \TremendumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \IncruentumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \TremendumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \IncruentumSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \TremendumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \IncruentumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \TremendumAltoLyrics
+					\new Lyrics \lyricsto Alto \IncruentumAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \TremendumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \IncruentumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \TremendumTenoreLyrics
+					\new Lyrics \lyricsto Tenore \IncruentumTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \TremendumBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \IncruentumBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \TremendumBassoLyrics
+					\new Lyrics \lyricsto Basso \IncruentumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\TremendumOrgano
+						\IncruentumOrgano
 					}
 				>>
-				\new FiguredBass { \TremendumBassFigures }
+				\new FiguredBass { \IncruentumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 50 }
+			\midi { \tempo 2 = 110 }
 		}
 	}
 }

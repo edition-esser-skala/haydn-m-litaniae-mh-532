@@ -442,6 +442,556 @@ TremendumAltoLyrics = \lyricmode {
 	no -- bis. %21 finis
 }
 
+IncruentumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \autoBeamOff \tempoIncruentum
+		R1*10 %10
+		\mvTr f2.\f^\tuttiE f4
+		b1
+		g2 es~
+		es c
+		f2. es4 %15
+		d2 r
+		r4 c( f) a
+		b a g fis
+		g f e d
+		c d e d8[ e] %20
+		f4 c f es
+		d2 d4 b
+		es2. g4
+		c,2. es4
+		d2 c %25
+		f1~
+		f4 b, c( d)
+		es1
+		a,4 fis'( g) a
+		b g a b %30
+		c b a g
+		a g fis( e)
+		fis( g a fis)
+		d2 r
+		r4 g( fis) g %35
+		fis g a g
+		fis g a2~
+		a4 d, e f
+		g2 r
+		f1 %40
+		c'
+		a2 f~
+		f d
+		g2.( f4)
+		e f g2~ %45
+		g f~
+		f e4 g
+		f2. a4
+		d,2. f4
+		d2( g) %50
+		g g~
+		g4 c, d( e)
+		f2. g4
+		e g f2~
+		f e %55
+		f r
+		\mvTr a1\pE^\solo
+		\appoggiatura a4 g2 f4( e)
+		e2 g
+		f2. a4 %60
+		a1
+		\appoggiatura a4 g2 f4 e
+		e2 g
+		f1
+		a2 a~ %65
+		a4 g b a
+		g2 g
+		g f
+		c2. f4
+		f2 g %70
+		f( e)
+		f r
+		R1*3 %75
+		r2 \mvTr c'~\fE^\tutti
+		c f,
+		g2. b4
+		g2( f4 e)
+		f f( g) a %80
+		b c d b
+		g a b g
+		e f g e
+		a b c a
+		fis g a( fis) %85
+		d1
+		g
+		R
+		d2. d4
+		g1 %90
+		es2 c~
+		c a
+		d2.( c4)
+		b2 g'~
+		g4 a b( g) %95
+		es2 g
+		g1
+		fis
+		a~
+		a2 d, %100
+		g1~
+		g2 e
+		a fis
+		g b~
+		b a~ %105
+		a g
+		fis r
+		r g~
+		g c~
+		c a %110
+		f! f
+		r b~
+		b a4 g
+		fis g a2~
+		a g~ %115
+		g g~
+		g g~
+		g fis
+		g \mvTr b\pE^\solo
+		b b %120
+		b1~
+		b~
+		b
+		b2 es,
+		es1 %125
+		d2 f
+		f es
+		r des
+		c2. es4
+		es2 as %130
+		g4( as) b as
+		g( b) as( g)
+		g2 f~
+		f es
+		es d %135
+		r d4 es
+		f1~
+		f4 as g( f)
+		f2 es
+		r g4 as %140
+		b1~
+		b4 des c( b)
+		as1
+		b
+		b~ %145
+		b2 f
+		es4( g) b( g)
+		c( as) as( f)
+		es g2 f4
+		es2 d %150
+		es r
+		R1*3
+		\mvTr es1\fE^\tutti %155
+		b'2. b4
+		g2 es~
+		es c
+		f2.( es4)
+		d( es) d( c) %160
+		b d f2~
+		f es~
+		es d
+		es r
+		g1~ %165
+		g2 c,
+		f4( g) as( f)
+		d( es f2)
+		b, r
+		es1 %170
+		as2. as4
+		f2 r
+		g1
+		c2. c4
+		as2 f~ %175
+		f d
+		g2.( f4)
+		es es( f g)
+		as( b) c( as)
+		f( g as f) %180
+		d( es f d)
+		g1
+		f
+		r2 b~
+		b f %185
+		f g
+		g1
+		f2 r
+		r \mvTr a\pE^\solo
+		b1( %190
+		ces2.) ces4
+		b2 r
+		r as
+		ges1(
+		as2.) as4 %195
+		ges2 r
+		r f
+		ges2. ges4
+		f1
+		es2 a! %200
+		c f,
+		f1~
+		f2 f
+		f r
+		r e( %205
+		f) a
+		b e,
+		f a
+		b e,
+		f r %210
+		R1*2
+		\mvTr f1\f^\tutti
+		b
+		g!2 es~ %215
+		es c
+		f2. es4
+		d2 b'~
+		b a
+		b f4 d %220
+		es2 b'4 as
+		g a8([ b)] c2~
+		c4 b a g
+		f2. g8[ f]
+		es2. f8[ es] %225
+		d4 es f g
+		as2 f
+		g1
+		f2 d
+		es4 f g2~ %230
+		g4 a!8[ b] c4 b
+		a2 b
+		g1
+		f2. es4
+		d2 b %235
+		f' r
+		R1
+		r4 d( es) f
+		g( h c b)
+		a f( g) a %240
+		b c d b
+		a b c a
+		g a b g
+		f g a f
+		g( a b g) %245
+		e( f g e)
+		es( g f es)
+		d( es) f2
+		f1
+		f2 f~ %250
+		f es
+		g1~
+		g2 f
+		a1~
+		a2 d, %255
+		g1
+		f
+		f
+		g
+		g4( f) es( g) %260
+		f1
+		f2 r
+		R1*19 %281
+		a4 a b2
+		f g4 g
+		g2 b,
+		c a %285
+		r b4 c
+		d( es f2)
+		es g~
+		g c4 ( b)
+		a2( b) %290
+		g1
+		f2 e
+		f1
+		f2 r
+		r c'4 c %295
+		b2 g
+		f1
+		f2 r
+		r c'4 c
+		b2 b %300
+		f( a)
+		b r
+		R1*4 %306
+		R1\fermataMarkup \bar "|." %307 finis
+	}
+}
+
+IncruentumAltoLyrics = \lyricmode {
+	In -- cru -- %11
+	en --
+	tum sa --
+	cri --
+	fi -- ci -- %15
+	um,
+	mi -- se --
+	re -- _ _ _
+	_ _ _ _
+	_ _ _ _ %20
+	_ _ _ _
+	re, mi -- se --
+	re -- _
+	_ re
+	no -- bis, %25
+	mi --
+	_ se --
+	re --
+	re, mi -- se --
+	re -- _ _ _ %30
+	_ _ _ _
+	_ _ re
+	no --
+	bis,
+	mi -- se -- %35
+	re -- _ _ _
+	_ re no --
+	_ _ _
+	bis,
+	ci -- %40
+	bus
+	et __ _
+	con --
+	vi --
+	va, con -- vi -- %45
+	va, __
+	mi -- se --
+	re -- _
+	_ re
+	no -- %50
+	bis, mi --
+	_ se --
+	re -- _
+	_ re no --
+	_ %55
+	bis.
+	\xE Dul --
+	cis -- si --
+	mum con --
+	vi -- vi -- %60
+	um,
+	cu -- _ _
+	i as --
+	sis --
+	tunt An -- %65
+	_ ge -- li
+	mi -- ni --
+	stran -- tes,
+	mi -- se --
+	re -- re %70
+	no --
+	bis. \x
+
+	Mi -- %76
+	se --
+	re -- re
+	no --
+	bis, mi -- se -- %80
+	re -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ re %85
+	no --
+	bis,
+
+	vin -- cu --
+	lum %90
+	cha -- _
+	ri --
+	ta --
+	tis, mi --
+	_ se -- %95
+	re -- re
+	no --
+	bis,
+	mi --
+	se -- %100
+	re --
+	re
+	no -- bis,
+	mi -- se --
+	re -- %105
+	_
+	re,
+	mi --
+	_
+	se -- %110
+	re -- re,
+	mi --
+	_ _
+	_ _ se --
+	re -- %115
+	re __
+	no --
+	_
+	bis. \xE Spi --
+	ri -- tu -- %120
+	a --
+
+	lis dul -- %124
+	ce -- %125
+	do, dul --
+	ce -- do
+	in
+	pro -- pri --
+	o, in %130
+	pro -- pri -- o
+	fon -- te
+	de -- _
+	gu --
+	sta -- ta, %135
+	mi -- se --
+	re --
+	_ re
+	no -- bis,
+	mi -- se -- %140
+	re --
+	_ re,
+	mi --
+	se --
+	re -- %145
+	re,
+	mi -- se --
+	re -- re
+	no -- _ _
+	_ _ %150
+	bis. \x
+
+	Re -- %155
+	fe -- cti --
+	o a --
+	ni --
+	ma --
+	rum san -- %160
+	cta -- _ _
+	_
+	_
+	rum,
+	mi -- %165
+	se --
+	re -- re
+	no --
+	bis,
+	re -- %170
+	fe -- cti --
+	o,
+	re --
+	fe -- cti --
+	o a -- %175
+	ni --
+	ma --
+	rum san --
+	cta -- rum,
+	mi -- %180
+	se --
+	re --
+	re,
+	mi --
+	se -- %185
+	re -- re
+	no --
+	bis.
+	\xE Vi --
+	a -- %190
+	ti --
+	cum,
+	vi --
+	a --
+	ti -- %195
+	cum
+	in
+	Do -- mi --
+	no
+	mo -- _ %200
+	_ ri --
+	en --
+	ti --
+	um,
+	mi -- %205
+	se --
+	re -- re
+	no -- _
+	_ _
+	bis. \x %210
+
+	Pi -- %213
+	gnus
+	fu -- tu -- %215
+	rae
+	glo -- ri --
+	ae, mi --
+	se --
+	re -- _ _ %220
+	_ _ _
+	_ re, mi --
+	se -- re -- re
+	no -- _
+	_ _ %225
+	_ _ _ _
+	_ _
+	bis,
+	mi -- se --
+	re -- _ _ %230
+	_ _ _
+	_ re
+	no --
+	_ _
+	_ _ %235
+	bis,
+
+	mi -- se --
+	re --
+	re, mi -- se -- %240
+	re -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	re, __ %245
+	mi --
+	se --
+	re -- re
+	no --
+	bis, mi -- %250
+	se --
+	re --
+	re,
+	mi --
+	se -- %255
+	re --
+	re,
+	\xE mi --
+	se --
+	re -- re %260
+	no --
+	bis. \x
+
+	Mi -- se -- re -- %282
+	re, mi -- se --
+	re -- _
+	_ re, %285
+	mi -- se --
+	re --
+	re, mi --
+	se --
+	re -- %290
+	re
+	no -- _
+	_
+	bis,
+	\xE mi -- se -- %295
+	re -- re
+	no --
+	bis,
+	mi -- se --
+	re -- re %300
+	no --
+	bis. %302 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

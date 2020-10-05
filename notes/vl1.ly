@@ -404,6 +404,305 @@ TremendumViolinoI = {
 	}
 }
 
+IncruentumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoIncruentum
+		R1*15 %15
+		b'1\f
+		f'
+		d2 b~
+		b g
+		c2. b4 %20
+		a2 r
+		r4 f b d
+		es d c h
+		c b a g
+		f g a g8 a %25
+		b4 a b a
+		g2 g4 g
+		a g a g
+		fis a b c
+		d b c d %30
+		g,2 r
+		R1
+		d'
+		g
+		es2 c~ %35
+		c a
+		d2. c4
+		b2 g
+		c2. b4
+		a2. b4 %40
+		g2 g'~
+		g4 c, d e
+		f a, b c
+		d2 d~
+		d c4 b %45
+		a2. b8 a
+		g4 g c e
+		f e d cis
+		d c b a
+		g a b a8 b %50
+		c4 b c b
+		a2 \once \tieDashed a~
+		a4 a b2~
+		b a4 f'
+		g, f' g, e' %55
+		f, c'\p c( c')
+		c( a) f-! c-!
+		r c c( b')
+		b( g) e-! c-!
+		r c c( c') %60
+		c( a) f-! c-!
+		r c c( b')
+		b( g) e c
+		r c, c( f)
+		f( a) a( c) %65
+		c( b) d c
+		b( b') g b,
+		b2 a
+		f'8( g a g) f4 a,
+		d8( e f e) d4 g, %70
+		a( c) e,( g)
+		f f( c') c
+		r e,( c') c
+		r f,( c') c
+		c1\f %75
+		f
+		d2 b~
+		b g
+		c2. b4
+		a a b c %80
+		d e f d
+		b c d b
+		g a b g
+		c d es! c
+		a2 d~ %85
+		d4 c b a
+		g2 es'~
+		es4 d c b
+		a g fis2
+		r4 b c d %90
+		es f g es
+		c d es c
+		a2 d~
+		d b
+		b1 %95
+		a
+		R
+		a
+		d
+		b2 g~ %100
+		g e
+		a2. g4
+		fis2 es'!~
+		es d~
+		d c~ %105
+		c b
+		a d~
+		d b
+		es1~
+		es2 c %110
+		d1~
+		d2 es
+		c1~
+		c2 d
+		b1 %115
+		b4 g'2 g4
+		a, g'2 g4
+		a, g' a, fis'
+		g,2 d'4(\p b)
+		d( b) d( b) %120
+		d2 b'4( d,)
+		b'( d,) b'( d,)
+		b' b,( d f)
+		\appoggiatura f es2  d4 c
+		\appoggiatura b as2 as'8 g as %125
+		b as g f es d f b, as
+		as g f as g es b es
+		b4 g'( b g)
+		as8( b as g) as4 b
+		c( es) d!( f) %130
+		es8( f es f) g4 f
+		es( d) c( b)
+		b b,( as') as
+		as b,( g') g
+		b( g) f8 g f es %135
+		d4 b( f') g
+		b( as) f8 g es f
+		d4 c'( b) as
+		f( as) g8 b as c
+		b4 es,( b') c %140
+		es( des) b,8 c as b
+		g4 f''( es) des
+		c8 b as b c d es c
+		d c b c d es f d
+		es b c d es f g es %145
+		b c d es f g as f
+		g as b g es f g es
+		c d es c as b c as
+		g4 b2 as4
+		g( es) b'( d,) %150
+		es es( b') b
+		r d,( b') b
+		r es,( b') b
+		r b(\f as') as
+		r b, b'8 g f es %155
+		d4 d8 f as f es d
+		es d es f g as b as
+		g b, c d es d c b
+		as g as b c f as f
+		f, g as g as es' f es %160
+		d es f g as4 as,
+		g b es8 g b g
+		f2 b,
+		r4 b g b
+		c d es c %165
+		as b c as
+		f2 r
+		b1
+		es
+		c2 r %170
+		R1
+		d
+		g
+		es2 r
+		r4 c d es %175
+		f1~
+		f2 d
+		r4 c d es
+		f g as f
+		d es f d %180
+		h c d h
+		c d es c
+		a! b! c a
+		b c d2~
+		d c~ %185
+		c b
+		g'4 g b, b
+		a f' a f
+		c' a, es'\p c
+		des des2 des4~ %190
+		des des2 des4~
+		des ges2 b4(
+		ces) as2 ces,4(
+		b) b2 b4~
+		b b2 b4~ %195
+		b es2 ges4(
+		as) f2 as,4(
+		ges) ges'2 ces,4(
+		b) f'2 b,4(
+		a!) es'2 c'!4~ %200
+		c c,2 es4
+		f, es'2 es4
+		f, des'2 des4
+		c2 ges'(\fz
+		f) b,(\p %205
+		a) ges'(\fz
+		f) b,(\p
+		a) ges'(\fz
+		f) b,(\p
+		a) a %210
+		a r
+		b1\f
+		f'
+		d!2 b~
+		b g %215
+		c2. b4
+		a2 c~
+		c4 b d2
+		c f~
+		f4 es d c %220
+		b c8 d es4 f
+		g f es d
+		c2 r
+		R1*2 %225
+		b1
+		f'
+		d2 h~
+		h g
+		g'2. f4 %230
+		es2 es~
+		es4 es d2~
+		d4 d c b
+		a f g a
+		b c d b %235
+		a a b c
+		d es f d
+		g1~
+		g
+		f~ %240
+		f
+		f
+		e
+		es
+		d %245
+		c~
+		c4 es c a
+		f a b2~
+		b a
+		b4 f' g8 f g f %250
+		g, b c b es,4 g
+		es' g8 f es d c b
+		a c d c f,4 a
+		d a' b8 a b a
+		b, d es d g,4 d' %255
+		es g, fis8 g a g
+		f4 es' d8 es f es
+		d c d c b4 d
+		b'8 a b a b4 d,
+		c8 d es d c4 g' %260
+		c,^\critnote b' c, a'
+		b, d,\p f d
+		b' f d' b
+		f'1
+		b %265
+		g2 es~
+		es c
+		f2. es4
+		d2 b'~
+		b4 a-! g-! f-! %270
+		es-! d-! c-! b-!
+		a c8 b a g f es
+		d f d' c b a g f
+		es b' c b g h c h
+		c es g f es d c b %275
+		a c d c a a' c a
+		b c d c b a g f
+		g f es d c b a g
+		f4 e'( f) des
+		c e( f) des %280
+		c1\f
+		f
+		d2 b~
+		b g
+		c2. b4 %285
+		a2 f'~
+		f4 es d2
+		es8 b c b es4 g
+		es8 es, f es es'4 b
+		a8 g' f es d4 f, %290
+		g c des b
+		f a' e, b''
+		f, b' f, a'
+		b, f f' f
+		f g8 f c' a f es %295
+		d4( f) es8 d es c
+		b4 b c c
+		d f, f' f
+		f g8 f c' a f es
+		d b f' d b' g es c %300
+		b f d' b es d es c
+		b2 <f' b, d,>
+		f, <f c' a'>
+		f <f d' b'>
+		<d b' f'> <c es a> %305
+		<b d b'> b
+		b r\fermata \bar "|." %307 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

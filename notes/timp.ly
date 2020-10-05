@@ -218,3 +218,112 @@ TremendumTimpani = {
 		R1\fermataMarkup \bar "||" %22 finis
 	}
 }
+
+IncruentumTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \tempoIncruentum
+		R1*20 %20
+		g2\fE g4 g
+		c2 r
+		R1*2
+		r2 g %25
+		c r
+		R1*19 %45
+		g2 r
+		r c
+		g r
+		R1*3 %51
+		g2 r
+		g r
+		R1
+		r2 c %55
+		g r
+		R1*18 %74
+		c2\f r %75
+		g r
+		c r
+		R1*2
+		g2 r %80
+		R1*40 %120
+		r2 c\p
+		c c
+		c r
+		R1*28 %151
+		c2\p r
+		c r
+		c\f r
+		R1*7 %161
+		r2 c
+		c r
+		R1*19 %182
+		g2 r
+		c r
+		R1*3 %187
+		r2 g
+		g r
+		R1*14 %203
+		g2\p r
+		R1 %205
+		g2 r
+		R1
+		g2 r
+		R1
+		g2 g %210
+		g r
+		R1*7 %218
+		g2\f g4 g
+		c2 c %220
+		R1*2
+		g2 r
+		R1*2 %225
+		c2 c
+		c r
+		R1*4 %231
+		g2 c
+		R1
+		g2 r
+		c c %235
+		g r
+		R1
+		g2 r
+		R1
+		g2 r %240
+		R1*5 %245
+		g2 r
+		g r
+		g r
+		g g
+		c r %250
+		R1*6 %256
+		g2 r
+		c r
+		R1*2 %260
+		g2 g4 g
+		c2 r
+		R1*18 %280
+		r2 g4\fE g
+		g2 c4 c
+		c2 r
+		R1*2 %285
+		r2 c
+		c r
+		R1*4 %291
+		r2 c
+		g g4 g
+		c2 r
+		r g4 g %295
+		c2 r
+		g g
+		c r
+		r g4 g
+		c2 r %300
+		g4 g g g
+		c2 r
+		g r
+		g r
+		g4 g g g %305
+		c2 c
+		c r\fermata \bar "|." %307 finis
+	}
+}

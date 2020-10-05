@@ -443,6 +443,531 @@ TremendumTenoreLyrics = \lyricmode {
 	no -- bis. %21 finis
 }
 
+IncruentumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 2/2 \autoBeamOff \tempoIncruentum
+		R1*5 %5
+		\mvTr b2.\f^\tuttiE b4
+		f'1
+		d2 b~
+		b g
+		c2. b4 %10
+		a2 r
+		r4 f( b) d
+		es d c h
+		c b a g
+		f g a g8[ a] %15
+		b4 f d' b
+		a2 a4 f
+		b2. d4
+		g,2. b4
+		a2( g) %20
+		f r
+		r f'4 d
+		b2 g
+		r4 g( es') c
+		a2 f %25
+		d' b
+		R1*2
+		d1
+		g %30
+		es2 c~
+		c a
+		d2.( c4)
+		b b( c) d
+		es1 %35
+		es2 r
+		a, d~
+		d g4( f!)
+		e d c2~
+		c f~ %40
+		f e
+		f4( e) d( c)
+		d c b a
+		b g a( b)
+		c d e d8[ e] %45
+		f4 c c2
+		r g'4 e
+		c2 a
+		r4 a( f') d
+		b2 d %50
+		c c
+		r a4 cis
+		d1
+		g,4 c!2 d4
+		d2( c4 b) %55
+		a2 r
+		R1*2
+		\mvTr c1\pE^\solo
+		\appoggiatura d4 c2 b4( a) %60
+		a2 f'
+		e4. c8 c2
+		c c4 c
+		\appoggiatura d c2 b4( a)
+		f'2 f4 f %65
+		d1
+		e
+		f2 f,
+		r f4 c'
+		d2 d %70
+		c2.( b4)
+		a2 r
+		R1*6 %78
+		\mvTr c2.\fE^\tutti c4
+		f1 %80
+		d2 b~
+		b g
+		c2.( b4)
+		a2 a4 a
+		d2.( c4) %85
+		b2 g'~
+		g4 f es( d)
+		c2 c~
+		c4 b a2
+		d,4 g( a) b %90
+		c d es c
+		a b c a
+		fis2 g4 a
+		b c d2
+		es1~ %95
+		es4 d c b
+		a1
+		R
+		d
+		d %100
+		d2 b
+		e1
+		es2 c
+		b1
+		d %105
+		d
+		d4 fis,( g) a
+		b c d2~
+		d c4 b
+		a b c2~ %110
+		c b4( a)
+		g1
+		es'
+		a,2 d,4 d'
+		d1 %115
+		es~
+		es4 d c( es)
+		d1
+		d2 r
+		R1 %120
+		r2 \mvTr f\pE^\solo
+		f f
+		f1
+		b,2 b
+		c1 %125
+		f2 d
+		es4( b) b2
+		r b
+		as2. g4
+		as2 f %130
+		b b4 d
+		es2 es
+		b1~
+		b2 c
+		b b %135
+		R1
+		r2 f4 es
+		d2 b'
+		b b
+		R1 %140
+		r2 b4 as
+		g2 es'
+		es1
+		f
+		es %145
+		b
+		b2 b
+		as c
+		b1~
+		b2 as %150
+		g r
+		R1*12 %163
+		\mvTr b1\fE^\tutti
+		es2. es4 %165
+		c2 as~
+		as f
+		b2.( as4)
+		g g as( b)
+		c2 c %170
+		f2. f4
+		d2 f4 c
+		h( c d c8[ d])
+		es4 c( d) es
+		f es d c %175
+		d c h( a)
+		h( d8[ c] h4 a8_[ h])
+		c2 r
+		c2. c4
+		as2 f %180
+		f' h,4( d)
+		es f g es
+		c d es c
+		f1
+		es %185
+		d
+		des2( c)
+		c r
+		r \mvTr f\pE^\solo
+		f1~ %190
+		f2 f
+		ges r
+		r des
+		des1(
+		d2.) d4 %195
+		es2 r
+		r b
+		es2. es4
+		f1
+		ges2 es~ %200
+		es c
+		c1(
+		b2.) b4
+		a!2 r
+		r des( %205
+		c) es
+		des des
+		c es
+		des1
+		c2 r %210
+		R1*7 %217
+		\mvTr b1\fE^\tutti
+		f'
+		d2 b~ %220
+		b g
+		c2. b4
+		a2 c~
+		c b~
+		b as~ %225
+		as4 g f( es)
+		d2( as')
+		g f'4 es
+		d( c) h2
+		c4( d es d) %230
+		c2 c~
+		c b4( f')
+		es2( c)
+		c4 a( b) c
+		d es f d %235
+		c2 f,
+		R1
+		r4 h( c) d
+		es( d es d)
+		c a( b!) c %240
+		d es f d
+		c d es c
+		b c des b
+		a b c a
+		b( c d! b) %245
+		g( a b g)
+		a( b a c)
+		b( c) d( b)
+		c1
+		d2 r %250
+		b b
+		es1
+		c
+		f2 f
+		d b %255
+		b( c)
+		c c~
+		c b
+		b1~
+		b2 b %260
+		b( a)
+		b r
+		R1*18 %280
+		r2 a4 a
+		c2 d
+		b4 b d2
+		es r
+		es2.( d4) %285
+		c2 d~
+		d4 c b2
+		b2. b4
+		es( d) c2
+		f1( %290
+		es2) des
+		c b
+		c1
+		d!2 r
+		r es4 es %295
+		d2 c4( es)
+		d2( a)
+		b r
+		r es4 es
+		d2 c %300
+		d( es)
+		d r
+		R1*4 %306
+		R1\fermataMarkup \bar "|." %307 finis
+	}
+}
+
+IncruentumTenoreLyrics = \lyricmode {
+	In -- cru -- %6
+	en --
+	tum sa --
+	cri --
+	fi -- ci -- %10
+	um,
+	mi -- se --
+	re -- _ _ _
+	_ _ _ _
+	_ _ _ _ %15
+	_ _ _ _
+	re, mi -- se --
+	re -- _
+	_ re
+	no -- %20
+	bis,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re %25
+	no -- bis,
+
+	ci -- %29
+	bus %30
+	et __ _
+	con --
+	vi --
+	va, mi -- se --
+	re -- %35
+	re,
+	mi -- _
+	se --
+	re -- _ _
+	_ %40
+	re,
+	mi -- se --
+	re -- _ _ _
+	_ _ re
+	no -- _ _ _ %45
+	_ _ bis,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re %50
+	no -- bis,
+	mi -- se --
+	re --
+	_ _ re
+	no -- %55
+	bis.
+
+	Dul -- %59
+	cis -- si -- %60
+	mum con --
+	vi -- vi -- um,
+	cu -- i as --
+	sis -- tunt
+	An -- ge -- li %65
+	mi --
+	ni --
+	stran -- tes,
+	mi -- se --
+	re -- re %70
+	no --
+	bis.
+
+	Sa -- cra -- %79
+	men -- %80
+	tum pi --
+	e --
+	ta --
+	tis, pi -- e --
+	ta -- %85
+	tis, mi --
+	se -- re --
+	re, mi --
+	se -- re --
+	re, mi -- se -- %90
+	re -- _ _ _
+	_ _ _ _
+	_ _ _
+	_ _ re
+	no -- %95
+	_ _ _
+	bis,
+
+	mi --
+	se -- %100
+	re -- _
+	_
+	_ _
+	_
+	re %105
+	no --
+	bis, mi -- se --
+	re -- _ _
+	_ _
+	_ _ _ %110
+	re
+	no --
+	_
+	bis, mi -- se --
+	re -- %115
+	_
+	_ re
+	no --
+	bis.
+	%120
+	Spi --
+	ri -- tu --
+	a --
+	lis dul --
+	ce -- %125
+	do, dul --
+	ce -- do
+	in
+	pro -- pri --
+	o, in %130
+	pro -- pri -- o
+	fon -- te
+	de --
+	gu --
+	sta -- ta, %135
+
+	mi -- se --
+	re -- re
+	no -- bis,
+	%140
+	mi -- se --
+	re -- re,
+	mi --
+	se --
+	re -- %145
+	re,
+	mi -- se --
+	re -- re
+	no --
+	_ %150
+	bis.
+
+	Re -- %164
+	fe -- cti -- %165
+	o a --
+	ni --
+	ma --
+	rum san -- cta --
+	rum, re -- %170
+	fe -- cti --
+	o, mi -- se --
+	re --
+	re, mi -- se --
+	re -- _ _ _ %175
+	_ _ re
+	no --
+	bis,
+	mi -- se --
+	re -- re, %180
+	mi -- se --
+	re -- _ _ _
+	_ _ _ _
+	_
+	_ %185
+	re
+	no --
+	bis.
+	Vi --
+	a -- %190
+	ti --
+	cum,
+	vi --
+	a --
+	ti -- %195
+	cum,
+	in
+	Do -- mi --
+	no
+	mo -- _ %200
+	ri --
+	en --
+	ti --
+	um,
+	mi -- %205
+	se --
+	re -- re
+	no -- _
+	_
+	bis. %210
+
+	Pi -- %218
+	gnus
+	fu -- tu -- %220
+	rae
+	glo -- ri --
+	ae, mi --
+	se --
+	re -- %225
+	_ re
+	no --
+	bis, mi -- se --
+	re -- re,
+	mi -- %230
+	se -- re --
+	re
+	no --
+	bis, mi -- se --
+	re -- _ _ _ %235
+	_ re,
+
+	mi -- se --
+	re --
+	re, mi -- se -- %240
+	re -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	re, __ %245
+	mi --
+	se --
+	re -- re
+	no --
+	bis, %250
+	mi -- se --
+	re --
+	re
+	no -- bis,
+	mi -- se -- %255
+	re --
+	re, mi --
+	se --
+	re --
+	re %260
+	no --
+	bis.
+
+	Mi -- se -- %281
+	re -- re,
+	mi -- se -- re --
+	re,
+	mi -- %285
+	se -- re --
+	_ re,
+	mi -- se --
+	re -- re,
+	mi -- %290
+	se --
+	re -- re
+	no --
+	bis,
+	mi -- se -- %295
+	re -- re
+	no --
+	bis,
+	mi -- se --
+	re -- re %300
+	no --
+	bis. %302 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -260,3 +260,159 @@ TremendumClarinoI = {
 		R1\fermataMarkup \bar "||" %22 finis
 	}
 }
+
+IncruentumClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoIncruentum
+		R1*20 %20
+		r4 d'\fE d d
+		c2 r
+		R1*2
+		r2 d %25
+		e r
+		R1*2
+		e2 e4 e
+		e2 r %30
+		R1*2
+		e2 r
+		e r
+		R1*2 %36
+		r4 e e e
+		e2 r
+		r4 \pa d d d
+		d2 \pd g %40
+		\pao d r
+		R1*4 %45
+		d2 d4 d
+		d2 r
+		R1*4 %51
+		g,2 r
+		g r
+		R1
+		r2 \pao d' %55
+		d r
+		R1*18 %74
+		d1\fE %75
+		g
+		e2 c~
+		c e
+		d1
+		d2 r %80
+		R1*4
+		r4 e e e %95
+		e2 c
+		R1*2
+		r4 e e e
+		e2 r %90
+		R1*2
+		r2 e,
+		e r
+		R1*4 %98
+		r4 e e e
+		e2 r %100
+		e r
+		R1*3
+		r4 e e e %105
+		e e e e
+		e2 r
+		R1*10 %117
+		e2 e4 e
+		e2 r
+		R1 %120
+		r2 c'\p
+		c c
+		c1
+		R1*27 %150
+		c1~\p
+		c~
+		c
+		c\f
+		c2 r %155
+		R1*6 %161
+		c2 r
+		c r
+		c r
+		R1*3 %167
+		c2 c4 c
+		c2 r
+		R1*13 %182
+		d2. d4
+		e f g2
+		R1 %185
+		r2 c,
+		c r
+		r g
+		g r
+		R1*14 %203
+		g2\p r
+		R1 %205
+		g2 r
+		R1
+		g2 r
+		R1
+		g~ %210
+		g2 r
+		R1*6 %217
+		g'1~\fE
+		g2 d
+		c e %220
+		c r
+		r f4 e
+		d2 r
+		R1*2 %225
+		c1
+		g'
+		e
+		R1*2 %230
+		r2 \pao d
+		f e
+		r d
+		d r
+		c c %235
+		d r
+		R1
+		\pao e
+		f2 r
+		d1 %240
+		\partcombineChordsOnce e2 r
+		R1*4 %245
+		g,2 r
+		g r
+		g r
+		d' d
+		c r %250
+		R1*6 %256
+		d2 d
+		e c
+		r e
+		r d %260
+		d d4 d
+		c2 r
+		R1*18 %280
+		r2 d4\fE d
+		d2 c4 c
+		c2 r
+		R1*2 %285
+		r2 c
+		c r
+		c r
+		R1*3 %291
+		r2 c
+		d d4 d
+		c2 \pa g4 g
+		g2 \pd r %295
+		r f'
+		e d
+		e \pa g,4 g
+		g2 \pd r
+		r d'4 d %300
+		e e d d
+		c2 r
+		d r
+		e r
+		e4 e d d %305
+		c2 e,
+		e r\fermata \bar "|." %307 finis
+	}
+}

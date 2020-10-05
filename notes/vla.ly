@@ -403,3 +403,292 @@ TremendumViola = {
 		\tuplet 3/2 8 { es( d) d d[ d d] es( d) d d[ d d] cis( d) d } d8 r4\fermata \bar "||" %22 finis
 	}
 }
+
+IncruentumViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 2/2 \tempoIncruentum
+		R1*5 %5
+		b1\f
+		f'
+		d2 b~
+		b g
+		c2. b4 %10
+		a2 r
+		r4 f b d
+		es d c h
+		c b a g
+		f g a g8 a %15
+		b4 f d' b
+		a2 a4 f
+		b2. d4
+		g,2. b4
+		a2 g %20
+		f r
+		r f'4 d
+		b2 g
+		r4 g es' c
+		a2 f %25
+		d' b
+		R1*2
+		d1
+		g %30
+		es2 c~
+		c a
+		d2. c4
+		b b c d
+		es1 %35
+		es2 r
+		a, d~
+		d g4 f!
+		e d c2~
+		c f~ %40
+		f e
+		f4 e d c
+		d c b a
+		b g a b
+		c d e d8 e %45
+		f4 c c2
+		r g'4 e
+		c2 a
+		r4 a f' d
+		b2 d %50
+		c c
+		r a4 cis
+		d1
+		g,4 c!2 d4
+		d2 c4 b %55
+		a2 r
+		r f'\pE
+		c' r
+		c, r
+		f f, %60
+		r f'
+		c' r
+		c, r
+		f f,
+		r f' %65
+		b, r
+		c r
+		d r
+		a r
+		b4 b b b %70
+		c c c c
+		c2 r
+		b1
+		a
+		g2\f g' %75
+		r4 f g a
+		b c d b
+		g a b g
+		c,1
+		f %80
+		d2 b~
+		b g
+		c2. b4
+		a2 a
+		d2. c4 %85
+		b2 g'~
+		g4 f es d
+		c2 c~
+		c4 b a2
+		d,4 g a b %90
+		c d es c
+		a b c a
+		fis2 g4 a
+		b c d2
+		es1~ %95
+		es4 d c b
+		a1
+		R
+		d
+		d %100
+		d2 b
+		e1
+		es2 c
+		b1
+		d %105
+		d
+		d4 fis, g a
+		b c d2~
+		d c4 b
+		a b c2~ %110
+		c b4 a
+		g1
+		es'
+		a,2 d,4 d'
+		d1 %115
+		es2 es~
+		es4 d c es
+		d1
+		d2 r
+		R1 %120
+		r2 as'\p
+		as as
+		as1
+		g
+		f %125
+		b,
+		es
+		es2 es
+		es4 es es es
+		es es es es %130
+		es2 es
+		r es
+		d d
+		es a,!
+		b b4 f %135
+		f2 r
+		r2 d'4 c
+		b2 d
+		es,4 es' es es
+		es,2 r %140
+		r g4 f
+		es2 g
+		as4 as as as
+		as' as as as
+		g g g g %145
+		d d d d
+		es2 r
+		as r
+		b4 b b b
+		b, b b b %150
+		es,1
+		as
+		g
+		f2\f f'
+		es r %155
+		R1*8 %163
+		b1
+		es %165
+		c2 as~
+		as f
+		b2. as4
+		g g as b
+		c2 c %170
+		f1
+		d2 f4 c
+		h c d c8 d
+		es4 c d es
+		f es d c %175
+		d c h a
+		h d8 c h4 a8 h
+		c2 r
+		c2. c4
+		as2 f %180
+		f' h,4 d
+		es f g es
+		c d es c
+		f1
+		es %185
+		d
+		des4 des c c
+		c2 f,
+		r f'\p
+		f4 f2 f4~ %190
+		f f2 f4(
+		ges) des2 des4~
+		des des2 des4~
+		des des2 des4(
+		d) d2 d4( %195
+		es) b2 b4~
+		b b2 b4(
+		es,) es2 es4(
+		b') b2 b4(
+		es) c2 a!4 %200
+		a2 r
+		f1~
+		f
+		f'2 a,(\fz
+		b) des(\p %210
+		c) es(\fz
+		des) des(\p
+		c) es(\fz
+		des) des(\p
+		c) c %210
+		c r
+		R1*6 %217
+		b1\f
+		f'
+		d2 b~ %220
+		b g
+		c2. b4
+		a2 c~
+		c b~
+		b as~ %225
+		as4 g f es
+		d2 as'
+		g f'4 es
+		d c h2
+		c4 d es d %230
+		c2 c~
+		c b4 f'
+		es2 c
+		c4 a b c
+		d es f d %235
+		c2 f,
+		R1
+		r4 h c d
+		es d es d
+		c a b! c %240
+		d es f d
+		c d es c
+		b c des b
+		a b c a
+		b c d! b %245
+		g a b g
+		a b a c
+		b c d b
+		c1
+		d4 b c d %250
+		es f g es
+		r c d es
+		f g a f
+		r d es f
+		g a b g %255
+		r es c b
+		a c f a
+		b c d b
+		g a b g
+		es f g es %260
+		f es f f,
+		b2 r
+		R1*9 %271
+		f'1\p
+		b
+		g2 es~
+		es c %275
+		f2. es4
+		d2 d
+		es e
+		f  r4 e
+		f2 r4 e %280
+		f r c\f a
+		c2 d
+		b4 b d2
+		es r
+		es2. d4 %285
+		c2 d~
+		d4 c b2
+		b2. b4
+		es d c2
+		f b,4 b %290
+		es es e e
+		f f ges ges
+		f f f f
+		b,2 r
+		r a'4 a %295
+		b2 es,
+		f f
+		b r
+		r a4 a
+		b b es, es %300
+		f f f f
+		b,2 r
+		f' r
+		f r
+		f4 f f f %305
+		b,2 b
+		b r\fermata \bar "|." %307 finis
+	}
+}

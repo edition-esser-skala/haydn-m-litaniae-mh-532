@@ -170,6 +170,7 @@ dolceE =    \markup \remarkE "dolce"
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
+tllur = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 1) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
 fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
 critnote = \markup { \musicglyph #'"pedal.*" }
@@ -663,8 +664,10 @@ tempoKyrie = \tempoMarkup "Largo"
 tempoPanisVivus = \tempoMarkup "Allegro"
 tempoStupendum = \tempoMarkup "Andante"
 tempoTremendum = \tempoMarkup "Adagio"
+tempoIncruentum = \tempoMarkup "Vivace"
 
 vlcfag = \markup \remark "vlc, fag"
+fag = \markup \remark "fag"
 
 
 \include "notes/ob1.ly"

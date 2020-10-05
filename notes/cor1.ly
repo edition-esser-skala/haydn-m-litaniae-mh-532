@@ -285,3 +285,177 @@ TremendumCornoI = {
 		R\fermataMarkup \bar "||" %22 finis
 	}
 }
+
+IncruentumCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoIncruentum
+		R1*21 %21
+		r4 \pa g'\fE g g \pd
+		c2 r
+		c \pa c
+		d \pd r %25
+		r \pao g,
+		c r
+		R1*18 %45
+		\pao d1
+		e
+		\pao d
+		R1*3 %51
+		r2 d
+		r d
+		R1*2 %55
+		r2 d\p
+		d r
+		R1*2
+		r2 d %60
+		d r
+		R1*2
+		r2 d
+		d r %65
+		R1*7 %72
+		e1
+		d
+		e\f %75
+		d2 r
+		g, r
+		e' r
+		R1
+		d %80
+		d
+		e
+		R1*3 %85
+		e1
+		c
+		R1*6 %93
+		e1
+		c %95
+		R1*12 %107
+		e2 e
+		e r
+		d d %110
+		d r
+		c \pa c
+		c \pd r
+		R1
+		e2 r %115
+		e r
+		R1*4 %120
+		r2 d\p
+		d d
+		d1
+		e
+		R1*3 %127
+		c2 c
+		c1~
+		c~ %130
+		c~
+		c
+		g2 r
+		R1*2 %135
+		r4 g g g
+		g2 r
+		R1*2
+		r4 c c c %140
+		c2 r
+		R1*3
+		c1 %145
+		\pao g
+		c2 r
+		R1*3 %150
+		c1\p
+		d
+		c
+		d\f
+		e2 r %155
+		R1*6 %161
+		c1
+		g'
+		e2 c
+		R1*3 %167
+		d1
+		c2 r
+		R1*3 %172
+		e1
+		e2 r
+		R1*2 %176
+		e1
+		e2 r
+		R1*2 %180
+		e2 e4 e
+		e2 r
+		\pa d d4 d \pd
+		d2 r
+		g \pao d %185
+		d e
+		e1
+		r2 d
+		d d\p
+		d1 %190
+		R1*5 %195
+		c1
+		\pao g
+		c
+		R1*5 %203
+		d1~
+		d %205
+		d~
+		d
+		d~
+		d
+		d2 d %210
+		d r
+		R1*7 %218
+		d1\f
+		g %220
+		e2 c~
+		c r
+		\pao d r
+		R1*2 %225
+		g,2 g4 g
+		g2 r
+		R1
+		e'2 e4 e
+		e2 r %230
+		R1*3
+		d2 d4 d
+		d2 d %235
+		d r
+		R1*13 %249
+		g,1 %250
+		c
+		R1*4 %255
+		e1
+		\pao d
+		g
+		e
+		c2. c4 %260
+		d c d d
+		g,2 r
+		R1*18 %280
+		r2 d'~\fE
+		d g~
+		g e
+		c1
+		r2 d4 d %285
+		d2 r
+		g,4 g g2
+		R1*4 %291
+		r2 g'
+		\pa d4 d d d \pd
+		d2 r
+		r \pa d4 d \pd %295
+		g2 \pa c,
+		d d \pd
+		d r
+		r \pa d4 d \pd
+		g g c, c %300
+		d d d d
+		g,2 r
+		d' r
+		d r
+		d4 d d d %305
+		g,2 g
+		g r\fermata \bar "|." %307 finis
+	}
+}

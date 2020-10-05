@@ -788,6 +788,679 @@ TremendumBassFigures = \figuremode {
 	r1 %22 finis
 }
 
+IncruentumOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/2 \tempoIncruentum
+		\mvTr f1\fE-\tutti
+		b
+		g2 es~
+		es c
+		f2. es4 %5
+		<< {
+			b'1
+			f'
+			d2 b~
+			b g
+			c2. b4 %10
+			a2 r
+		} \\ {
+			d,2 r
+			r4 d f a
+			b a g fis
+			g f e d
+			c d e d8 e %10
+			f4 c f es
+		} >>
+		d2 d4 b
+		es2. g4
+		c,2. es4
+		d2 c %15
+		b \clef "treble_8" d'4 b
+		a2 a4 f
+		b2. d4
+		g,2. b4
+		a2 g %20
+		\clef bass f1
+		b
+		g2 es~
+		es c
+		f2. es4 %25
+		d2 d4 d
+		es d es d
+		c2 c4 c
+		d c d c
+		b2 \clef "treble_8" g'' %30
+		es c~
+		c a
+		d2. c4
+		b \clef bass g a b
+		c b a g %35
+		a g fis e
+		d e fis e8 fis
+		g4 f e d
+		c d e d8 e
+		f4 e d2 %40
+		c1
+		\clef "treble_8" f'4 e d c
+		d c b a
+		b g a b
+		c d e2 %45
+		\clef bass f,1
+		c'
+		a2 f~
+		f d
+		g2. f4 %50
+		e2 e4 e
+		f e f e
+		d cis d b
+		c e f d
+		b g c c %55
+		f2 \mvTr f,\p-\solo
+		r f'
+		c' r
+		c, r
+		f f, %60
+		r f'
+		c' r
+		c, r
+		f f,
+		r f' %65
+		b, r
+		c r
+		d r
+		a r
+		b4 b b b %70
+		c c c c
+		f,2 r
+		b' r
+		a r
+		\mvTr g\f-\tutti r %75
+		r4 f g a
+		b c d b
+		g a b g
+		e b' a g
+		f2 \clef "treble_8" f' %80
+		d b~
+		b g
+		c2. b4
+		a1
+		\clef bass d, %85
+		g
+		es!2 c~
+		c a
+		d2. c4
+		b \clef "treble_8" g' a b %90
+		c d es c
+		a b c a
+		fis \clef bass d e fis
+		g a b g
+		es f g es %95
+		c d es d
+		c2 cis
+		<< {
+			\voiceTwo d4 d d d
+			d d d d
+			d d d d %100
+			d d d d
+			d d d d
+			d d d d
+			d d d d
+			d d d d %105
+			d d d d
+			d
+		} \\ {
+			\voiceOne \tieDown d,1~_\markup \remark "Pedale"
+			d~
+			d~ %100
+			d~
+			d~
+			d~
+			d~
+			d~ %105
+			d~
+			d4
+		} \\ {
+			\voiceThree d'1^\fag
+			fis
+			g %100
+			b2 d
+			cis1
+			c2 a
+			g1
+			fis %105
+			g4 a b c
+			d
+		} >> d, e fis
+		g a b g
+		r c, d es!
+		f! g a f %110
+		r b, c d
+		es f g es
+		r a, b c
+		d e fis d
+		g a b g %115
+		es f g es
+		c d es c
+		d c d d
+		g,2 r
+		R1 %120
+		r2 \mvTr as'\p-\solo
+		as as
+		as1
+		g
+		f %125
+		b,
+		es
+		es2 es
+		es4 es es es
+		es es es es %130
+		es2 es
+		r es
+		d d
+		es a,!
+		b4 b' b b %135
+		b,2 r
+		r d4 c
+		b2 d
+		es4 es' es es
+		es,2 r %140
+		r g4 f
+		es2 g
+		as4 as as as
+		as as as as
+		g g g g %145
+		d d d d
+		es2 r
+		as r
+		b4 b b b
+		b, b b b %150
+		es2 r
+		as r
+		g r
+		f\f r
+		es-\tutti \clef treble es' %155
+		b'1
+		<< {
+			b
+			es
+			c2 as~
+			as f %160
+			b2. as4
+		} \\ {
+			g2 es~
+			es c
+			f2. es4
+			d es d c %160
+			b d f2
+		} >>
+		\clef bass es,1
+		b'
+		g2 es~
+		es c %165
+		f2. es4
+		d es d c
+		b c d c8 d
+		es4 es f g
+		as g as g %170
+		f f g as
+		b a b as
+		g a h a8 h
+		c4 \clef "treble_8" c d es
+		f es d c %175
+		d c h a
+		\clef bass g1
+		c
+		as2 f~
+		f d %180
+		g2. f4
+		es2 c
+		f2. es4
+		d2 b4 b
+		g' g a! a %185
+		b b g g
+		e e e e
+		f2 f,
+		r \mvTr f'\p-\solo
+		b-!^\markup \remark "staccato" b-! %190
+		as-! as-!
+		ges ges
+		f f
+		ges ges
+		f f %195
+		es es
+		d! d
+		es es
+		des des
+		c c %200
+		a! a
+		b( c)
+		des( b)
+		f' r
+		R1 %205
+		f2 r
+		R1
+		f2 r
+		R1
+		f2 f %210
+		f r
+		\clef treble \mvTr b'1\f-\tutti
+		<< {
+			f'
+			d!2 b~
+			b g %215
+			c2. b4
+			a2 c
+		} \\ {
+			f,1
+			b
+			g! 2 es~ %215
+			es c
+			f2. es4
+		} >>
+		\clef "treble_8" b1
+		\clef bass f
+		b %220
+		g2 es~
+		es c
+		f2. es4
+		d1
+		c %225
+		b~
+		b2 d4 c
+		h a g2
+		g'2. f4
+		es d c2 %230
+		c'4 b! a! g
+		f2 b
+		es, e
+		<< {
+			f4^\vlc a b c
+			d es f d %235
+			c f, g a
+			b c d c
+			h h c d
+			es d es d
+			c a b! c %240
+			d es f d
+			c d es c
+			b c des b
+			a b c a
+			b c d! b %245
+			g a b g
+			a b a c
+			b c d b
+			f1
+		} \\ {
+			f1~
+			f~ %235
+			f~
+			f~-\tasto
+			f~
+			f~
+			f~ %240
+			f~
+			f~
+			f~
+			f~
+			f~ %245
+			f~
+			f~
+			f~
+			f
+		} >>
+		r4 b, c d %250
+		es f g es
+		r c d es
+		f g a f
+		r d es f
+		g a b g %255
+		r es c b
+		a c f a
+		b c d b
+		g a b g
+		es f g es %260
+		f es f f,
+		b2 r
+		R1*9 %271
+		\mvTr f'1\p-\solo
+		b
+		g2 es~
+		es c %275
+		f2. es4
+		d2 d'
+		es e
+		f \clef "treble_8" r4 e
+		f2 r4 e %280
+		f2 \clef bass \mvTr f,~\f-\tutti
+		f b2~
+		b g
+		es1
+		c2 f~ %285
+		f4 es d2
+		b'2. as4
+		g f es d
+		c b a! g
+		f2 b4 b %290
+		es es e e
+		f f ges ges
+		f f f f
+		b,2 \clef treble f'''4 f
+		f2 \clef bass a,,4 a %295
+		b2 es,
+		f f
+		b \clef treble f''4 f
+		f2 \clef bass a,,4 a
+		b b es, es %300
+		f f f f
+		b,2 r
+		f' r
+		f r
+		f4 f f f %305
+		b,2 b
+		b r\fermata \bar "|." %307 finis
+	}
+}
+
+IncruentumBassFigures = \figuremode {
+	<1>1
+	q
+	q2 q
+	<\t> <1>
+	q2. q4 %5
+	r1
+	r
+	r
+	r
+	r %10
+	r
+	<6>
+	r2 q4 <6 _!>
+	r2 <6>4 q
+	<5>2 <6> %15
+	r <6>
+	q1
+	r2 <6>4 <6 _+>
+	r2 <6!>4 <6>
+	<5!>2 <6!> %20
+	r1
+	r
+	<6>4 <5> <6> <5!>
+	<6> <5-> <6> <5>
+	<6>2 <5>4 <\t> %25
+	<6> <5> <6> <5>
+	<9>2 <6>
+	<6 5>1
+	<_+>2 <6 4>4 <4+ 2>
+	<6>1 %30
+	<6>4 <5> <6> <5>
+	<6> <5> <6\\> <5!>
+	<_+>2. <\t>4
+	<6>1
+	r2 <6\\>4 <6 4> %35
+	<6\\> <6 4> <5>2
+	<_+>1
+	<9>4 <\t> <5>2
+	<_!>1
+	r2 <5>4 <6> %40
+	<4>2 <_!>
+	<9>1
+	r
+	<6>2. <5>4
+	<9 _!>2 <6>4 <5> %45
+	<9>2 <8>
+	<4> <_!>
+	<6>4 <5!> <6> <5+>
+	<6> <5!> <6> <5>
+	r1 %50
+	<6>4 <5> <6> <5>
+	<[9]>2 <6>4 <6\\>
+	r2 <6>4 q
+	<7 _!>1
+	<6 5>2 <_!> %55
+	r1
+	r
+	<8 6>4 <7 5> <6 4> <[5] _!>
+	<_!>1
+	<6 4>4 <5 3> <4 2> <3 [1]> %60
+	r1
+	<8 6>4 <7 5> <6 4> <[5] _!>
+	<_!>1
+	<6 4>4 <5 [3]> <4 2> <3 [1]>
+	r1 %65
+	<9 7>4 <8 6>2.
+	<7 _!>1
+	<6 4>2 <5 [3]>
+	<6>1
+	<7>4 <6>2. %70
+	<6 4>2 <[5] _!>
+	r1
+	<4! 2>
+	<6>
+	<6!> %75
+	r
+	<9>2 <6>
+	r <6>
+	q4 <\t> <6> <6!>
+	r1 %80
+	<6>
+	q
+	<_!>
+	<7 5->
+	<_+> %85
+	r
+	r
+	r
+	<[5] _+>4 <6 4> \bo <[5] _+> \bc <[\t] \t>
+	<6> <10> q q %90
+	r1
+	r
+	<6>
+	r
+	r %95
+	<6 5> \bassFigureExtendersOn
+	q2 <6 5 _!> \bassFigureExtendersOff
+	<_+>1
+	<\t>
+	<\l 6 5>2 \bassFigureExtendersOn <\l\! 6 4> %100
+	q <9! 6 4> \bassFigureExtendersOff
+	<7+ 5 4>1
+	<9- 7! _+>
+	<\t 6 4>2 <8 \t \t>
+	<\t 6 _+> <7 5 \t> %105
+	<\t \t 4> <6 4>
+	<[5 _+]>1
+	r
+	<9>2 <\tllur>4 <6>
+	<7>1 %110
+	<9>2 <\tllur>4 <6>
+	<7>2 <6>
+	<9> <\tllur>4 <6>
+	<7 _+>2 <6>
+	<9> <6> %115
+	r1
+	<6 5>
+	<4>2 <_+>
+	r1
+	r %120
+	r2 <2>
+	r1
+	r
+	<6>
+	<7 _-> %125
+	<7->
+	<9 4->2 <[8] 3>
+	r <[7-]>
+	<6 4->2. <5 [3]>4
+	<6 4->2 <7 \t> %130
+	<8>1
+	r2 <6 4->4 <5 [3]>
+	<6 4>2 <5- [3]>
+	<9 4-> <7>
+	<6 4> <5 [3]> %135
+	r1
+	r2 <5-> \bassFigureExtendersOn
+	q \bassFigureExtendersOff <6 4>4 <5- [3]>
+	<9 4->2 <[8] 3>
+	r1 %140
+	r2 <5-> \bassFigureExtendersOn
+	q \bassFigureExtendersOff <6 4>4 <5- [3]>
+	r1
+	<4! 2>
+	<6> %145
+	q
+	r
+	<6>
+	<6 4>2. <7- 5>4
+	<6 4>2 <5 [3]> %150
+	r1
+	<2>
+	<6>
+	<6 _->
+	r1 %155
+	r
+	r
+	r
+	r
+	r %160
+	r
+	<9>2 <8>
+	<4> <3>
+	<6>1
+	q %165
+	<9 _->2 \bo <8 [\t]>4 \bc <\t [\t]>
+	<5->1
+	r
+	r
+	<3>2. \bassFigureExtendersOn q4 %170
+	<_->2. q4
+	<3>2. q4
+	<_!>2. q4 \bassFigureExtendersOff
+	r1
+	<_->2 <6!> %175
+	q <5>
+	<7 _!>2 <8 [\t]>
+	r1
+	<6>2 <[_-]>
+	<6 _->2 <[\t \t]> %180
+	<_!>1
+	<6>
+	<_!>
+	<6>
+	<6 5>2 q %185
+	<9>1
+	<7->2 <6 5>
+	r1
+	r
+	<_-> %190
+	<6 _->
+	<5->
+	<6- _->
+	<5->
+	<6! _-> %195
+	<_->
+	<6>
+	<6- [_-]>
+	<6>
+	<6! 5-> %200
+	<7->2 <6 5>
+	<9 4> <\t \t>
+	<6> <\t>
+	<_!>1
+	r %205
+	<1>
+	r
+	q
+	r
+	r %210
+	r
+	r
+	r
+	r
+	r %215
+	r
+	r
+	<9>2 <8>
+	<4> <3>
+	r1 %220
+	<6>
+	<6>2 \bo <[10] 8>4 \bc <[9] 7>
+	r2. <6>4
+	<7>2 <6>
+	<7> <6-> %225
+	<7->4 <6 4> <5 3> <6 4>
+	<7->2. \bassFigureExtendersOn q4
+	<6 5>2. q4 \bassFigureExtendersOff
+	<_!>2. <\t>4
+	<6>1 %230
+	r2 <5>
+	<7>1
+	q2 <6>4 <5>
+	r1
+	<6 4> %235
+	<5 [3]>
+	r
+	r
+	r
+	r %240
+	r
+	r
+	r
+	r
+	r %245
+	r
+	r
+	<6 4>
+	<5 4>2 <\l 3>
+	r1 %250
+	<9>2 <6>
+	r1
+	<9>2 <6>
+	r1
+	<9>2 <6> %255
+	r1
+	<6 5>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<9>2 <6>
+	r1
+	<6 5> %260
+	<4>2 <3>
+	r1*12 %273
+	<6>2 <5>4 <5!>
+	<6>1 %275
+	r2. <\t>4
+	<6>2 <\t>
+	r <6 5>
+	r2. <7->4
+	r2. q4 %280
+	r1
+	r
+	r
+	r
+	r2 <5 [3]>4 <6 4> %285
+	<5 [3]>2 <6>
+	<5 [3]>4 <6 4> \bo <5 [3]> \bc <\t [\t]>
+	<6>1
+	r2 <5>
+	<7 _!>1 %290
+	<6>2 <7->
+	r <6!>
+	<4> <3>
+	<_!>1
+	r2 <6 5> %295
+	r <6>
+	<6 4> <5 [3]>
+	r1
+	r2 <6 5>
+	r q %300
+	<6 4> <5 [3]>
+	r1
+	r
+	<6 4>
+	<6 4>2 <5 [3]> %305
+	r1
+	r %307 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
