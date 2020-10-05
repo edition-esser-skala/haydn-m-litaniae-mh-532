@@ -416,3 +416,45 @@ IncruentumClarinoI = {
 		e r\fermata \bar "|." %307 finis
 	}
 }
+
+AgnusDeiClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		c'4\p c c2
+		c r4 d
+		c8 r e e d4 d8 d
+		c8 r r4 r d8 g,
+		g4 c8 c c4 c8 c %5
+		c2 r4 d
+		c8 r e e \pao d r r4
+		g, r r d'
+		d8 r g, g g4 r
+		d'8 r g, g g4 g8 g %10
+		g4 r r2
+		r8 g g g g2
+		g8 r r4 r \pa d'8 d \pd
+		d4 r r8 g, g r
+		e\f r e r e r e16 e e e %15
+		e8 e r4 r e\p
+		e8 r c' c c\f r c r
+		c r c16 c c c c8 c r4
+		r c\p c8 r r4
+		R1*2 %21
+		r2 \pao g4 c8 r
+		r4 g8\f g g r g r
+		g r g r g r \partcombineChordsOnce d'4\p
+		c c c2 %25
+		c4 c c c8\f c
+		c4 r r2
+		r d8[ d] c r
+		r \pa d d d \partcombineChords e16 e e e d d d d \pd
+		c8 r r4 r g\p %30
+		g8 r r4 r g'8-! g,-!
+		r2 r4 g'8-! g,-!
+		g r d'4 c8 r d4
+		c8 r r4 c,8[\f c] c r
+		c8\p r c r c2 %35
+		c4 r r2\fermata \bar "|." %36 FINIS
+	}
+}

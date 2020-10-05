@@ -594,3 +594,46 @@ IncruentumOboeI = {
 		b r\fermata \bar "|." %307 finis
 	}
 }
+
+AgnusDeiOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoAgnusDei
+		f'4\p b g g,8 b
+		b r f16( b) d( f) f4 es
+		d8 b'4 d,8 c es4 a,8
+		b8 r f'4 es4. a,8
+		b4 b' g g,8 b %5
+		b r f16( b) d( f) f4 es
+		d8 b'4 d,8 c g'4 b,8
+		f'8 r c4 b4. e8
+		f r f4 d f
+		f8 r c( f) d4 f %10
+		r8 f c b a4 g
+		f8 r c'4 d f16( d) f( d)
+		c8 r c d d8.( es16) es8 ges,
+		f es' d g d4 c8 es
+		d\f r d b fis r d' g %15
+		fis fis r g4\p es8 d c
+		c b b d es\f r b d
+		es r d f es es, r es'~\p
+		es c b as as g b h
+		c\f r g as \appoggiatura as16 g8 r h d %20
+		c g' h, f' c r g' d
+		c r es4~\p es16( g) f( es) d f8 es16
+		d8 c c\f c e4 f
+		e f r a,\p
+		b8 r b'4 g g,8 b %25
+		f r b'4 ges b,8\f b
+		des f b, f' e4 es8 c
+		b f g es' es4 d
+		g,16( c) es( c) fis( g) es( c) b8 b a a
+		b r f'4\p es4. c8 %30
+		b r b'-! f-! r g-! c,-! f-!
+		r f g b r d, es a,
+		b r c4 d8 r c4
+		b8 r r4 f8[\f f] f' r
+		f,\p r f r b'2 %35
+		b4 r r2\fermata \bar "|." %36 FINIS
+	}
+}

@@ -17,7 +17,7 @@ KyrieViola = {
 		f-! a,-! r \parOn a-\parenthesize-! f'-! \parOff b,-\parenthesize-! r b
 		f' a, r g a a b b
 		a r f'4 b d,8 b
-		f' f,4 f8 g g'4 ges16( es)
+		f' f,4 f8 g g'4 ges16( es) %10
 		es8 c f es d( f) f f
 		fis16\f d fis d g d g d a' d, a' d, b' d, b' d,
 		c' d, c' d, b'8\p b, c g fis d'
@@ -690,5 +690,48 @@ IncruentumViola = {
 		f4 f f f %305
 		b,2 b
 		b r\fermata \bar "|." %307 finis
+	}
+}
+
+AgnusDeiViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoAgnusDei
+		b'8-!\p d,-! r d-! b'-! es,-! r es
+		b' d, r b b es16 d c8 c
+		b b b b b4 a8 f
+		f r b4 g' f
+		f8-! d-! r d-! b'-! es,-! r es %5
+		b' d, r b b es16 d c8 c
+		b b b b es f es d
+		d c f,4 d' c8( g')
+		f-! a,-! r \parOn a-\parenthesize-! f'-! \parOff b,-\parenthesize-! r b
+		f' a, r a f' b, r b %10
+		f' a, r g a a b b
+		a r f'4 b d,8 b
+		f' f,4 f8 g g'4 ges16( es)
+		es8 c f es d( f) f f
+		fis16\f d fis d g d g d a' d, a' d, b' d, b' d, %15
+		c' d, c' d, b'8\p b, c g fis d'
+		d r g f! es16\f b es b f' b, f' b,
+		g' b, g' b, as' b, as' b, g' es g es g8\p g,
+		as es' d b b r es d
+		c16\f g c g d' g, d' g, es' g, es' g, f' g, f' g, %20
+		es' g, es' g, d' g, d' g, es' g, es' g, f' g, f' g,
+		es' c es g c,8\p b! a! a' b es,
+		f r f\f f f f f f
+		f f f f f f r4
+		b8\p d, r d b' es, r es %25
+		b' d, r d b' es, r es\f
+		b' des, r des c c f f
+		b, b es es f f g! g
+		es r r es f16 f f f f f f f
+		b,8 r b4\p g' f %30
+		d8 r b'-! f-! r g-! c,-! f-!
+		r d es b r b f c'
+		b r f f' f2
+		f8 r r4 b,8\f b b b
+		b\p b b b b r f r %35
+		f4 r r2\fermata \bar "|." %36 FINIS
 	}
 }

@@ -869,13 +869,83 @@ IncruentumBassoLyrics = \lyricmode {
 	bis. %302 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		r2 \mvTr es8\p^\tuttiE es es4
+		d4 r8 d c4( f)
+		g8 r r f es4 f
+		b,8 b r4 r2
+		r es8 es es4 %5
+		d r8 d c4( f)
+		g8 r r f es([ d es)] e
+		f f r4 r2
+		r b,8 b b4
+		a r b8 b b4 %10
+		a4 r8 b( c) c c8. c16
+		f8 r r4 r2
+		r8 f([ es!)] d c4 c8 r
+		r a([ b)] es f4 f8 r
+		fis4\f g a8 a b b %15
+		c c, r b\p c4 d8 fis
+		g16 g g8 r4 es\f f
+		g8 g as as g g r g,\p
+		as4 b8 d es16 es es8 r4
+		c\f d es8 es r f %20
+		es8 es r d es4 f
+		es8 es r4 a,!8\p a' b es,
+		f f r4 b\f a
+		b a b8 a r4
+		r b8\p b b4 b %25
+		r b8 b b4 b
+		R1
+		f8\f as g([ es] f4) g
+		es8 es es es f2
+		b,8 r r4 r2 %30
+		r4 b8\p b b2~
+		b4 b f'2
+		b,8 r r4 r2
+		r4 b'8\f b b4 b
+		b2\p b,4 r %35
+		R1\fermataMarkup \bar "|." %36 FINIS
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	\xE A -- gnus De --
+	i, qui tol --
+	lis pec -- ca -- ta
+	mun -- di,
+	A -- gnus De -- %5
+	i, qui tol --
+	lis pec -- ca -- ta
+	mun -- di:
+	Par -- ce, par --
+	ce, par -- ce no -- %10
+	bis, no -- bis Do -- mi --
+	ne.
+	A -- gnus De -- i,
+	A -- gnus De -- i,
+	qui tol -- lis pec -- ca -- ta %15
+	mun -- di: Ex -- au -- di nos
+	Do -- mi -- ne, qui tol --
+	lis pec -- ca -- ta mun -- di: Ex -- au --
+	di nos Do -- mi -- ne.
+	A -- gnus De -- i, qui %20
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no -- bis.
+	A -- gnus De -- i, %25
+	mi -- se -- re -- re,
+
+	\x mi -- se -- re -- re,
+	\xE mi -- se -- re -- re no --
+	bis, %30
+	\x mi -- se -- re --
+	re \xE no --
+	bis,
+	mi -- se -- re -- re
+	no -- bis. %35 FINIS
+}

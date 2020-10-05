@@ -992,13 +992,83 @@ IncruentumAltoLyrics = \lyricmode {
 	bis. %302 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		r2 \mvTr g'8\pE^\tuttiE g g4
+		f4 r8 f g4( a)
+		b8 r r d, g4 c,8([ f)]
+		f f r4 r2
+		r g8 g g4 %5
+		f r8 f g4( a)
+		b8 r r f g([ h c)] g
+		f8 f r4 r2
+		r f8 f f4
+		f r f8 f f4 %10
+		f r8 f16([ d] c8) a b8. b16
+		a8 r r4 r2
+		r8 a'4 h8 h8.([ c16)] c8 r
+		r c([ b)] g f4 f8 r
+		a4\f b fis8 fis g8 b %15
+		a a r g\p es c'([ b)] a
+		a16 g g8 r4 g\f as
+		g8 g f b b es, r b'\p
+		c([ as)] g f f16 es es8 r4
+		es\f g es8 es r g %20
+		g es r f g4 d8([ g)]
+		g g r4 f8\p f f g
+		d f r4 g\f f
+		g f g8 f r4
+		r b8\p b b4 b %25
+		r b8 b b4 b
+		r2 g8\f b a4(
+		b8) d, es g a4 b
+		g8 c, c g' f2
+		f8 r r4 r2 %30
+		r r4 c8\p f
+		f4 es d( c)
+		b8 r r4 r2
+		r4 d8\f f f4. b8
+		f2\p f4 r %35
+		R1\fermataMarkup \bar "|." %36 FINIS
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	\xE A -- gnus De --
+	i, qui tol --
+	lis pec -- ca -- ta
+	mun -- di,
+	A -- gnus De -- %5
+	i, qui tol --
+	lis pec -- ca -- ta
+	mun -- di:
+	Par -- ce, par --
+	ce, par -- ce no -- %10
+	bis, \x no -- bis \xE Do -- mi --
+	ne.
+	A -- gnus De -- i,
+	A -- gnus De -- i,
+	qui tol -- lis pec -- ca -- ta %15
+	mun -- di: Ex -- au -- di nos
+	Do -- mi -- ne, qui tol --
+	lis pec -- ca -- ta mun -- di: Ex -- au --
+	di nos Do -- mi -- ne.
+	A -- gnus De -- i, qui %20
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no -- bis.
+	A -- gnus De -- i, %25
+	mi -- se -- re -- re,
+	\xE mi -- se -- re --
+	re, \x mi -- se -- re -- re,
+	mi -- se -- re -- re no --
+	bis, %30
+	mi -- se --
+	re -- re no --
+	bis,
+	mi -- se -- re -- re
+	no -- bis. %35 FINIS
+}

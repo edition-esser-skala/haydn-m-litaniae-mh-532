@@ -984,13 +984,83 @@ IncruentumSopranoLyrics = \lyricmode {
 	bis. %302 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		r4 \mvTr b'8\p^\tutti b b4 b
+		r f16([ b d f)] f4~ f16[ es d es]
+		d8 r r d c( es4) a,8
+		b f r4 r2
+		r4 b8 b b4 b %5
+		r f16([ b d f)] f4~ f16[ es d es]
+		d8 r r d c( g'4) b,8
+		b a r4 r2
+		r4 f'8 f f4 f
+		r f8 f f4 f %10
+		r c16([ f)] d([ f)] f,8[ c']~ c16[ e,] g([ e])
+		f8 r r4 r2
+		r8 c'4 d8 d8.([ es!16)] es8 r
+		r es([ d)] c b8.([ a16)] a8 r
+		d4\f d d8 d d d %15
+		d8 fis g\p g4( es8) d c
+		c16 b b8 r4 b4\f b
+		b8 b b d es b es\p es~
+		es[ c] b as as16 g g8 r4
+		g4.\f as8 \appoggiatura as16 g8 g r h %20
+		c g r h c( g'4) h,8
+		c g es'4~\p es16[ g] f([ es)] d([ f8)] es16
+		d8 c r4 e\f f
+		e f e8 f r4
+		r b,8\p b b4 b %25
+		r b8 b b4 b
+		r b8\f f' e4 es8([ c)]
+		b f g es' es4 d
+		g,16([ c)] es([ c)] fis([ g)] es([ c)] b4( a)
+		b8 r r4 r2 %30
+		r r4 f'8\p a,
+		b4 g f( es)
+		d8 r r4 r2
+		r4 f8\f f f'4. \appoggiatura es16 d8
+		\appoggiatura c16 b2\p b4 r %35
+		R1\fermataMarkup \bar "|." %36 FINIS
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus De -- i,
+	qui __ tol --
+	lis pec -- ca -- ta
+	mun -- di,
+	A -- gnus De -- i, %5
+	qui __ tol --
+	lis pec -- ca -- ta
+	mun -- di:
+	Par -- ce, par -- ce,
+	par -- ce no -- bis, %10
+	no -- bis Do -- mi --
+	ne.
+	A -- gnus De -- i,
+	A -- gnus De -- i,
+	qui tol -- lis pec -- ca -- ta %15
+	mun -- di: Ex -- au -- di nos
+	Do -- mi -- ne, qui tol --
+	lis pec -- ca -- ta mun -- di: Ex -- au --
+	di nos Do -- mi -- ne.
+	A -- gnus De -- i, qui %20
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no -- bis.
+	A -- gnus De -- i, %25
+	mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re,
+	mi -- se -- re -- re no --
+	bis, %30
+	mi -- se --
+	re -- re no --
+	bis,
+	mi -- se -- re -- re
+	no -- bis. %35 FINIS
+}

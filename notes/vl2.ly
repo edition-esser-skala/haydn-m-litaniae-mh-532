@@ -708,3 +708,46 @@ IncruentumViolinoII = {
 		b r\fermata \bar "|." %307 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoAgnusDei
+		b'8-!\p d,-! r d-! b'-! es,-! r es
+		b' d, r16 d'( f b) f-! b,( g b) a-! c( h c)
+		b-! b'( a b) d,( b) d( b) g-! es'( c g) es-! c'( es, c)
+		b8 f''~ f32( g a b) a([ b f d)] c( es f g fis[ g es c)] a([ es' c a] es c' a es)
+		d8-! f-! r d-! b'-! es,-! r es %5
+		b' d, r16 d'( f b) f-! b,( g b) a-! c( h c)
+		b-! b'( a b) d,( b) d( b) c-! c( g' h,) c( g) b( g)
+		f8 c'~ c32( d e f) e([ f c a)] g([ b c d] cis d b g)] e([ c'? b g'] e b' g b,)]
+		a8-! f-! r a,-! f'-! b,-! r b
+		f'-! a,-! c''16( a) f( c) d-! b( f d) d''( b) f( d) %10
+		c-! a( f c) c'( f) d( f) f,-! c( f c) b-! g( c b)
+		a8 a'~ a32([ g f g]) a( b c a) b([ a b c] d es f g) a([ b f d)] a'( b f d)
+		a16-! a( c a) f( a) f( h) r d h( g) c es,-! c( es)
+		c c'-\parenthesize-! es( c) b f-! g( es') r b d( f) f, f a( c)
+		d,\f d' a( a') r d, b( b') r fis, fis'( a) r g, g'( b) %15
+		r fis a( d) r32 d,(\p fis g d[ b' g d]) es-! es,( g c es,[ es' c g)] d-! b'( c b) d,-![ a'( b a)]
+		fis16( a) g-! b d,32([ b' c b]) d,( as' b as) g16\f g b( es) r as f( d)
+		r es g( b) r b f( d) r b' b( b,) r32 b(\p d es b[ b' g es)]
+		c-! c,( es as es[ es' c as)] b,-! g'( as g) b,-![ f'( g f)] d16( f) es-! g g,32([ g' as g]) g,( f' g f)
+		es16\f es' g( c) r f,, as'( h,) r g g'( c,) h( d) g( h,) %20
+		r g c( g') as( f) d( h) r g' c( g) r g g( h,)
+		r c' c( g) r32 g([\p fis g] es g, fis g) f-! c'( es g f[ d es c)] f,-! d'( f d) g,-![ g'( es c)]
+		b16( d) a-! a c-!\f a-! c-! a-! des b des b c a c a
+		des b des b c a c a des b c f, a32([\p es' c a]) es( c' a es)
+		d([ b' f d] f b c b) f'([ b f d] b f as f) g([ es g es] b' g b g) g'([ b g es] b g b g) %25
+		f([ d f d] b' f b f) b([ f' d b] as f as f) ges([ es ges es] b' ges b ges) ges'([\f b ges es]) b( ges) b( ges)
+		f([ des f des]) b'( f b f) b([ f' e f)] b( f b f) e([ b c b] c b c b) a([ es f es] f es f es)
+		d([ as b as] b as b as) g([ g' es g]) g'( es) c( b) a([ es' f es)] c'( a f es) d([ b' a b)] c( b d b)
+		r16 c,( es c) fis( g) es( c) b( d,) d d c( es) es es
+		d8 f'~\p f32( g a b) a([ b f d)] c([ es f g] fis g es c) a([ c d es] d es c a) %30
+		b8-! d,-! r d-! b'-! es,-! r c'
+		f b, r es, b' f r es
+		d32([ d' b f] d b' f d) es([ c a c] es c f es) d([ d' b f] d b' f d) es([ c a c] es c f es)
+		d8 r r4 r32 b([\f d f)] b( f) b( f) b-! d,( f b) d([ b) d( b)]
+		d16-! d\p b'( f) d( b) f( d) b8 r d r %35
+		b4 r r2\fermata \bar "|." %36 FINIS
+	}
+}

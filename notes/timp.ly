@@ -327,3 +327,42 @@ IncruentumTimpani = {
 		c r\fermata \bar "|." %307 finis
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnusDei
+		c4\p r c r
+		c r r g8 g
+		c8 r r4 r g8 g
+		c r r4 r g8 g
+		c4 r c r %5
+		c r r g8 g
+		c c c r r2
+		g4 r r2
+		g8 r r4 c8 r c c
+		g8 r r4 c8 r c c %10
+		g4 r r2
+		r8 g g g g r g g
+		g4 r r r8 c
+		g4 r r8 g g r
+		R1*2 %16
+		r2 c8\f r c r
+		c r c c c r r4
+		R1*4 %22
+		r4 g8\fE g g r g r
+		g r g r g r g\p g
+		c4 r r c8 c %25
+		c4 r r c8\f c
+		c4 r r2
+		r g8[ g] c r
+		r2 g8 g g16 g g g
+		c8 r r4 r g8\p g %30
+		c r c c c r c r
+		c r c r c c c c
+		c r g r c r g r
+		c r r4 c8\f c c c
+		c\p r c r c r c c %35
+		c4 r r2\fermata \bar "|." %36 FINIS
+	}
+}

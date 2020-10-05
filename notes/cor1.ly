@@ -459,3 +459,45 @@ IncruentumCornoI = {
 		g r\fermata \bar "|." %307 finis
 	}
 }
+
+AgnusDeiCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		r4 g'\p r g
+		r g r2
+		e'8 e d d c c d d
+		g, r d'4 e \pao d
+		r g, r g %5
+		r g r2
+		e'8 e d d c r r4
+		d r r2
+		d8[ d] d r d[ d] d r
+		d8[ d] d r d[ d] d r %10
+		d d d4 r2
+		r r8 d d d
+		d4 r8 e e4 r
+		r g,8 c d4 r
+		R1*2 %16
+		r4 c8\pE d e4\f d
+		c16 c c c d4 c r
+		r r8 d\p d[ e e, e]
+		e4\f r e8 r e r %20
+		e4 r8 e e e e16 e e e
+		e8 e r4 d'\p d8 e
+		\pao d4 r g\f \pao d
+		g \pa d g8 d \pd r4
+		r g,\p r g %25
+		r g r c\f
+		g r g' d
+		g,8 g c c d d e4
+		r8 \partcombineChords e e e \pa d d d d \pd
+		d r d4\p e \pao d %30
+		d8 r r4 c8-! c,-! r4
+		r c'8-! c,-! g''-! g,-! r4
+		r8 d' r \pao d r d r \pao d
+		d4 r r \pa g,8 g
+		g4 \pd r g2\p %35
+		g4 r r2\fermata \bar "|." %36 FINIS
+	}
+}

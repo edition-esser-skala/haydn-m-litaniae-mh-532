@@ -968,13 +968,83 @@ IncruentumTenoreLyrics = \lyricmode {
 	bis. %302 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		r2 \mvTr b8\pE^\tuttiE b b4
+		b r8 b b([ c16 b] c4)
+		b8 r r b b4( a8) es'
+		es d r4 r2
+		r b8 b b4 %5
+		b r8 b b([ c16 b] c4)
+		b8 r r b es([ f es)] d
+		d c r4 r2
+		r d8 d d4
+		c4 r d8 d d4 %10
+		c r8 g( a) f g8. g16
+		f8 r r4 r2
+		r8 f4 f8 g4 g8 r
+		r f([ f')] es d8.([ c16)] c8 r
+		d4\f d c8 c b g' %15
+		fis d r d\p g,4 fis8 d'
+		d16 d d8 r4 es\f d
+		es8 es d f es es r es\p
+		es4 d8 b b16 b b8 r4
+		c\f h c8 c r d %20
+		c c r d c4 h8([ d)]
+		c c c4~\p c16[ es] d([ c)] b([ d8)] c16
+		b8 a r4 des\f c
+		des c des8 c r4
+		r b8\p b b4 b %25
+		r b8 b b4 b
+		r2 r4 c8\f es
+		d b b c c4 b
+		c8 g g c16([ es)] d4( c)
+		b8 r r4 r2 %30
+		r r4 a8\p es'
+		d4 b d( a)
+		b8 r r4 r2
+		r4 d8\f d d4. f8
+		d2\p d4 r %35
+		R1\fermataMarkup \bar "|." %36 FINIS
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus De --
+	i, qui tol --
+	lis pec -- ca -- ta
+	mun -- di,
+	A -- gnus De -- %5
+	i, qui tol --
+	lis pec -- ca -- ta
+	mun -- di:
+	Par -- ce, par --
+	ce, par -- ce no -- %10
+	bis, no -- bis Do -- mi --
+	ne.
+	A -- gnus De -- i,
+	A -- gnus De -- i,
+	qui tol -- lis pec -- ca -- ta %15
+	mun -- di: Ex -- au -- di nos
+	Do -- mi -- ne, qui tol --
+	lis pec -- ca -- ta mun -- di: Ex -- au --
+	di nos Do -- mi -- ne.
+	A -- gnus De -- i, qui %20
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no -- bis.
+	A -- gnus De -- i, %25
+	mi -- se -- re -- re,
+	mi -- se --
+	re -- re, mi -- se -- re -- re,
+	mi -- se -- re -- re no --
+	bis, %30
+	mi -- se --
+	re -- re no --
+	bis,
+	mi -- se -- re -- re
+	no -- bis. %35 FINIS
+}

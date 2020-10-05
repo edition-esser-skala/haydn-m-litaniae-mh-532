@@ -665,6 +665,7 @@ tempoPanisVivus = \tempoMarkup "Allegro"
 tempoStupendum = \tempoMarkup "Andante"
 tempoTremendum = \tempoMarkup "Adagio"
 tempoIncruentum = \tempoMarkup "Vivace"
+tempoAgnusDei = \tempoMarkup "Largo"
 
 vlcfag = \markup \remark "vlc, fag"
 fag = \markup \remark "fag"

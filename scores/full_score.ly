@@ -375,12 +375,105 @@
 	% 		\midi { \tempo 4 = 50 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "5"
+	% 		title = "I N C R U E N T U M"
+	% 	}
+	% 	\tocLabel "incruentum" "5" "Incruentum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "ob"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\AgnusDeiOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\AgnusDeiOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
+	% 					% \transpose c es
+	% 					\partcombine \AgnusDeiCornoI \AgnusDeiCornoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 					% \transpose c b
+	% 					\partcombine \AgnusDeiClarinoI \AgnusDeiClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				% \transpose c b
+	% 				\AgnusDeiTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\AgnusDeiViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\AgnusDeiViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\AgnusDeiViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\IncruentumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \IncruentumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 110 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "5"
-			title = "I N C R U E N T U M"
+			number = "6"
+			title = "A G N U S   D E I"
 		}
-		\tocLabel "incruentum" "5" "Incruentum"
+		\tocLabel "agnusdei" "6" "Agnus Dei"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -388,11 +481,11 @@
 						\set GrandStaff.instrumentName = "ob"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\IncruentumOboeI
+							\AgnusDeiOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\IncruentumOboeII
+							\AgnusDeiOboeII
 						}
 					>>
 				>>
@@ -400,72 +493,72 @@
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
 						% \transpose c es
-						\partcombine \IncruentumCornoI \IncruentumCornoII
+						\partcombine \AgnusDeiCornoI \AgnusDeiCornoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
 						% \transpose c b
-						\partcombine \IncruentumClarinoI \IncruentumClarinoII
+						\partcombine \AgnusDeiClarinoI \AgnusDeiClarinoII
 					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = "timp"
 					% \transpose c b
-					\IncruentumTimpani
+					\AgnusDeiTimpani
 				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\IncruentumViolinoI
+							\AgnusDeiViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\IncruentumViolinoII
+							\AgnusDeiViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\IncruentumViola
+						\AgnusDeiViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \IncruentumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \IncruentumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \IncruentumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \IncruentumAltoLyrics
+					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \IncruentumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \IncruentumTenoreLyrics
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \IncruentumBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \IncruentumBassoLyrics
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\IncruentumOrgano
+						\AgnusDeiOrgano
 					}
 				>>
-				\new FiguredBass { \IncruentumBassFigures }
+				\new FiguredBass { \AgnusDeiBassFigures }
 			>>
-			\layout { }
-			\midi { \tempo 2 = 110 }
+			\layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+			\midi { \tempo 4 = 45 }
 		}
 	}
 }

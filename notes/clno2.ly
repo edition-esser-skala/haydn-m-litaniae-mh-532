@@ -416,3 +416,45 @@ IncruentumClarinoII = {
 		c r\fermata \bar "|." %307 finis
 	}
 }
+
+AgnusDeiClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		c4\p e c2
+		c r4 g'
+		c,8 r c' c c4 g8 g
+		g8 r r4 r g
+		c, e8 c c4 c8 c %5
+		c2 r4 g'
+		c,8 r c' c d r r4
+		g,, r r c'
+		g8 r g, g g4 r
+		g'8 r g, g g4 g8 g %10
+		g4 r r2
+		r8 g g g g2
+		g8 r r4 r d''8 d
+		g,4 r r8 g, g r
+		e'\f r e r e r e16 e e e %15
+		e8 e r4 r e\p
+		e8 r c c c\f r c r
+		c r c16 c c c c8 c r4
+		r c\p c8 r r4
+		R1*2 %21
+		r2 g'4 c,8 r
+		r4 g8\f g g r g r
+		g r g r g r g4\p
+		c e c2 %25
+		c4 e c c8\f c
+		c4 r r2
+		r g'8[ g] c, r
+		r d' d d c16 c c c g g g, g
+		c8 r r4 r g\p %30
+		c8 r r4 r g'8-! g,-!
+		r2 r4 g'8-! g,-!
+		c r g'4 c,8 r g'4
+		c,8 r r4 c8[\f c] c r
+		c\p r c r c2 %35
+		c4 r r2\fermata \bar "|." %36 FINIS
+	}
+}
