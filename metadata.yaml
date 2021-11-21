@@ -2,16 +2,18 @@ composer: Haydn, Johann Michael
 title: Litaniae de Venerabili Sacramento
 id: MH 532
 genre: litany
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (Es), 2 clno (B), timp (B–F), 2 vl, vla, b, org
+scoring:
+  - S, A, T, B (solo), S, A, T, B (coro),
+  - 2 ob, 2 cor (Es), 2 clno (B), timp (B–F), 2 vl, vla, b, org
 sources:
-  1:
+  A1:
     siglum: F-Pn
     shelfmark: MS-2045
-    type: autograph manuscript
     date: 1792-03-25
     rism:  840016161
     url: https://gallica.bnf.fr/ark:/12148/btv1b55006732j
-github: haydn-m-litaniae-mh-532
+    principal: true
 imslp: Litaniae_de_Venerabili_Sacramento,_MH_532_(Haydn,_Michael)
-notes:
-
+parts:
+  cor12: Corno I, II in \flat E
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
