@@ -4,7 +4,7 @@ id: MH 532
 genre: litany
 scoring:
   - S, A, T, B (solo), S, A, T, B (coro),
-  - 2 ob, 2 cor (Es), 2 clno (B), timp (B–F), 2 vl, vla, b, org
+  - 2 ob, 2 cor (\flat E), 2 clno (\flat B), timp (\flat B–F), 2 vl, vla, b, org
 sources:
   A1:
     siglum: F-Pn
