@@ -622,7 +622,7 @@ AgnusDeiOboeII = {
     d8 r f'4 es es,8 g %25
     d r f'4 es ges,8\f ges
     f4 r g8 b a4
-    b8 d, es g a4 b
+    b8 d,! es g a4 b
     g16( c) es( c) fis( g) g,( es) d8 d es es
     d r b'4\p c4. es,8 %30
     d r b'-! f-! r g-! c,-! f-!

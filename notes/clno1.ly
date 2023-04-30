@@ -431,9 +431,9 @@ AgnusDeiClarinoI = {
     r8 g g g g2
     g8 r r4 r \pa d'8 d \pd
     d4 r r8 g, g r
-    e\f r e r e r e16 e e e %15
-    e8 e r4 r e\p
-    e8 r c' c c\f r c r
+    \pa e\f r e r e r e16 e e e %15
+    e8 e \pd r4 r \pa e\p
+    e8 \pd r c' c c\f r c r
     c r c16 c c c c8 c r4
     r c\p c8 r r4
     R1*2 %21
@@ -449,8 +449,8 @@ AgnusDeiClarinoI = {
     g8 r r4 r g'8-! g,-!
     r2 r4 g'8-! g,-!
     g r d'4 c8 r d4
-    c8 r r4 c,8[\f c] c r
-    c8\p r c r c2 %35
-    c4 r r2\fermata \bar "|." %36 FINIS
+    c8 r r4 \pa c,8[\f c] c \pd r
+    \pao c8\p r \pao c r \pa c2 %35
+    c4 \pd r r2\fermata \bar "|." %36 FINIS
   }
 }

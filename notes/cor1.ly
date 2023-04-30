@@ -462,35 +462,35 @@ AgnusDeiCornoI = {
     \key c \major \time 4/4 \tempoAgnusDei
     r4 g'\p r g
     r g r2
-    e'8 e d d c c d d
-    g, r d'4 e \pao d
+    \pa e'8 e d d c c d d
+    g, \pd r d'4 e \pao d
     r g, r g %5
     r g r2
-    e'8 e d d c r r4
-    d r r2
-    d8[ d] d r d[ d] d r
-    d8[ d] d r d[ d] d r %10
-    d d d4 r2
-    r r8 d d d
-    d4 r8 e e4 r
-    r g,8 c d4 r
+    \pa e'8 e d d c \pd r r4
+    \pao d r r2
+    \pa d8 d d \pd r \pa d d d \pd r
+    \pa d8 d d \pd r \pa d d d \pd r %10
+    \pa d d d4 \pd r2
+    r r8 \pa d d d
+    d4 \pd r8 e e4 r
+    r \pa g,8 c d4 \pd r
     R1*2 %16
-    r4 c8\pE d e4\f d
+    r4 \pa \mvTr g,8\pE^\critnote d' \pd e4\f d
     c16 c c c d4 c r
-    r r8 d\p d[ e e, e]
-    e4\f r e8 r e r %20
-    e4 r8 e e e e16 e e e
-    e8 e r4 d'\p d8 e
+    r r8 d\p \pa d e e, e
+    e4\f \pd r \pao e8 r \pao e r %20
+    \pao e4 r8 \pa e e e e16 e e e
+    e8 e \pd r4 \pao d'\p d8 e
     \pao d4 r g\f \pao d
     g \pa d g8 d \pd r4
     r g,\p r g %25
     r g r c\f
-    g r g' d
-    g,8 g c c d d e4
+    g r g' \pa d
+    g,8 g c c d d e4 \pd
     r8 e e e \pa d d d d \pd
     d r d4\p e \pao d %30
-    d8 r r4 c8-! c,-! r4
-    r c'8-! c,-! g''-! g,-! r4
+    d8 r r4 \pa c8-! c,-! \pd r4
+    r \pa c'8-! c,-! \pd g''-! g,-! r4
     r8 d' r \pao d r d r \pao d
     d4 r r \pa g,8 g
     g4 \pd r g2\p %35

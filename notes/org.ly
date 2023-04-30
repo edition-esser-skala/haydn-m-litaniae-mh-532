@@ -1495,7 +1495,7 @@ AgnusDeiOrgano = {
     b r b r b b b b
     b r f r b r f r
     b r r4 b8\f b' b b
-    b\p b, b b b r b r %35
+    b\p b, b b b r b r \noBreak %35
     b4 r r2\fermata \bar "|." %36 FINIS
   }
 }
@@ -1522,7 +1522,7 @@ AgnusDeiBassFigures = \figuremode {
   r4 <8 6>8 <7- 5> <9 4-> <[8] 3>4 <6!>8
   r4 <6!> <6> <4! 2> %20
   <6> <6!> <6> <4! 2>
-  <6>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff r8 <2> <6 5> <6 4>16 <5 3> r8 <9 7>16 <8 6>
+  <6>8. \once \bassFigureExtendersOn q16 r8 <2> <6 5> <6 4>16 <5 3> r8 <9 7>16 <8 6>
   <6 4>8 <5 [3]>4. <7! 6- 4>4 <8>
   <7! 6- 4> <8> <7! 6- 4>8 <8>4.
   <_!>8 <6>4. <6 4>2 %25

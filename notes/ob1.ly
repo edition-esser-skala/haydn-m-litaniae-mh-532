@@ -608,7 +608,7 @@ AgnusDeiOboeI = {
     r8 f c b a4 g
     f8 r c'4 d f16( d) f( d)
     c8 r c d d8.( es16) es8 ges,
-    f es' d g d4 c8 es
+    f es' d g! d4 c8 es
     d\f r d b fis r d' g %15
     fis fis r g4\p es8 d c
     c b b d es\f r b d

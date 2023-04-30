@@ -1039,7 +1039,7 @@ AgnusDeiSopranoLyrics = \lyricmode {
   re -- re no -- bis.
   A -- gnus De -- i, %25
   mi -- se -- re -- re,
-  mi -- se -- re -- re
+  mi -- se -- re -- re __
   no -- bis, mi -- se -- re -- re,
   mi -- se -- re -- re no --
   bis, %30

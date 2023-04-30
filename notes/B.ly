@@ -909,7 +909,7 @@ AgnusDeiBassoNotes = {
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
-  \xE A -- gnus De --
+  A -- gnus De --
   i, qui tol --
   lis pec -- ca -- ta
   mun -- di,
@@ -936,11 +936,11 @@ AgnusDeiBassoLyrics = \lyricmode {
   A -- gnus De -- i, %25
   mi -- se -- re -- re,
 
-  \x mi -- se -- re -- re,
-  \xE mi -- se -- re -- re no --
+  mi -- se -- re -- re,
+  mi -- se -- re -- re no --
   bis, %30
-  \x mi -- se -- re --
-  re \xE no --
+  mi -- se -- re --
+  re no --
   bis,
   mi -- se -- re -- re
   no -- bis. %35 FINIS

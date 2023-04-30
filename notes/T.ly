@@ -984,7 +984,7 @@ AgnusDeiTenoreNotes = {
     r b8\p b b4 b %25
     r b8 b b4 b
     r2 r4 c8\f es
-    d b b c c4 b
+    d! b b c c4 b
     c8 g g c16([ es)] d4( c)
     b8 r r4 r2 %30
     r r4 a8\p es'
@@ -1017,7 +1017,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
   lis pec -- ca -- ta mun -- di: Ex -- au --
   di nos Do -- mi -- ne.
   A -- gnus De -- i, qui %20
-  tol -- lis pec -- ca -- ta
+  tol -- lis pec -- ca -- ta __
   mun -- di: Mi -- se -- re -- re
   no -- bis, mi -- se --
   re -- re no -- bis.

@@ -468,14 +468,14 @@ AgnusDeiCornoII = {
     r g r2
     e''8 e d d c r r4
     d r r2
-    d8[ d] d r d[ d] d r
-    d8[ d] d r d[ d] d r %10
+    d8 d d r d d d r
+    d8 d d r d d d r %10
     d d d4 r2
     r r8 d d d
     d4 r8 e, e4 r
     r g8 c d4 r
     R1*2 %16
-    r4 c,8\pE g' c4\f g
+    r4 \mvTr g,8\pE_\critnote g c4\f g
     c,16 c c c g'4 c, r
     r r8 g'\p g c, e e
     e4\f r e8 r e r %20

@@ -1008,7 +1008,7 @@ AgnusDeiAltoNotes = {
     r b8\p b b4 b %25
     r b8 b b4 b
     r2 g8\f b a4(
-    b8) d, es g a4 b
+    b8) d,! es g a4 b
     g8 c, c g' f2
     f8 r r4 r2 %30
     r r4 c8\p f
@@ -1021,9 +1021,9 @@ AgnusDeiAltoNotes = {
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
-  \xE A -- gnus De --
+  A -- gnus De --
   i, qui tol --
-  lis pec -- ca -- ta
+  lis pec -- ca -- ta __
   mun -- di,
   A -- gnus De -- %5
   i, qui tol --
@@ -1031,24 +1031,24 @@ AgnusDeiAltoLyrics = \lyricmode {
   mun -- di:
   Par -- ce, par --
   ce, par -- ce no -- %10
-  bis, \x no -- bis \xE Do -- mi --
+  bis, no -- bis Do -- mi --
   ne.
   A -- gnus De -- i,
   A -- gnus De -- i,
   qui tol -- lis pec -- ca -- ta %15
-  mun -- di: Ex -- au -- di nos
+  mun -- di: Ex -- au -- di __ nos
   Do -- mi -- ne, qui tol --
   lis pec -- ca -- ta mun -- di: Ex -- au --
   di nos Do -- mi -- ne.
   A -- gnus De -- i, qui %20
-  tol -- lis pec -- ca -- ta
+  tol -- lis pec -- ca -- ta __
   mun -- di: Mi -- se -- re -- re
   no -- bis, mi -- se --
   re -- re no -- bis.
   A -- gnus De -- i, %25
   mi -- se -- re -- re,
-  \xE mi -- se -- re --
-  re, \x mi -- se -- re -- re,
+  mi -- se -- re --
+  re, mi -- se -- re -- re,
   mi -- se -- re -- re no --
   bis, %30
   mi -- se --
