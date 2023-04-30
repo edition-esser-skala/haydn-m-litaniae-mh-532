@@ -342,7 +342,7 @@ TremendumOboeI = {
 IncruentumOboeI = {
   \relative c' {
     \clef treble
-    \key b \major \time 2/2 \tempoIncruentum
+    \twotwotime \key b \major \time 2/2 \tempoIncruentum
     R1*15 %15
     b'1\f
     f'

@@ -22,12 +22,12 @@ KyrieClarinoI = {
     r c\p c8 r r4
     R1*2
     r4 g8\f g g r g r
-    g r g r g r \once \partCombineChords d'4\p %20
+    g r g r g r d'4\p %20
     c c c2
     c4 c c c8\f c
     c4 r r2
     r d8[ d] c r
-    r \pa d d d \partCombineChords e16 e e e d d d d \pd %25
+    r \pa d d d e16 e e e d d d d \pd %25
     c8 r r4 r g\p
     g8 r r4 r g'8-! g,-!
     r2 r4 g'8-! g,-!
@@ -260,7 +260,7 @@ TremendumClarinoI = {
 IncruentumClarinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 2/2 \tempoIncruentum
+    \twotwotime \key c \major \time 2/2 \tempoIncruentum
     R1*20 %20
     r4 d'\fE d d
     c2 r
@@ -280,8 +280,8 @@ IncruentumClarinoI = {
     d2 \pd g %40
     \pao d r
     R1*4 %45
-    d2 d4 d
-    d2 r
+    \pa d2 d4 d
+    d2 \pd r
     R1*4 %51
     g,2 r
     g r
@@ -289,31 +289,31 @@ IncruentumClarinoI = {
     r2 \pao d' %55
     d r
     R1*18 %74
-    d1\fE %75
+    \pa d1\fE %75
     g
     e2 c~
     c e
-    d1
+    d1 \pd
     d2 r %80
     R1*4
-    r4 e e e %95
+    r4 e e e %85
     e2 c
     R1*2
     r4 e e e
     e2 r %90
     R1*2
-    r2 e,
-    e r
+    r2 \pa e,
+    e \pd r
     R1*4 %98
-    r4 e e e
-    e2 r %100
-    e r
+    r4 \pa e e e
+    e2 \pd r %100
+    \pao e r
     R1*3
-    r4 e e e %105
+    r4 \pa e e e %105
     e e e e
-    e2 r
+    e2 \pd r
     R1*10 %117
-    e2 e4 e
+    \pa e2 e4 e \pd
     e2 r
     R1 %120
     r2 c'\p
@@ -371,7 +371,7 @@ IncruentumClarinoI = {
     \pao e
     f2 r
     d1 %240
-    \once \partCombineChords e2 r
+    e2 r
     R1*4 %245
     g,2 r
     g r
@@ -439,12 +439,12 @@ AgnusDeiClarinoI = {
     R1*2 %21
     r2 \pao g4 c8 r
     r4 g8\f g g r g r
-    g r g r g r \once \partCombineChords d'4\p
+    g r g r g r d'4\p
     c c c2 %25
     c4 c c c8\f c
     c4 r r2
     r d8[ d] c r
-    r \pa d d d \partCombineChords e16 e e e d d d d \pd
+    r \pa d d d e16 e e e d d d d \pd
     c8 r r4 r g\p %30
     g8 r r4 r g'8-! g,-!
     r2 r4 g'8-! g,-!

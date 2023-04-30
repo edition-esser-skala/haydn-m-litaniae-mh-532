@@ -27,7 +27,7 @@ KyrieCornoI = {
     r g r c\f
     g r g' \pa d
     g,8 g c c d d e4 \pd
-    r8 \partCombineChords e e e \pa d d d d \pd %25
+    r8 e e e \pa d d d d \pd %25
     d r d4\p e \pao d
     d8 r r4 \pa c8-! c,-! \pd r4
     r \pa c'8-! c,-! \pd g''-! g,-! r4
@@ -272,10 +272,10 @@ TremendumCornoI = {
     r \tuplet 3/2 8 { e16 e e } e8 r r \tuplet 3/2 8 { c16 c c } c8 r
     r \pa \tuplet 3/2 8 { f16 f f } f8 \pd r \tuplet 3/2 8 { r16 e\f e e[ e e] e e e e[ e e] }
     e8 e r4 e\p e %15
-    \once \partCombineChords e e g8 r r4
+    e e g8 r r4
     g,8 g r4 r2
     R1
-    r4 \once \partCombineChords e'\f r e
+    r4 e'\f r e
     r8 \tuplet 3/2 8 { e16 e e } e4 r2 %20
     R1
     R\fermata \bar "||" %22 finis
@@ -285,7 +285,7 @@ TremendumCornoI = {
 IncruentumCornoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 2/2 \tempoIncruentum
+    \twotwotime \key c \major \time 2/2 \tempoIncruentum
     R1*21 %21
     r4 \pa g'\fE g g \pd
     c2 r
@@ -298,28 +298,28 @@ IncruentumCornoI = {
     e
     \pao d
     R1*3 %51
-    r2 d
-    r d
+    r2 \pao d
+    r \pao d
     R1*2 %55
-    r2 d\p
-    d r
+    r2 \pa d\p
+    d \pd r
     R1*2
-    r2 d %60
-    d r
+    r2 \pa d %60
+    d \pd r
     R1*2
-    r2 d
-    d r %65
+    r2 \pa d
+    d \pd r %65
     R1*7 %72
     e1
-    d
+    \pa d
     e\f %75
-    d2 r
-    g, r
+    d2 \pd r
+    \pao g, r
     e' r
     R1
-    d %80
+    \pa d %80
     d
-    e
+    e \pd
     R1*3 %85
     e1
     c
@@ -327,10 +327,10 @@ IncruentumCornoI = {
     e1
     c %95
     R1*12 %107
-    e2 e
-    e r
-    d d %110
-    d r
+    e2 \pa e
+    e \pd r
+    \pa d d %110
+    d \pd r
     c \pa c
     c \pd r
     R1
@@ -347,10 +347,10 @@ IncruentumCornoI = {
     c~ %130
     c~
     c
-    g2 r
+    \pao g2 r
     R1*2 %135
-    r4 g g g
-    g2 r
+    r4 \pa g g g
+    g2 \pd r
     R1*2
     r4 c c c %140
     c2 r
@@ -385,24 +385,24 @@ IncruentumCornoI = {
     g \pao d %185
     d e
     e1
-    r2 d
-    d d\p
+    r2 \pa d
+    d d\p \pd
     d1 %190
     R1*5 %195
     c1
     \pao g
     c
     R1*5 %203
-    d1~
+    \pa d1~
     d %205
     d~
     d
     d~
     d
     d2 d %210
-    d r
+    d \pd r
     R1*7 %218
-    d1\f
+    \pao d1\f
     g %220
     e2 c~
     c r
@@ -414,9 +414,9 @@ IncruentumCornoI = {
     e'2 e4 e
     e2 r %230
     R1*3
-    d2 d4 d
+    \pa d2 d4 d
     d2 d %235
-    d r
+    d \pd r
     R1*13 %249
     g,1 %250
     c
@@ -425,17 +425,17 @@ IncruentumCornoI = {
     \pao d
     g
     e
-    c2. c4 %260
+    c2. \pa c4 %260
     d c d d
-    g,2 r
+    g,2 \pd r
     R1*18 %280
-    r2 d'~\fE
-    d g~
+    r2 \pa d'~\fE
+    d \pd g~
     g e
     c1
-    r2 d4 d %285
-    d2 r
-    g,4 g g2
+    r2 \pa d4 d %285
+    d2 \pd r
+    \pa g,4 g g2 \pd
     R1*4 %291
     r2 g'
     \pa d4 d d d \pd
@@ -445,14 +445,14 @@ IncruentumCornoI = {
     d d \pd
     d r
     r \pa d4 d \pd
-    g g c, c %300
+    g g \pa c, c %300
     d d d d
-    g,2 r
-    d' r
-    d r
-    d4 d d d %305
+    g,2 \pd r
+    \pao d' r
+    \pao d r
+    \pa d4 d d d %305
     g,2 g
-    g r\fermata \bar "|." %307 finis
+    g \pd r\fermata \bar "|." %307 finis
   }
 }
 
@@ -487,7 +487,7 @@ AgnusDeiCornoI = {
     r g r c\f
     g r g' d
     g,8 g c c d d e4
-    r8 \partCombineChords e e e \pa d d d d \pd
+    r8 e e e \pa d d d d \pd
     d r d4\p e \pao d %30
     d8 r r4 c8-! c,-! r4
     r c'8-! c,-! g''-! g,-! r4

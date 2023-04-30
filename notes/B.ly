@@ -527,8 +527,8 @@ IncruentumBassoNotes = {
     des1
     c %200
     a!
-    b2( c
-    des) b
+    b2 c
+    des b
     f' r
     f f %205
     f1
@@ -659,7 +659,7 @@ IncruentumBassoLyrics = \lyricmode {
   _ re no -- %55
   bis.
 
-  \xE Dul -- %59
+  Dul -- %59
   cis -- si -- %60
   mum con --
   vi -- vi -- um,
@@ -672,11 +672,11 @@ IncruentumBassoLyrics = \lyricmode {
   mi -- se --
   re -- re %70
   no --
-  bis. \x
+  bis.
 
   Mi -- se -- %76
   re -- _ _ _
-  _ _ re
+  _ _ re __
   no --
   bis, %80
 
@@ -690,7 +690,7 @@ IncruentumBassoLyrics = \lyricmode {
   mi -- se -- %93
   re -- _ _ _
   _ _ _ _ %95
-  _ _ re
+  _ _ re __
   no --
   bis,
   mi --
@@ -702,7 +702,7 @@ IncruentumBassoLyrics = \lyricmode {
   re %105
   no --
   bis, mi -- se --
-  re -- re
+  re -- re __
   no --
   bis, %110
   mi --
@@ -711,11 +711,11 @@ IncruentumBassoLyrics = \lyricmode {
   re, mi -- se --
   re -- %115
   _
-  _ _ re
+  _ _ re __
   no --
   bis.
   %120
-  \xE Spi --
+  Spi --
   ri -- tu --
   a --
   lis dul --
@@ -745,7 +745,7 @@ IncruentumBassoLyrics = \lyricmode {
   re -- re
   no --
   _ %150
-  bis. \x
+  bis.
 
   Re -- %162
   fe -- cti --
@@ -757,7 +757,7 @@ IncruentumBassoLyrics = \lyricmode {
   rum, mi -- se --
   re -- %170
   re, mi -- se --
-  re -- re
+  re -- re __
   no --
   bis,
 
@@ -774,7 +774,7 @@ IncruentumBassoLyrics = \lyricmode {
   no --
   bis.
 
-  \xE Vi -- %190
+  Vi -- %190
   a -- ti --
   cum,
 
@@ -783,18 +783,18 @@ IncruentumBassoLyrics = \lyricmode {
   cum,
   in
   Do -- mi --
-  no \x
+  no
   mo -- %200
   ri --
-  en --
-  ti --
+  en -- _
+  _ ti --
   um,
   mi -- se -- %205
   re --
   re
-  \xE no --
+  no --
 
-  bis. \x %210
+  bis. %210
 
   Pi -- %219
   gnus %220
@@ -828,7 +828,7 @@ IncruentumBassoLyrics = \lyricmode {
   re
   no --
   bis, %250
-  \xE mi -- se --
+  mi -- se --
   re --
   re
   no -- bis,
@@ -837,9 +837,9 @@ IncruentumBassoLyrics = \lyricmode {
   re, __
   mi --
   se --
-  re -- re %260
+  re -- re __ %260
   no --
-  bis. \x
+  bis.
 
   Pi -- %281
   gnus __
@@ -848,14 +848,14 @@ IncruentumBassoLyrics = \lyricmode {
   rae glo -- %285
   ri -- ae,
   glo -- ri --
-  ae, mi -- se --
+  ae, __ mi -- se --
   re --
   re, mi -- %290
   se --
   re -- re
   no --
   bis,
-  \xE mi -- se -- %295
+  mi -- se -- %295
   re -- re
   no --
   bis,

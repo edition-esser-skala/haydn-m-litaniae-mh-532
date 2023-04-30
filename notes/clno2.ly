@@ -260,7 +260,7 @@ TremendumClarinoII = {
 IncruentumClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 2/2 \tempoIncruentum
+    \twotwotime \key c \major \time 2/2 \tempoIncruentum
     R1*20 %20
     r4 g'\fE g g
     c,2 r

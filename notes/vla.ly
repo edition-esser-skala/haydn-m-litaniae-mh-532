@@ -403,7 +403,7 @@ TremendumViola = {
 IncruentumViola = {
   \relative c' {
     \clef alto
-    \key b \major \time 2/2 \tempoIncruentum
+    \twotwotime \key b \major \time 2/2 \tempoIncruentum
     R1*5 %5
     b1\f
     f'

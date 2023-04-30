@@ -732,7 +732,7 @@ IncruentumTenoreLyrics = \lyricmode {
   re,
   mi -- se --
   re -- _ _ _
-  _ _ re
+  _ _ re __
   no -- _ _ _ %45
   _ _ bis,
   mi -- se --
@@ -793,13 +793,13 @@ IncruentumTenoreLyrics = \lyricmode {
   re -- _ _
   _ _
   _ _ _ %110
-  re
+  re __
   no --
   _
   bis, mi -- se --
   re -- %115
   _
-  _ re
+  _ re __
   no --
   bis.
   %120
@@ -847,7 +847,7 @@ IncruentumTenoreLyrics = \lyricmode {
   re --
   re, mi -- se --
   re -- _ _ _ %175
-  _ _ re
+  _ _ re __
   no --
   bis,
   mi -- se --
@@ -891,13 +891,13 @@ IncruentumTenoreLyrics = \lyricmode {
   ae, mi --
   se --
   re -- %225
-  _ re
+  _ re __
   no --
   bis, mi -- se --
   re -- re,
   mi -- %230
   se -- re --
-  re
+  re __
   no --
   bis, mi -- se --
   re -- _ _ _ %235
@@ -913,7 +913,7 @@ IncruentumTenoreLyrics = \lyricmode {
   re, __ %245
   mi --
   se --
-  re -- re
+  re -- re __
   no --
   bis, %250
   mi -- se --
@@ -944,7 +944,7 @@ IncruentumTenoreLyrics = \lyricmode {
   no --
   bis,
   mi -- se -- %295
-  re -- re
+  re -- re __
   no --
   bis,
   mi -- se --

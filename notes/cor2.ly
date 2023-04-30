@@ -285,7 +285,7 @@ TremendumCornoII = {
 IncruentumCornoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 2/2 \tempoIncruentum
+    \twotwotime \key c \major \time 2/2 \tempoIncruentum
     R1*21 %21
     r4 g'\fE g g
     c,2 r

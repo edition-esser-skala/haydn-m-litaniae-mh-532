@@ -787,7 +787,7 @@ TremendumBassFigures = \figuremode {
 IncruentumOrgano = {
   \relative c {
     \clef bass
-    \key b \major \time 2/2 \tempoIncruentum
+    \twotwotime \key b \major \time 2/2 \tempoIncruentum
     \mvTr f1\fE-\tutti
     b
     g2 es~
@@ -1295,12 +1295,12 @@ IncruentumBassFigures = \figuremode {
   <9 4-> <7>
   <6 4> <5 [3]> %135
   r1
-  r2 <5-> \bassFigureExtendersOn
-  q \bassFigureExtendersOff <6 4>4 <5- [3]>
+  r2 <5-> \once \bassFigureExtendersOn
+  q <6 4>4 <5- [3]>
   <9 4->2 <[8] 3>
   r1 %140
-  r2 <5-> \bassFigureExtendersOn
-  q \bassFigureExtendersOff <6 4>4 <5- [3]>
+  r2 <5-> \once \bassFigureExtendersOn
+  q <6 4>4 <5- [3]>
   r1
   <4! 2>
   <6> %145
@@ -1415,7 +1415,7 @@ IncruentumBassFigures = \figuremode {
   r1
   <9>2 <6> %255
   r1
-  <6 5>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <6 5>2. \once \bassFigureExtendersOn q4
   <9>2 <6>
   r1
   <6 5> %260

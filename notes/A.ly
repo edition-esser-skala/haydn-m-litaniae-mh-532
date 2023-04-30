@@ -728,7 +728,7 @@ IncruentumAltoLyrics = \lyricmode {
   re, mi -- se --
   re -- _ _ _ %30
   _ _ _ _
-  _ _ re
+  _ _ re __
   no --
   bis,
   mi -- se -- %35
@@ -753,7 +753,7 @@ IncruentumAltoLyrics = \lyricmode {
   _ re no --
   _ %55
   bis.
-  \xE Dul --
+  Dul --
   cis -- si --
   mum con --
   vi -- vi -- %60
@@ -768,7 +768,7 @@ IncruentumAltoLyrics = \lyricmode {
   mi -- se --
   re -- re %70
   no --
-  bis. \x
+  bis.
 
   Mi -- %76
   se --
@@ -779,7 +779,7 @@ IncruentumAltoLyrics = \lyricmode {
   _ _ _ _
   _ _ _ _
   _ _ _ _
-  _ _ re %85
+  _ _ re __ %85
   no --
   bis,
 
@@ -813,7 +813,7 @@ IncruentumAltoLyrics = \lyricmode {
   re __
   no --
   _
-  bis. \xE Spi --
+  bis. Spi --
   ri -- tu -- %120
   a --
 
@@ -825,40 +825,40 @@ IncruentumAltoLyrics = \lyricmode {
   pro -- pri --
   o, in %130
   pro -- pri -- o
-  fon -- te
+  fon -- te __
   de -- _
   gu --
   sta -- ta, %135
   mi -- se --
   re --
-  _ re
+  _ re __
   no -- bis,
   mi -- se -- %140
   re --
-  _ re,
+  _ re, __
   mi --
   se --
   re -- %145
   re,
   mi -- se --
-  re -- re
+  re -- re __
   no -- _ _
   _ _ %150
-  bis. \x
+  bis.
 
   Re -- %155
   fe -- cti --
   o a --
   ni --
   ma --
-  rum san -- %160
+  rum __ san -- %160
   cta -- _ _
   _
   _
   rum,
   mi -- %165
   se --
-  re -- re
+  re -- re __
   no --
   bis,
   re -- %170
@@ -880,7 +880,7 @@ IncruentumAltoLyrics = \lyricmode {
   re -- re
   no --
   bis.
-  \xE Vi --
+  Vi --
   a -- %190
   ti --
   cum,
@@ -901,7 +901,7 @@ IncruentumAltoLyrics = \lyricmode {
   re -- re
   no -- _
   _ _
-  bis. \x %210
+  bis. %210
 
   Pi -- %213
   gnus
@@ -948,11 +948,11 @@ IncruentumAltoLyrics = \lyricmode {
   se -- %255
   re --
   re,
-  \xE mi --
+  mi --
   se --
-  re -- re %260
+  re -- re __ %260
   no --
-  bis. \x
+  bis.
 
   Mi -- se -- re -- %282
   re, mi -- se --
@@ -967,7 +967,7 @@ IncruentumAltoLyrics = \lyricmode {
   no -- _
   _
   bis,
-  \xE mi -- se -- %295
+  mi -- se -- %295
   re -- re
   no --
   bis,

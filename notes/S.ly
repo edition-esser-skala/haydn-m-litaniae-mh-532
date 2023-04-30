@@ -758,7 +758,7 @@ IncruentumSopranoLyrics = \lyricmode {
   mi -- ni --
   stran -- tes,
   mi -- se --
-  re -- re %70
+  re -- re __ %70
   no --
   bis.
 
@@ -818,23 +818,23 @@ IncruentumSopranoLyrics = \lyricmode {
   pro -- pri --
   o, in %130
   pro -- pri -- o
-  fon -- te
+  fon -- te __
   de -- _
   gu --
   sta -- ta, %135
   mi -- se --
   re --
-  _ re
+  _ re __
   no -- bis,
   mi -- se -- %140
   re --
-  _ re,
+  _ re, __
   mi --
   se --
   re -- %145
   re,
   mi -- se --
-  re -- re
+  re -- re __
   no -- _ _
   _ _ %150
   bis.
@@ -847,7 +847,7 @@ IncruentumSopranoLyrics = \lyricmode {
   rum san --
   cta -- rum,
   mi -- se --
-  re -- re %165
+  re -- re __ %165
   no --
   bis,
   re --
@@ -918,7 +918,7 @@ IncruentumSopranoLyrics = \lyricmode {
   bis, mi -- se --
   re -- %235
   re, mi -- se --
-  re -- re
+  re -- re __
   no --
 
   bis, __ %240
@@ -960,7 +960,7 @@ IncruentumSopranoLyrics = \lyricmode {
   _
   bis, mi -- se --
   re -- %295
-  _ re
+  _ re __
   no --
   bis, mi -- se --
   re --

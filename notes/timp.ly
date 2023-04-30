@@ -218,7 +218,7 @@ TremendumTimpani = {
 IncruentumTimpani = {
   \relative c {
     \clef bass
-    \key c \major \time 2/2 \tempoIncruentum
+    \twotwotime \key c \major \time 2/2 \tempoIncruentum
     R1*20 %20
     g2\fE g4 g
     c2 r
