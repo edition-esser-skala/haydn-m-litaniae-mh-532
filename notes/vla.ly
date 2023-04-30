@@ -367,7 +367,7 @@ StupendumViola = {
     g( b,) g g a4 r
     r8 fis\p d'( b) a4 r
     r8 fis d'( b) a4 d,8 d
-    d2 r\fermata \bar "|." %85 finis
+    d2 r\fermata \bar "||" %85 finis
   }
 }
 

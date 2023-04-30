@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
@@ -7,8 +7,8 @@
   \bookpart {
     \section "1" "Kyrie eleison"
     \addTocLabel "kyrie"
-    \paper { indent = 3\cm }
-    \score {
+    \paper { indent = 3\cm ragged-last = ##t }
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -27,17 +27,17 @@
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "E" "flat"
             % \transpose c es
-            \partCombine \KyrieCornoI \KyrieCornoII
+            \partCombine #'(0 . 10) \KyrieCornoI \KyrieCornoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "B" "flat"
-            % \transpose c b
-            \partCombine \KyrieClarinoI \KyrieClarinoII
+            % \transpose c b,
+            \partCombine #'(0 . 10) \KyrieClarinoI \KyrieClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimp "B" "flat" "F" ""
-          % \transpose c b
+          % \transpose c b,
           \KyrieTimpani
         }
         \new StaffGroup <<
@@ -91,14 +91,14 @@
         >>
         \new FiguredBass { \KyrieBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
       \midi { \tempo 4 = 45 }
     }
   }
   \bookpart {
     \section "2" "Panis vivus"
     \addTocLabel "panis"
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -117,17 +117,17 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
             % \transpose c es
-            \partCombine \PanisVivusCornoI \PanisVivusCornoII
+            \partCombine #'(0 . 10) \PanisVivusCornoI \PanisVivusCornoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            % \transpose c b
-            \partCombine \PanisVivusClarinoI \PanisVivusClarinoII
+            % \transpose c b,
+            \partCombine #'(0 . 10) \PanisVivusClarinoI \PanisVivusClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          % \transpose c b
+          % \transpose c b,
           \PanisVivusTimpani
         }
         \new StaffGroup <<
@@ -188,7 +188,7 @@
   \bookpart {
     \section "3" "Stupendum"
     \addTocLabel "stupendum"
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -207,17 +207,17 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
             % \transpose c es
-            \partCombine \StupendumCornoI \StupendumCornoII
+            \partCombine #'(0 . 10) \StupendumCornoI \StupendumCornoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            % \transpose c b
-            \partCombine \StupendumClarinoI \StupendumClarinoII
+            % \transpose c b,
+            \partCombine #'(0 . 10) \StupendumClarinoI \StupendumClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          % \transpose c b
+          % \transpose c b,
           \StupendumTimpani
         }
         \new StaffGroup <<
@@ -260,7 +260,7 @@
   \bookpart {
     \section "4" "Tremendum"
     \addTocLabel "tremendum"
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -279,17 +279,17 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
             % \transpose c es
-            \partCombine \TremendumCornoI \TremendumCornoII
+            \partCombine #'(0 . 10) \TremendumCornoI \TremendumCornoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            % \transpose c b
-            \partCombine \TremendumClarinoI \TremendumClarinoII
+            % \transpose c b,
+            \partCombine #'(0 . 10) \TremendumClarinoI \TremendumClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          % \transpose c b
+          % \transpose c b,
           \TremendumTimpani
         }
         \new StaffGroup <<
@@ -350,7 +350,7 @@
   \bookpart {
     \section "5" "Incruentum"
     \addTocLabel "incruentum"
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -369,17 +369,17 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
             % \transpose c es
-            \partCombine \IncruentumCornoI \IncruentumCornoII
+            \partCombine #'(0 . 10) \IncruentumCornoI \IncruentumCornoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            % \transpose c b
-            \partCombine \IncruentumClarinoI \IncruentumClarinoII
+            % \transpose c b,
+            \partCombine #'(0 . 10) \IncruentumClarinoI \IncruentumClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          % \transpose c b
+          % \transpose c b,
           \IncruentumTimpani
         }
         \new StaffGroup <<
@@ -440,7 +440,7 @@
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocLabel "agnusdei"
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -459,17 +459,17 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
             % \transpose c es
-            \partCombine \AgnusDeiCornoI \AgnusDeiCornoII
+            \partCombine #'(0 . 10) \AgnusDeiCornoI \AgnusDeiCornoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            % \transpose c b
-            \partCombine \AgnusDeiClarinoI \AgnusDeiClarinoII
+            % \transpose c b,
+            \partCombine #'(0 . 10) \AgnusDeiClarinoI \AgnusDeiClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          % \transpose c b
+          % \transpose c b,
           \AgnusDeiTimpani
         }
         \new StaffGroup <<
@@ -523,7 +523,7 @@
         >>
         \new FiguredBass { \AgnusDeiBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
       \midi { \tempo 4 = 45 }
     }
   }

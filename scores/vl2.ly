@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "vl 2")
@@ -8,7 +8,11 @@
   \bookpart {
     \section "1" "Kyrie eleison"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper {
+      indent = 2\cm
+      systems-per-page = #7
+      page-count = #2
+    }
     \score {
       <<
         \new Staff {
@@ -31,7 +35,6 @@
   \bookpart {
     \section "3" "Stupendum"
     \addTocEntry
-    \paper { page-count = #4 }
     \score {
       <<
         \new Staff { \StupendumViolinoII }
@@ -41,6 +44,11 @@
   \bookpart {
     \section "4" "Tremendum"
     \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #16.5
+      system-system-spacing.minimum-distance = #16.5
+      systems-per-page = #10
+    }
     \score {
       <<
         \new Staff { \TremendumViolinoII }

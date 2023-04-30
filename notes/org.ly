@@ -906,7 +906,7 @@ IncruentumOrgano = {
       d d d d
       d
     } \\ {
-      \voiceOne \tieDown d,1~_\markup \remark "Pedale"
+      \voiceOne \tieDown \mvTr d,1~_\markup \remark "Pedale"
       d~
       d~ %100
       d~

@@ -1,9 +1,12 @@
-\version "2.22.0"
+\version "2.24.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-init-toc #t)
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
+
+
+vlcfag = \markup \remark "vlc, fag"
+fag = \markup \remark "fag"
 
 
 tempoKyrie = \tempoMarkup "Largo"
@@ -12,9 +15,6 @@ tempoStupendum = \tempoMarkup "Andante"
 tempoTremendum = \tempoMarkup "Adagio"
 tempoIncruentum = \tempoMarkup "Vivace"
 tempoAgnusDei = \tempoMarkup "Largo"
-
-vlcfag = \markup \remark "vlc, fag"
-fag = \markup \remark "fag"
 
 
 \include "notes/ob1.ly"

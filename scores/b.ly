@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "b")
@@ -39,6 +39,7 @@
   \bookpart {
     \section "4" "Tremendum"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \TremendumOrgano }

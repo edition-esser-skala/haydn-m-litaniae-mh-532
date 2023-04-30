@@ -15,6 +15,7 @@ sources:
     url: https://gallica.bnf.fr/ark:/12148/btv1b55006732j
     license: custom (free for non-commercial purposes)
     principal: true
+    notes: parts for cor (\textit{Kyrie}, \textit{Panis vivus}, \textit{Incruentum}, and \textit{Agnus Dei}) and timp (all~movements) are entered on five additional pages, which are also dated~1792
 imslp: Litaniae_de_Venerabili_Sacramento,_MH_532_(Haydn,_Michael)
 parts:
   cor12: Corno I, II in \flat E

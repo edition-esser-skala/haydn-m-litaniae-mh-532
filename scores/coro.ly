@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 \include "score_settings/coro.ly"
@@ -81,7 +81,11 @@
   \bookpart {
     \section "3" "Stupendum"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
     \score {
       <<
         \new ChoirStaff <<
