@@ -315,7 +315,7 @@ StupendumViolinoI = {
     ges4.( f8) ges4.( f8) %30
     ges4.( f8) f f( b) d!
     d16( h c h) c( g') es( c) f( b) d, d c( es) c c
-    d8 b( d) f f16( d es c) es( c) g'( es)
+    d8 b( d) f f16( d es d) es( c) g'( es)
     d8 d4 d f8-! b-! d-!
     c,16(\fz es) es es es,( a) a a b b'8\ff f d es32[ c] %35
     f16 b8 f d es32[ c] f16( d') \appoggiatura c32 b16 a32 b \appoggiatura a g16[ b32 g] \appoggiatura f32 es16 d32 c

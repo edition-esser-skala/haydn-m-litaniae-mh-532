@@ -306,9 +306,9 @@ StupendumTenoreNotes = {
 StupendumTenoreLyrics = \lyricmode {
   Stu -- %9
   pen -- dum, stu -- pen -- dum %10
-  su -- pra o -- mni -- a mi --
-  ra -- cu -- \xE lum, \x
-  mi -- se -- re -- re,
+  su -- pra o -- mni -- a __ mi --
+  ra -- cu -- lum,
+  mi -- se -- re -- re, __
   mi -- se -- re -- re no -- bis.
   Sa -- cra -- %15
   tis -- si -- ma Do -- mi -- ni -- cae
@@ -320,7 +320,7 @@ StupendumTenoreLyrics = \lyricmode {
   re -- re, mi -- se --
   re -- _ _
   _ _ _ _
-  _ re no -- bis. %25
+  _ re __ no -- bis. %25
 
   Do -- num __ trans -- cen -- dens, trans --
   cen -- dens o -- mnem,
@@ -351,7 +351,7 @@ StupendumTenoreLyrics = \lyricmode {
   stis -- si -- mum my --
   ste -- ri -- um, __
   mi -- se -- %55
-  re -- re, mi -- se --
+  re -- re, __ mi -- se --
   re -- re no --
   bis, mi -- se --
   re -- re, mi -- se --

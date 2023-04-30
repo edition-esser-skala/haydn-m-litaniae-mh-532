@@ -405,7 +405,7 @@ TremendumAltoNotes = {
 }
 
 TremendumAltoLyrics = \lyricmode {
-  \xE Tre -- men -- dum, tre -- %2
+  Tre -- men -- dum, tre -- %2
   men -- dum ac vi --
   vi -- fi -- cum, vi -- vi -- fi -- cum Sa -- cra --
   men -- tum, mi -- se -- %5

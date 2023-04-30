@@ -657,15 +657,15 @@ StupendumBassFigures = \figuremode {
   r8 <[6]> <6 5>2 <[6]>4
   <2> <6> q2
   <[6 5]>4. <5>8 r2
-  r2 r8 \bo <[6 5]>4 \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff %15
+  r2 r8 \bo <[6 5]>4 \once \bassFigureExtendersOn \bc q8 %15
   r1
   r8 <[5!] _+>2..
   <9>4 <5>8 <[_!]> <9>4. <6>8
-  <6 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_!> <6 5> <4> <_!>
+  <6 5>4. \once \bassFigureExtendersOn q8 <_!> <6 5> <4> <_!>
   r2 <6 3>8 \bassFigureExtendersOn <6 _!> <6 3> \bassFigureExtendersOff <6>8 %20
   <[_!]>4 <6>8 <4! _-> <6> \bo <[_! _]> <7> \bc <[6 5-]>
   r4. <6\\>8 <_!>4 \bo <[7 _]>8 \bc <[6 5!]>
-  r <6!> <6>4. <_!>8 \bo <[7 _]> \bc <[6 5-]>
+  r <6!> <6>4. <_!>8 \bo <[7 _-]> \bc <[6 5-]>
   r4 <[6 5]>2.
   <6>4 <6 4>8 <[5] _!> r4 <[6]>8 <7> %25
   r4 \bo <[6]>8 <6!> <6>4 \bc <[_!]>
@@ -693,7 +693,7 @@ StupendumBassFigures = \figuremode {
   <[6 5]>4. <5>8 r2
   <7>1
   <7->2 <6 4>8 <5 [3]>4. %50
-  r2 r8 \bo <[6 5-]>4 \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff
+  r2 r8 \bo <[6 5-]>4 \once \bassFigureExtendersOn \bc q8
   r1
   <7->2 <5>
   <7>4. <6>8 r2
@@ -703,7 +703,7 @@ StupendumBassFigures = \figuremode {
   r2 <6 3>8 \bassFigureExtendersOn <6 3\!> q \bassFigureExtendersOff <6>
   r4 <6>8 <4! _-> <6>4 \bo <[7 _]>8 \bc <[6 5-]>
   r4. <6!>8 <_!>4 \bo <[7 _]>8 \bc <[6 5-]> %60
-  r <6!> <6>2 \bo <[7 _]>8 \bc <[6 5-]>
+  r <6!> <6>2 \bo <[7 _-]>8 \bc <[6 5-]>
   r4 <[6 5]>2 <6>4
   r4. <2>8 <[6]>4 <6 5>
   r4 \bo <[6]>8 <6> \bc <[6]>2
@@ -722,11 +722,11 @@ StupendumBassFigures = \figuremode {
   <6 4>2 <\t \t>
   <5 4>4 <\t 3> r4. <6 4>16 <5 [3]>
   <[6]>4. <6 4>16 <5 [3]> <[6]>2
-  \bo <[6 _]>4 <[6 5]>2. %80
+  \bo <[6 _]>4 \bc <[6 5]>2. %80
   r <6\\>4
   <\t>2 <[5!] _+>
-  r4 <6 4>8 <7\\ \t> <[8 5!] _+>2
-  r4 <6 4>8 <7\\ \t> <[8 5!] _+>2
+  r4 <6 4>8 <7\\ \t> <[5!] _+>2
+  r4 <6 4>8 <7\\ \t> <[5!] _+>2
   r1 %85 finis
 }
 
@@ -763,7 +763,7 @@ TremendumBassFigures = \figuremode {
   <2+>2. \bassFigureExtendersOn q16. q32 \bassFigureExtendersOff <6 5>8
   r4 <6> <7>8 <6\\> <4\+ 3>4
   <7>8 <6> <\t>4 <6 5>8 <\t \t> <3> <\t>
-  <6 4> <[5] _+> <\t \t>4 <6 5> <3>8 <\t>
+  <6 4> \bo <[5] _+> \bc <[\t] \t>4 <6 5> <3>8 <\t>
   <6 4> <[5] _+> r4 <_!> <6 5 [_!]> %5
   r <6! 5>8 <\t \t> <6 4>4 <[5] _+>
   r2 <7>16 <6\\> r4.

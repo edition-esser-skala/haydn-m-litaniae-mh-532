@@ -206,8 +206,8 @@ StupendumCornoI = {
     d8\f d4 \pao g,8 g g r4
     g8 c r \pao g c4 g8 r %5
     g g r \pao g d'4 g,8 r
-    r2 r8 e' c g
-    e e' c g c r c r
+    r2 r8 \pa e' c g
+    e e' c g \pd c r c r
     r e f d \pa c g g \pd r
     R1*3 %12
     g'2\p g
@@ -220,7 +220,7 @@ StupendumCornoI = {
     r2 r4 r8 \pa d\fz
     d d d d \pd d r r \pao d\ffE %35
     d r r \pao d d r c r
-    g e' c d g,4 r
+    \pa g e' c d g,4 \pd r
     R1*3 %40
     r2 c\p
     c1
@@ -236,7 +236,7 @@ StupendumCornoI = {
     R1*9 %61
     c8 r d r c r c r
     c r r4 r r8 g'\f
-    \partCombineChords e c \pd r \pao g c([ e)] \once \partCombineChords d r
+    e c r \pao g c([ e)] d r
     g,\p g r \pao g d'4 g,8 r %65
     R1
     g2~ g8 r r4
@@ -246,9 +246,9 @@ StupendumCornoI = {
     g1
     g4 r r2
     R1*2 %76
-    g8 r g r g2
+    \pao g8 r \pao g r \pa g2
     g8\fz g g g g e'\ff c g
-    e e' c g c r c r
+    e e' c g \pd c r c r
     r e f d c2~\fp %80
     c2. e8\f e
     e4 r r2
@@ -270,7 +270,7 @@ TremendumCornoI = {
     R1
     \tuplet 3/2 8 { g16\p g g g[ g g] } g8 r r \tuplet 3/2 8 { c16 c c } c8 r
     r \tuplet 3/2 8 { e16 e e } e8 r r \tuplet 3/2 8 { c16 c c } c8 r
-    r \tuplet 3/2 8 { \pa f16 f f } f8 \pd r \tuplet 3/2 8 { r16 e\f e e[ e e] e e e e[ e e] }
+    r \pa \tuplet 3/2 8 { f16 f f } f8 \pd r \tuplet 3/2 8 { r16 e\f e e[ e e] e e e e[ e e] }
     e8 e r4 e\p e %15
     \once \partCombineChords e e g8 r r4
     g,8 g r4 r2
