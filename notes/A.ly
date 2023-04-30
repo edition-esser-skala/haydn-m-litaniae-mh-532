@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieAltoNotes = {
   \relative c' {
@@ -32,12 +32,12 @@ KyrieAltoNotes = {
     f8 r r4 r2
     r r4 c8\p f
     f4 es d( c)
-    b8 r r4 r2 \bar "|" \time 3/4 %29 finis
+    b8 r r4 r2 \bar "||" %29 finis
   }
 }
 
 KyrieAltoLyrics = \lyricmode {
-  \xE Ky -- ri --
+  Ky -- ri --
   e e -- lei --
   son,
   Chri --
@@ -59,8 +59,8 @@ KyrieAltoLyrics = \lyricmode {
   re -- re no -- bis. %20
   San -- cta Tri -- ni -- tas,
   u -- nus De -- us,
-  \x mi -- se -- re --
-  re, \xE mi -- se -- re -- re,
+  mi -- se -- re --
+  re, mi -- se -- re -- re,
   mi -- se -- re -- re no -- %25
   bis,
   mi -- se --
@@ -199,8 +199,8 @@ PanisVivusAltoNotes = {
     \appoggiatura f! es8 d16([ c)] b4( a) %205
     b r r
     R2.*4 %210
-    \mvTr c,2.(\p^\tutti
-    d)
+    \mvTr c,2.\p^\tutti
+    d
     es4 c f
     f8. f16 f4 r
     f f f %215
@@ -217,7 +217,7 @@ PanisVivusAltoNotes = {
     b4 f f
     es as2
     g4. g8 g g %230
-    b2 d,4
+    b!2 d,4
     f2 es4
     d r r
     R2.*2 %235
@@ -226,7 +226,7 @@ PanisVivusAltoNotes = {
 }
 
 PanisVivusAltoLyrics = \lyricmode {
-  \xE Fru -- %36
+  Fru -- %36
   men -- tum e -- le --
   cto -- rum, vi -- num
   ger -- mi -- nans
@@ -234,7 +234,7 @@ PanisVivusAltoLyrics = \lyricmode {
   mi -- se --
   re -- re,
   mi -- se -- re -- re
-  no -- bis. \x
+  no -- bis.
   Pa -- nis %45
   pin -- guis
   et de -- li -- ci -- ae
@@ -244,9 +244,9 @@ PanisVivusAltoLyrics = \lyricmode {
   sa -- cri --
   fi -- ci -- um,
   mi -- se --
-  re -- re
+  re -- re __
   no -- %55
-  bis. \xE Ob --
+  bis. Ob --
   la -- ti -- o
   mun -- da, mi -- se --
   re -- re
@@ -260,7 +260,7 @@ PanisVivusAltoLyrics = \lyricmode {
   mi -- se -- re -- re
   no -- bis.
 
-  \x Men -- sa pu -- %70
+  Men -- sa pu -- %70
   ris -- si -- ma,
   an -- ge -- lo -- rum
   es -- ca,
@@ -274,7 +274,7 @@ PanisVivusAltoLyrics = \lyricmode {
 
   mi -- se --
   re -- _ _
-  re, \xE mi -- se --
+  re, mi -- se --
   re -- _ %85
   _
   _ re no --
@@ -312,7 +312,7 @@ PanisVivusAltoLyrics = \lyricmode {
   Sa -- cra -- %165
   men -- tum,
   mi -- se --
-  re -- re
+  re -- re __
   no --
   bis. Sa -- cri -- %170
   fi -- ci -- um
@@ -324,7 +324,7 @@ PanisVivusAltoLyrics = \lyricmode {
   mi -- se -- re -- re
   no -- bis.
 
-  \x Ve -- re pro -- pi -- ti -- a -- %180
+  Ve -- re pro -- pi -- ti -- a -- %180
   to -- ri -- um pro
   vi -- vis et de --
   fun -- ctis,
@@ -334,13 +334,13 @@ PanisVivusAltoLyrics = \lyricmode {
   _
   _
   _
-  _ re %190
+  _ re __ %190
   no --
   bis,
 
   mi -- se --
   re -- %195
-  re, \xE mi -- se --
+  re, mi -- se --
   re -- _
   _
   re no --
@@ -353,7 +353,7 @@ PanisVivusAltoLyrics = \lyricmode {
   bis.
 
   Coe -- %211
-
+  _
   le -- ste an --
   ti -- do -- tum,
   quo a pec -- %215

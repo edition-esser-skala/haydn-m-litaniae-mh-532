@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieOboeII = {
   \relative c' {
@@ -27,12 +27,12 @@ KyrieOboeII = {
     d8 r f'4 es es,8 g
     d r f'4 es ges,8\f ges
     f4 r g8 b a4
-    b8 d, es g a4 b
+    b8 d,! es g a4 b
     g16( c) es( c) fis( g) g,( es) d8 d es es %25
     d r b'4\p c4. es,8
     d r b'-! f-! r g-! c,-! f-!
     r f g b r b c es,
-    d r r4 r2 \bar "|" \time 3/4 %29 finis
+    d r r4 r2 \bar "||" %29 finis
   }
 }
 
@@ -213,7 +213,7 @@ PanisVivusOboeII = {
     b~
     b4 g8( a!) b( h)
     c4\f g c
-    b!( a8) es' d c %220
+    b!( a!8) es' d c %220
     b c b4 a
     b8 d, d4 r
     r8 b' b b b4
@@ -224,7 +224,7 @@ PanisVivusOboeII = {
     r8 b b f f4
     es f2
     g4 g8( c) c( es) %230
-    b2.
+    b!2.
     a
     b4 f r
     b g es

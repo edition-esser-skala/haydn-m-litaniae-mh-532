@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieOboeI = {
   \relative c' {
@@ -14,7 +14,7 @@ KyrieOboeI = {
     r8 f c b a4 g
     f8 r c'4 d f16( d) f( d)
     c8 r c d d8.( es16) es8 ges, %10
-    f es' d g d4 c8 es
+    f es' d g! d4 c8 es
     d\f r d b fis r d' g
     fis fis r g4\p es8 d c
     c b b d es\f r b d
@@ -32,7 +32,7 @@ KyrieOboeI = {
     b r f'4\p es4. c8
     b r b'-! f-! r g-! c,-! f-!
     r f g b r d, es a,
-    b r r4 r2 \bar "|" \time 3/4 %29 finis
+    b r r4 r2 \bar "||" %29 finis
   }
 }
 

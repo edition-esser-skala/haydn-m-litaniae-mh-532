@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieClarinoI = {
   \relative c' {
@@ -31,7 +31,7 @@ KyrieClarinoI = {
     c8 r r4 r g\p
     g8 r r4 r g'8-! g,-!
     r2 r4 g'8-! g,-!
-    g r r4 r2 \bar "|" \time 3/4 %29 finis
+    g r r4 r2 \bar "||" %29 finis
   }
 }
 
@@ -53,8 +53,8 @@ PanisVivusClarinoI = {
     r4 c\p c
     c r r %15
     R2.
-    r4 g g
-    g( c8) c\f c c
+    r4 \pa g g
+    g( c8) c\f c c \pd
     c4 r8 c c c
     c4 r8 \pa c c c \pd %20
     d4 e8 e d d
@@ -82,9 +82,9 @@ PanisVivusClarinoI = {
     g g r
     g r r
     r r g'
-    d d r
-    d d r %50
-    d r r
+    \pa d d \pd r
+    \pa d d \pd r %50
+    \pao d r r
     R2.*4 %55
     r8 g,\f g g g g
     d'4 r r
@@ -92,11 +92,11 @@ PanisVivusClarinoI = {
     d'4 r d
     g, r r %60
     R2.*7 %67
-    r4 g\p g
-    g r r
-    d'2. %70
-    d4 r r
-    d2.
+    r4 \pa g\p g
+    g \pd r r
+    \pa d'2. %70
+    d4 \pd r r
+    \pao d2.
     d4 r r
     R2.*9 %82
     g,2.~\pE
@@ -112,9 +112,9 @@ PanisVivusClarinoI = {
     r \pa d8 d d d \pd
     g4 \pa d d \pd
     r d8 d d d %100
-    d4 r8 d d d
-    d4 r8 d d g
-    \pao e4 r8 e e e
+    \pao d4 r8 \pa d d d
+    d4 \pd r8 \pa d d g
+    e4 \pd r8 e e e
     d4 r8 \pa d d d \pd
     d4 r \pao d %105
     g g r
@@ -173,7 +173,7 @@ PanisVivusClarinoI = {
     g~
     g4 r r
     R2.*4 %218
-    d'4\f d d
+    \pa d'4\f d d \pd
     d \pa g,8 g g g \pd %220
     c4 e8 e d d
     c4 r8 c c c

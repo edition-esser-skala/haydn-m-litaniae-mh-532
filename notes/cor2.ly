@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieCornoII = {
   \relative c' {
@@ -10,13 +10,13 @@ KyrieCornoII = {
     r g,, r g
     r g r g' %5
     d' r r2
-    d8[ d] d r d[ d] d r
+    d8 d d r d d d r
     d d d4 r2
     r r8 d d d
     d4 r8 e, e4 r %10
     r g8 c d4 r
     R1*2
-    r4 c,8\pE g' c4\f g
+    r4 \mvTr g,8\pE_\critnote g c4\f g
     c,16 c c c g'4 c,8 c r4 %15
     r r8 g'\p g c, e e
     e\f r e r e r e16 e e e
@@ -31,7 +31,7 @@ KyrieCornoII = {
     g, r g4\p c d
     g,8 r r4 c8-! c,-! r4
     r c'8-! c,-! g'-! g,-! r4
-    r8 g' r d' r g, r d' \bar "|" \time 3/4 %29 finis
+    r8 g' r d' r g, r d' \bar "||" %29 finis
   }
 }
 
@@ -84,11 +84,11 @@ PanisVivusCornoII = {
     e %50
     R2.*6 %56
     r8 g,\f g g g g
-    g4 r r
-    r8 g g g g g
-    g4 g, r %60
+    d'4_\critnote r r
+    r8 g, g g g g
+    d'4_\critnote d r %60
     R2.*19 %79
-    r4 d''\p d %80
+    r4 d\p d %80
     d r r
     r d d
     d r r

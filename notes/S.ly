@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieSopranoNotes = {
   \relative c' {
@@ -32,7 +32,7 @@ KyrieSopranoNotes = {
     b8 r r4 r2
     r r4 f'8\p a,
     b4 g f( es)
-    d8 r r4 r2 \bar "|" \time 3/4 %29 finis
+    d8 r r4 r2 \bar "||" %29 finis
   }
 }
 
@@ -191,7 +191,7 @@ PanisVivusSopranoNotes = {
     r4 d d
     d16[ es f es] d8[ c b as]
     g[ g' f es d es]
-    c([ g')] b,4( a)
+    c([ g')] b,4( a!)
     b r r %200
     r es d
     g f r
@@ -202,14 +202,14 @@ PanisVivusSopranoNotes = {
     R2.*4 %210
     \mvTr f'2.\p^\tutti
     f~
-    f4.( g8) f es
+    f4. g8 f es
     es d d4 r
     b b b %215
     b2 b4
     b4.( c8) b([ as)]
     as([ g)] g4 r
     c2\f es8([ c)]
-    b4( a8) g' f es %220
+    b4( a!8) g' f es %220
     d es d4( c)
     b r r
     R2.*3 %225
@@ -236,7 +236,7 @@ PanisVivusSopranoLyrics = \lyricmode {
   et Sal --
   va -- tor,
   mi -- se --
-  re -- re
+  re -- re __
   no -- %35
   bis. Dru --
   men -- tum e -- le --
@@ -314,7 +314,7 @@ PanisVivusSopranoLyrics = \lyricmode {
   Sa -- cra -- %165
   men -- tum,
   mi -- se --
-  re -- re
+  re -- re __
   no --
   bis. Sa -- cri -- %170
   fi -- ci -- um
@@ -336,7 +336,7 @@ PanisVivusSopranoLyrics = \lyricmode {
   re -- _
   _
   _
-  _ _ re %190
+  _ _ re __ %190
   no --
   bis, mi -- se --
   re --
@@ -356,7 +356,7 @@ PanisVivusSopranoLyrics = \lyricmode {
 
   Coe -- %211
   le --
-  ste an --
+  _ ste an --
   ti -- do -- tum,
   quo a pec -- %215
   ca -- tis

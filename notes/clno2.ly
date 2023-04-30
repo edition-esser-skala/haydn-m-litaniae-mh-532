@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieClarinoII = {
   \relative c' {
@@ -31,7 +31,7 @@ KyrieClarinoII = {
     c8 r r4 r g\p
     c8 r r4 r g'8-! g,-!
     r2 r4 g'8-! g,-!
-    c r r4 r2 \bar "|" \time 3/4 %29 finis
+    c r r4 r2 \bar "||" %29 finis
   }
 }
 

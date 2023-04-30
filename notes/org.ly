@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieOrgano = {
   \relative c {
@@ -32,7 +32,7 @@ KyrieOrgano = {
     b,8 r << { d4^\vlcfag es f } \\ { d8\p r es r f r } >>
     b, r b r b r b r
     b r b r b b b b
-    b r f r b r f r \bar "|" \time 3/4 %29 finis
+    b r f r b r f r \bar "||" %29 finis
   }
 }
 
@@ -49,12 +49,12 @@ KyrieBassFigures = \figuremode {
   <5 [3]>4 <2>8 <6!> <9 4>4 <[8] 3>8 <6- 4 2> %10
   <6 5>4. <6>8 <6 4>4 <[5] 3>
   <6>2 <6\\>4 <6>
-  <4\+ 2> <6>2 <8 6 _+>8 <7 5 \l>
+  <4\+ 2> <6>2 <8 6 _+>8 <7 5 \t>
   <9 4> <[8] 3>4 <6 _->8 r4 <6 _->
   <6> <2> <6>2 %15
   r4 <8 6>8 <7- 5> <9 4-> <[8] 3>4 <6!>8
   r4 <6!> <6> <4! 2>
-  <6>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff r8 <2> <6 5> <6 4>16 <5 3> r8 <9 7>16 <8 6>
+  <6>8. \once \bassFigureExtendersOn q16 r8 <2> <6 5> <6 4>16 <5 3> r8 <9 7>16 <8 6>
   <6 4>8 <5 [3]>4. <7! 6- 4>4 <8>
   <7! 6- 4> <8> <7! 6- 4>8 <8>4. %20
   <_!>8 <6>4. <6 4>8 <\t \t>4.
@@ -65,7 +65,7 @@ KyrieBassFigures = \figuremode {
   r <6> <6 5> <7>
   r2 <6 4>4 <7 \t>
   <8> <6 4> <5 [3]> <7 4>
-  <8> <7>2. %29 finis
+  <8 [3]> <7>2. %29 finis
 }
 
 PanisVivusOrgano = {
@@ -315,13 +315,13 @@ PanisVivusBassFigures = \figuremode {
   r2.
   r
   r2 <6 4>4
-  <\t \t> <5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <\t \t> \bo <5 [3]>4. \once \bassFigureExtendersOn \bc q8
   <7>2. %5
   <\t>
   <3>
   <6>2 <6!>4
-  <6>2 <\t>8 <7>
-  <5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 %10
+  <6>2 <\t>8 <7 [5-]>
+  <5>4. \once \bassFigureExtendersOn q8 r4 %10
   r8 <2> r2
   r8 <6> r2
   r8 <6>2 <5>8
@@ -339,10 +339,10 @@ PanisVivusBassFigures = \figuremode {
   r %25
   r
   <6 4>
-  <\t \t>4 <5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
-  <[7]>2.
-  r %30
-  r
+  <\t \t>4 \bo <5 [3]>4. \once \bassFigureExtendersOn \bc q8
+  \bo <[7]>2.
+  <\t> %30
+  \bc <[\t]>
   <6 5>
   r
   <6>2 <6 5>4
@@ -354,12 +354,12 @@ PanisVivusBassFigures = \figuremode {
   <9 4>8 <[8] 3> r2 %40
   <6> <6!>4
   <9 4> <[8] 3> <6!>
-  <6>2 <7>4
+  <6>2 <7 [5-]>4
   <6 4> <[5] 3>2
   r2. %45
   r
   <6 4>
-  <\t \t>4 <5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <\t \t>4 \bo <5 [3]>4. \once \bassFigureExtendersOn \bc q8
   <[7] _!>2.
   r %50
   <6 5>
@@ -370,27 +370,27 @@ PanisVivusBassFigures = \figuremode {
   r2.
   <7! 4>
   <8 [3]>
-  <7 4!>
+  <7! 4>
   \bo <8 [3]>2 \bassFigureExtendersOn <8 3>8 \bc <8 [3]> \bassFigureExtendersOff %60
   <2>2.
   <7 _+>
   <9 7 _+>4 <7> <6 5>
-  <9 4> \bo <[8] 3>4. \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff
+  <9 4> \bo <[8] 3>4. \once \bassFigureExtendersOn \bc q8
   <2>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %65
   <5>2 <6>4
-  <7 4> <\t _!>8 <[9 7]> <6 4> <5 3>
+  <_ 7 4> <_ \t _!>8 <[9 7 \t]> <6 4> <5 3>
   <9 4>4 <[8] 3>2
   r2.
   <4>4 <_!>2 %70
   <1>2.
   q2 <7 _!>4
   <4> <3> <7->
-  <\t> <6 5>2
-  <9 4>4 <[8] 3>2 %75
+  <\t> <6 5> <\t \t>
+  <9 4> <[8] 3>2 %75
   <6 5>2.
   r
   <6 5>
-  <5>4 <9 7> <6 4>8 <5 3>
+  <5>4 <9 7 [_!]> <6 4>8 <5 3>
   r2. %80
   r2 <6 4>4
   <5 [3]>2.
@@ -406,10 +406,10 @@ PanisVivusBassFigures = \figuremode {
   <9 4> <[8] 3> r2
   r8 <4! 2> r2
   r8 <6> r2
-  q4. <[9 7]>8 <6 4> <5 3> %95
+  q4 \bo <[8 5 _!]>8 \bc <[9 7 \t]> <6 4> <5 3> %95
   <9 4> <[8] 3> r2
   r <6>4
-  <\l 7 4> <\l \t _!>8 \bassFigureExtendersOn <9 7 _!> <8 6 _!> <7 5 _!> \bassFigureExtendersOff
+  <_ 7 4> <_ \t _!>8 \bassFigureExtendersOn <9 7 _!> <8 6 _!> <7 5 _!> \bassFigureExtendersOff
   r <6> <6 4>4 <[5] _!>
   r2. %100
   <4! 2>2 <6>4
@@ -438,8 +438,8 @@ PanisVivusBassFigures = \figuremode {
   <6 4> <[5] _!>2
   r2. %125
   r
-  <6- 4>
-  <7! \t \t>4 \bo <8 [3]>4. \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff
+  <_ 6- 4>
+  <7! \t \t>4 \bo <8 [3]>4. \once \bassFigureExtendersOn \bc q8
   <7 _!>2.
   r %130
   <6>2 <5>4
@@ -473,7 +473,7 @@ PanisVivusBassFigures = \figuremode {
   r2.
   r %160
   <6 4>
-  <\t \t>4 <5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <\t \t>4 \bo <5 [3]>4. \once \bassFigureExtendersOn \bc q8
   <[7]>2.
   r
   r %165
@@ -488,16 +488,16 @@ PanisVivusBassFigures = \figuremode {
   <9 4>8 <[8] 3> r2
   <6> <6!>4 %175
   <9 4> <[8] 3> <6!>
-  <6>2 <7>4
-  <6 4> \bo <[5] 3>4. \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff
+  <6>2 <7 [5-]>4
+  <6 4> \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8
   r2 <7>4
   <7 4> <6 \t>2 %180
   <4>4 <3>2
   <7 4>4 <6 \t>2
   <4>4 <3>2
   <4>4 <3> <7->
-  <\t> <6 5>2 %185
-  <9 4>4 <[8] 3>2
+  <\t> <6 5> <\t \t> %185
+  <9 4> <[8] 3>2
   <6 5>2.
   r
   <6 5>
@@ -510,13 +510,13 @@ PanisVivusBassFigures = \figuremode {
   <5 [3]>2.
   r2 <6 4>8 <5- 3>
   r2.
-  <6>4 <6 4> <[5] 3>
+  <6>4 <6 4> <[5] 3[!]>
   r2. %200
   <6>2 <6 4>4
   r <6>2
   r2 <5!>4
   <6>2.
-  q4 <6 4> <5 [3]> %205
+  q4 <6 4[-]> <5 [3]> %205
   r <6>2
   r8 <2> r2
   r8 <6> r2
@@ -524,14 +524,14 @@ PanisVivusBassFigures = \figuremode {
   <9 4> <[8] 3> r2 %210
   r8 <2> r2
   r8 <6> r2
-  r8 <6>4 <7>8 <6 4> <5 3>
+  r8 <6>4 <7 [5]>8 <6 4> <5 3>
   <9 4> <[8] 3> r2
   r8 <2> r2 %215
   r8 <6> r2
-  r8 <6>4 <7 5->8 <6 4> <5- 3>
+  r8 <6 5->4 <7 \t>8 <6 4> <5- 3>
   <9 4-> <[8] 3> r2
   <6>2.
-  <\l 7 4>4 <\l \t 3>8 \bassFigureExtendersOn <9 7 3> <8 6 3> <7 [5] 3> \bassFigureExtendersOff %220
+  <_ 7 4>4 <_ \t _!>8 \bassFigureExtendersOn <9 7 _!> <8 6 _!> <7 [5] _!> \bassFigureExtendersOff %220
   r <6> <6 4>4 <5 [3]>
   r2.
   r
@@ -539,14 +539,14 @@ PanisVivusBassFigures = \figuremode {
   <6 5>4 <6 4> <7> %225
   <\t> <3>2
   r2.
-  r4 <5-> <6! \t>
+  r4 <_ 5-> <6! \t>
   <6> <6! 5->2
   <6>2. %230
-  <6 4>
+  <6 4[-]>
   <5 [3]>
   r4 <6>2
   q4 <6 5>2
-  r2. %235
+  <\l>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %235
   r %236 finis
 }
 
@@ -663,9 +663,9 @@ StupendumBassFigures = \figuremode {
   <9>4 <5>8 <[_!]> <9>4. <6>8
   <6 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_!> <6 5> <4> <_!>
   r2 <6 3>8 \bassFigureExtendersOn <6 _!> <6 3> \bassFigureExtendersOff <6>8 %20
-  <[_!]>4 <6>8 <4! _-> <6> \bo <[_!\l ]> <7> \bc <[6 5-]>
-  r4. <6\\>8 <_!>4 \bo <[7 \l]>8 \bc <[6 5!]>
-  r <6!> <6>4. <_!>8 \bo <[7 \l]> \bc <[6 5-]>
+  <[_!]>4 <6>8 <4! _-> <6> \bo <[_! _]> <7> \bc <[6 5-]>
+  r4. <6\\>8 <_!>4 \bo <[7 _]>8 \bc <[6 5!]>
+  r <6!> <6>4. <_!>8 \bo <[7 _]> \bc <[6 5-]>
   r4 <[6 5]>2.
   <6>4 <6 4>8 <[5] _!> r4 <[6]>8 <7> %25
   r4 \bo <[6]>8 <6!> <6>4 \bc <[_!]>
@@ -677,7 +677,7 @@ StupendumBassFigures = \figuremode {
   <7>8 <6>4 <6!>8 <6>4 <6 5>8 <_!>
   r2 <9 7>8 <6>4.
   <6 4>2 <\t \t>
-  <5 4>4 <\l _!> r4. <6 4>16 <[5] _!> %35
+  <5 4>4 <\t _!> r4. <6 4>16 <[5] _!> %35
   <6>4. <6 4>16 <[5] _!> <6>2
   <[6]>4 <6 5>8 <_!> r2
   r4 <6>8 q <6 4>4 \bo <[5] _!>8 \bc <[\t] \t>
@@ -701,9 +701,9 @@ StupendumBassFigures = \figuremode {
   <6>8 <6!> r <\t> <6>4. <\t>8
   <6>2 <5>4 <9 4>8 <7>
   r2 <6 3>8 \bassFigureExtendersOn <6 3\!> q \bassFigureExtendersOff <6>
-  r4 <6>8 <4! _-> <6>4 \bo <[7 \l]>8 \bc <[6 5-]>
-  r4. <6!>8 <_!>4 \bo <[7 \l]>8 \bc <[6 5-]> %60
-  r <6!> <6>2 \bo <[7 \l]>8 \bc <[6 5-]>
+  r4 <6>8 <4! _-> <6>4 \bo <[7 _]>8 \bc <[6 5-]>
+  r4. <6!>8 <_!>4 \bo <[7 _]>8 \bc <[6 5-]> %60
+  r <6!> <6>2 \bo <[7 _]>8 \bc <[6 5-]>
   r4 <[6 5]>2 <6>4
   r4. <2>8 <[6]>4 <6 5>
   r4 \bo <[6]>8 <6> \bc <[6]>2
@@ -720,13 +720,13 @@ StupendumBassFigures = \figuremode {
   r8 <7>4 <6 5>8 r4. <[6 5]>8 %75
   r4. <7->8 r4 <6>
   <6 4>2 <\t \t>
-  <5 4>4 <\l 3> r4. <6 4>16 <5 [3]>
+  <5 4>4 <\t 3> r4. <6 4>16 <5 [3]>
   <[6]>4. <6 4>16 <5 [3]> <[6]>2
-  \bo <[6 \l]>4 <[6 5]>2. %80
+  \bo <[6 _]>4 <[6 5]>2. %80
   r <6\\>4
   <\t>2 <[5!] _+>
-  r4 <6 4>8 <7+ \t> <[8 5!] _+>2
-  r4 <6 4>8 <7+ \t> <[8 5!] _+>2
+  r4 <6 4>8 <7\\ \t> <[8 5!] _+>2
+  r4 <6 4>8 <7\\ \t> <[8 5!] _+>2
   r1 %85 finis
 }
 
@@ -768,7 +768,7 @@ TremendumBassFigures = \figuremode {
   r <6! 5>8 <\t \t> <6 4>4 <[5] _+>
   r2 <7>16 <6\\> r4.
   <7!>16 <6> r4. <6! 5>4 <6 4>8 <[5!] _+>
-  <_+>2 <\l 6 4>4 <7+ \t \t>
+  <_+>2 <_ 6 4>4 <7\\ \t \t>
   <_+> <\t>8 q <6> <\t> <4! 2+> <4\+ 3> %10
   <6> <4\+ 2> <6> <6! 4\+ 3> <6>2
   r4 <6> <7>8 <6\\> <4\+ 3>4
@@ -779,8 +779,8 @@ TremendumBassFigures = \figuremode {
   r2 <7>16 <6\\> r4.
   <7>16 <6> r4. <6 5>4 <6! 5->
   <6>4. <\t>8 <6 4>4. <\t \t>8
-  <6 5 _!>2 <\l _+>8 <7 \t> <\l 6 4> <7+ \t \t> %20
-  <\l \l _+> <[9-] 7! \t> <\l 6 4> <7+ \t \t> <_+>2
+  <6 5 _!>2 <_ _+>8 <7 \t> <_ 6 4> <7\\ \t \t> %20
+  <_ _ _+> <[9-] 7! \t> <_ 6 4> <7\\ \t \t> <_+>2
   r1 %22 finis
 }
 
@@ -1187,7 +1187,7 @@ IncruentumBassFigures = \figuremode {
   <6> <5> <6> <5>
   <9>2 <6>
   <6 5>1
-  <_+>2 <6 4>4 <4+ 2>
+  <_+>2 <6 4>4 <4\+ 2>
   <6>1 %30
   <6>4 <5> <6> <5>
   <6> <5> <6\\> <5!>
@@ -1260,7 +1260,7 @@ IncruentumBassFigures = \figuremode {
   <\t>
   <\l 6 5>2 \bassFigureExtendersOn <\l\! 6 4> %100
   q <9! 6 4> \bassFigureExtendersOff
-  <7+ 5 4>1
+  <7\\ 5 4>1
   <9- 7! _+>
   <\t 6 4>2 <8 \t \t>
   <\t 6 _+> <7 5 \t> %105
@@ -1407,7 +1407,7 @@ IncruentumBassFigures = \figuremode {
   r
   r
   <6 4>
-  <5 4>2 <\l 3>
+  <5 4>2 <\t 3>
   r1 %250
   <9>2 <6>
   r1
@@ -1516,7 +1516,7 @@ AgnusDeiBassFigures = \figuremode {
   <[5 3]>4 <2>8 <6!> <9 4>4 <[8] 3>8 <6- 4 2>
   <6 5>4. <6>8 <6 4>4 <[5] 3>
   <6>2 <6\\>4 <6> %15
-  <4\+ 2> <6>2 <8 6 _+>8 <7 5 \l>
+  <4\+ 2> <6>2 <8 6 _+>8 <7 5 \t>
   <9 4> <[8] 3>4 <6 _->8 r4 <6 _->
   <6> <2> <6>2
   r4 <8 6>8 <7- 5> <9 4-> <[8] 3>4 <6!>8

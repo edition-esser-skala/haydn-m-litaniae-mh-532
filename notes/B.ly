@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieBassoNotes = {
   \relative c {
@@ -32,12 +32,12 @@ KyrieBassoNotes = {
     b,8 r r4 r2
     r4 b8\p b b2~
     b4 b f'2
-    b,8 r r4 r2 \bar "|" \time 3/4 %29 finis
+    b,8 r r4 r2 \bar "||" %29 finis
   }
 }
 
 KyrieBassoLyrics = \lyricmode {
-  \xE Ky -- ri --
+  Ky -- ri --
   e e -- lei --
   son,
   Chri --
@@ -60,11 +60,11 @@ KyrieBassoLyrics = \lyricmode {
   San -- cta Tri -- ni -- tas,
   u -- nus De -- us,
 
-  \x mi -- se -- re -- re,
-  \xE mi -- se -- re -- re no -- %25
+  mi -- se -- re -- re,
+  mi -- se -- re -- re no -- %25
   bis,
-  \x mi -- se -- re --
-  re \xE no --
+  mi -- se -- re --
+  re no --
   bis. %29 finis
 }
 
@@ -159,8 +159,8 @@ PanisVivusBassoNotes = {
     es8 es es4 e
     f f r
     R2.*32 %210
-    \mvTr es2.(\p^\tuttiE
-    d)
+    \mvTr es2.\p^\tuttiE
+    d
     a4 a' a
     b8. b,16 b4 r
     as' as as %215
@@ -186,7 +186,7 @@ PanisVivusBassoNotes = {
 }
 
 PanisVivusBassoLyrics = \lyricmode {
-  \xE Fru -- %36
+  Fru -- %36
   men -- tum e -- le --
   cto -- rum, vi -- num
   ger -- mi -- nans
@@ -211,15 +211,15 @@ PanisVivusBassoLyrics = \lyricmode {
   re -- re no --
   bis. %100
 
-  \x Me -- mo -- ri -- a %109
+  Me -- mo -- ri -- a %109
   mi -- ra -- %110
   bi -- li -- um
   De -- i,
   mi -- se --
   re --
-  re no -- %115
+  re __ no -- %115
   bis.
-  \xE Pa -- nis
+  Pa -- nis
   su -- per -- sub --
   stan -- ti --
   a -- lis, %120
@@ -227,7 +227,7 @@ PanisVivusBassoLyrics = \lyricmode {
   re -- re,
   mi -- se -- re -- re
   no -- bis.
-  \x Ver -- bum %125
+  Ver -- bum %125
   ca -- ro,
   ca -- ro
   fa -- ctum,
@@ -235,7 +235,7 @@ PanisVivusBassoLyrics = \lyricmode {
   tans in %130
   no --
   bis, mi -- se --
-  re -- re
+  re -- re __
   no -- bis.
   Ho -- sti -- a %135
   san -- cta,
@@ -258,7 +258,7 @@ PanisVivusBassoLyrics = \lyricmode {
   re -- re
   no -- bis.
   My -- ste -- ri -- um %155
-  \xE fi -- de -- i, mi -- se --
+  fi -- de -- i, mi -- se --
   re -- re
   no -- bis.
 
@@ -273,7 +273,7 @@ PanisVivusBassoLyrics = \lyricmode {
   no -- bis.
 
   Coe -- %211
-
+  _
   le -- ste an --
   ti -- do -- tum,
   quo a pec -- %215

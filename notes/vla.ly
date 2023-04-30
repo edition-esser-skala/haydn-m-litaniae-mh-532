@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViola = {
   \relative c' {
@@ -32,7 +32,7 @@ KyrieViola = {
     b,8 r b4\p g' f
     d8 r b'-! f-! r g-! c,-! f-!
     r d es b r b f c'
-    b r f f' f2 \bar "|" \time 3/4 %29 finis
+    b r f f' f2 \bar "||" %29 finis
   }
 }
 

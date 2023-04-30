@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViolinoI = {
   \relative c' {
@@ -14,7 +14,7 @@ KyrieViolinoI = {
     f'16-! c( f a) c( f) d( f) f,-! c( a' f) c'-! e,( g e)
     f8 c'~ c32([ b a b]) c( d es! c) d([ c b c] d es f g) a([ b f d)] a'( b f d)
     c16-! f( c a) f( c') h( d) r f d( g) es g,-! es( ges) %10
-    f es'-! c'( es,) d d-\parenthesize-! c( g') r b, d( f) a, a c( es)
+    f es'-! c'( es,) d d-\parenthesize-! c( g'!) r b, d( f) a, a c( es)
     d\f d a( a') r d, b( b') r fis, fis'( a) r g, g'( b)
     r fis a( d) r32 d,(\p fis g d[ b' g d]) es-! es,( g c es,[ es' c g)] d-! d'( es d) d,-![ c'( d c)]
     a16( c) b-! b d,32([ b' c b]) d,( as' b as) g16\f g b( es) r as f( d)
@@ -26,13 +26,13 @@ KyrieViolinoI = {
     b' e, b' e, f c f c b' e, f f, a32([\p es' c a]) es( c' a es) %20
     d([ b' f d] f b c b) f'([ b f d] b f as f) g([ es g es] b' g b g) g'([ b g es] b g b g)
     f([ d f d] b' f b f) b([ f' d b] as f as f) ges([ es ges es] b' ges b ges) ges'([\f b ges es]) b( ges) b( ges)
-    f([ des f des]) b'( f b f) b([ f' e f)] b( f b f) e([ b c b] c b c b) a([ es f es] f es f es)
+    f([ des f des]) b'( f b f) b([ f' e f)] b( f b f) \allowBreak e([ b c b] c b c b) a([ es f es] f es f es)
     d([ as b as] b as b as) g([ g' es g]) g'( es) c( b) a([ es' f es)] c'( a f es) d([ b' a b)] c( b d b)
     r16 c,( es c) fis( g) es( c) b( f') f f f( a,) a a %25
     b8 f'~\p f32( g a b) a([ b f d)] c([ es f g] fis g es c) a([ c d es] d es c a)
     b8 f~ f32( d' c b) a([ b f b)] g([ b es g]) b( g b g) f([ es c a] f' es c a)
     b'([ f d b] f' d b f) b'([ g es b] g' es b g) f'([ b f d] b f' d b) a([ f' es c] a es' c a)
-    b8-! f-! f'-! a,-! b f f' a, \bar "|" \time 3/4 %29 finis
+    b8-! f-! f'-! a,-! b f f' a, \bar "||" %29 finis
   }
 }
 
@@ -238,7 +238,7 @@ PanisVivusViolinoI = {
     f8 f'4 f f8
     f16 es f es d8( c) \once \slurDashed b( as)
     g-! g'-! f( es) d( es)
-    c( g') b, b a a
+    c( g') b, b a! a
     b\f c16 d es f g a b a d c %200
     b8 b\p b b b b
     g4-! f-! r
@@ -259,7 +259,7 @@ PanisVivusViolinoI = {
     b'4.( \tuplet 3/2 8 { as16 b c } b8) as
     \appoggiatura b16 as8( g) g( a b h)
     c\f g16 fis g f es d c g es' c
-    es, b' c b a c g' es f d es c %220
+    es, b' c b a! c g' es f d es c %220
     b d es g d8 b' f, a'
     b,16 f d f d f d' es f b, g' b,
     f'( b,) b'4 d,16 es f b, g' b,
@@ -270,7 +270,7 @@ PanisVivusViolinoI = {
     f' b, b'4 f16 g as f d h
     c g' g g h, as' as as as f d h
     c h c g es' d es c g' fis g es %230
-    d b' a b f d f b f d f b
+    d b'! a b f d f b f d f b
     a, f' a, f' a, f' a, f' a, f' a, f'
     f b a c b f d' c b f d' c
     b8. b,16 c2\trill

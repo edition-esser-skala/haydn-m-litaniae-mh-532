@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieTenoreNotes = {
   \relative c' {
@@ -27,12 +27,12 @@ KyrieTenoreNotes = {
     r b8\p b b8. b16 b4
     r b8 b b4 b
     r2 r4 c8\f es
-    d b b c c4 b
+    d! b b c c4 b
     c8 g g c16([ es)] d4( c) %25
     b8 r r4 r2
     r r4 a8\p es'
     d4 b d( a)
-    b8 r r4 r2 \bar "|" \time 3/4 %29 finis
+    b8 r r4 r2 \bar "||" %29 finis
   }
 }
 
@@ -123,8 +123,8 @@ PanisVivusTenoreNotes = {
     es8 c es4 d
     d c r
     R2.*32 %210
-    \mvTr a2.(\p^\tuttiE
-    b)
+    \mvTr a2.\p^\tuttiE
+    b
     c4.( es8) d c
     c b b4 r
     d d d %215
@@ -141,7 +141,7 @@ PanisVivusTenoreNotes = {
     b4 b h
     c f2
     es8 es c([ es)] es([ c)] %230
-    b2.
+    b!2.
     a
     b4 r r
     R2.*2 %235
@@ -201,7 +201,7 @@ PanisVivusTenoreLyrics = \lyricmode {
   no -- bis.
 
   Coe -- %211
-
+  _
   le -- ste an --
   ti -- do -- tum,
   quo a pec -- %215

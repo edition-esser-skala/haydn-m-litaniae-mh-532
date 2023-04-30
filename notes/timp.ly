@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieTimpani = {
   \relative c {
@@ -29,7 +29,7 @@ KyrieTimpani = {
     c8 r r4 r g8\p g
     c r c c c r c r
     c r c r c c c c
-    c r g r c r g r \bar "|" \time 3/4 %29 finis
+    c r g r c r g r \bar "||" %29 finis
   }
 }
 

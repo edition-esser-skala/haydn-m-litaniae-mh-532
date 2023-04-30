@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViolinoII = {
   \relative c' {
@@ -32,7 +32,7 @@ KyrieViolinoII = {
     d8 f'~\p f32( g a b) a([ b f d)] c([ es f g] fis g es c) a([ c d es] d es c a)
     b8-! d,-! r d-! b'-! es,-! r c'
     f b, r es, b' f r es
-    d32([ d' b f] d b' f d) es([ c a c] es c f es) d([ d' b f] d b' f d) es([ c a c] es c f es) \bar "|" \time 3/4 %29 finis
+    d32([ d' b f] d b' f d) es([ c a c] es c f es) d([ d' b f] d b' f d) es([ c a c] es c f es) \bar "||" %29 finis
   }
 }
 
@@ -188,7 +188,7 @@ PanisVivusViolinoII = {
     fis8 cis(\f d) es! d c
     b4 d\p d
     c es es
-    b8 g' b( g) a( fis)
+    b8 g' b( g) a!( fis)
     g b,16 c b8 g'( f!) es %150
     d d4( f8) es( c)
     b d16 es d8 d( c) b
@@ -259,7 +259,7 @@ PanisVivusViolinoII = {
     as( f) as( \tuplet 3/2 8 { f'16 g as } g8) f
     \appoggiatura g16 f8( es) g,( a b h)
     c\f g'16 fis g f es d c g es' c
-    es, b' c b a c g' es f d es c %220
+    es, b' c b a! c g' es f d es c %220
     b d es g d8 b' f, a'
     b,16 f d f d f d' es f b, g' b,
     f'( b,) b'4 d,16 es f b, g' b,
@@ -270,7 +270,7 @@ PanisVivusViolinoII = {
     f' b, b'4 f16 g as f d h
     c g' g g h, as' as as as f d h
     c h c g es' d es c g' fis g es %230
-    d b' a b f d f b f d f b
+    d b'! a b f d f b f d f b
     a, f a f c' es, c' es, c' es, c' es,
     d b' a c b f d' c b f d' c
     b f b f g b c b f a b a
